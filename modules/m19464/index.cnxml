@@ -1,0 +1,217 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Trickier Probability Problems</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19464</md:content-id>
+  <md:title>Trickier Probability Problems</md:title>
+  <md:abstract>A teacher's guide to difficult probability problems.</md:abstract>
+  <md:uuid>515b6718-5595-4b1d-ad7b-513d8a9fb4d2</md:uuid>
+</metadata>
+  <content>
+    <para id="id12360924">The thing that makes probability problems the darling of math contest writers everywhere, is also the thing that makes them frustrating for so many students: no two problems are exactly alike. Most probability problems can be solved with the multiplication rule, combined with a lot of good, hard thinking about the problem.</para>
+    <para id="id11733608">I’m going to present two scenarios with five questions here, in the lesson plan. The idea is for you to talk them through with the class. In each case, explain the scenario and the question clearly. Then give them a minute or two, with no guidance, to think about it. Then take their answers and go over the correct answer very slowly and clearly. None of them should be presented as if it were a symbol of a whole, unique, important class of problems. Each should be presented as simply another example of you can solve a wide variety of problems, if you’re willing to think about them patiently and clearly.</para>
+<example id="exam1">
+<title>Scenario 1</title>
+    <para id="id12182634">You reach your hand into a bag of Scrabble® tiles. The bag has one tile with each letter. You pull out, first one tile, and then another.</para>
+
+    <list id="id6354772" list-type="enumerated"><item>What is the probability that you will pull out, first the letter <m:math>
+			<m:ci>A</m:ci>
+		</m:math>, and then the letter <m:math>
+			<m:ci>B</m:ci>
+		</m:math>?
+The quick, easy answer is <m:math>
+			<m:apply>
+				<m:times/>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>26</m:cn>
+				</m:apply>
+				<m:mo>×</m:mo>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>26</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:math>. Quick, easy....and not quite right. Yes, there is a <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>1</m:cn>
+				<m:cn>26</m:cn>
+			</m:apply>
+		</m:math> chance that the first tile will be an <m:math>
+			<m:ci>A</m:ci>
+		</m:math>. But once you have that tile, there are only 25 left. So the probability of the second tile being a  <m:math>
+			<m:ci>B</m:ci>
+		</m:math> are actually <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>1</m:cn>
+				<m:cn>25</m:cn>
+			</m:apply>
+		</m:math>. The probability of getting an  <m:math>
+			<m:ci>A</m:ci>
+		</m:math> followed by a  <m:math>
+			<m:ci>B</m:ci>
+		</m:math> are <m:math>
+			<m:apply>
+				<m:times/>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>26</m:cn>
+				</m:apply>
+				<m:mo>×</m:mo>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>25</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:math>.
+</item>
+	<item>What is the probability that your two tiles are the letters <m:math>
+			<m:ci>A</m:ci>
+		</m:math> and <m:math>
+			<m:ci>B</m:ci>
+		</m:math>?
+    
+It looks like the same question, but there is a subtle difference. You could pull out <m:math>
+			<m:ci>A</m:ci>
+		</m:math> followed by <m:math>
+			<m:ci>B</m:ci>
+		</m:math> (as in the last example), or you could pull out <m:math>
+			<m:ci>B</m:ci>
+		</m:math> followed by <m:math>
+			<m:ci>A</m:ci>
+		</m:math>. So there are really two ways to do it, and the probability is <m:math>
+			<m:apply>
+				<m:times/>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>25</m:cn>
+				</m:apply>
+				<m:mo>×</m:mo>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>26</m:cn>
+				</m:apply>
+				<m:mo>×</m:mo>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:math>.</item>
+</list>
+</example>
+<example id="exam2">
+<title>Scenario 2</title>
+    <para id="id11221904">You roll two 6-sided dice.</para>
+    <list id="id12620609" list-type="enumerated"><item>What is the probability that the sum of the two dice is 10?
+    Imagine making a tree diagram. It would have 36 leaves. How many of them would have a sum of 10? 6–4, 5–5, and 4–6. (Of course, on the tree diagram, “6 on the first die, 4 on the second” is a different leaf from “4 on the first die, 6 on the second”...just as in the AB problem above.) So the probability is <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>3</m:cn>
+				<m:cn>36</m:cn>
+			</m:apply>
+		</m:math>, or <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>1</m:cn>
+				<m:cn>12</m:cn>
+			</m:apply>
+		</m:math>.
+</item>
+	<item>What is the probability that neither die rolls a 1?
+   We do not have a “neither” rule, so we have to reframe the question in terms of the rules we do have. We can rephrase the question like this: what is the probability that the first die doesn’t roll a 1, and the second die also doesn’t roll a 1? The first is <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>5</m:cn>
+				<m:cn>6</m:cn>
+			</m:apply>
+		</m:math>, and the second is also <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>5</m:cn>
+				<m:cn>6</m:cn>
+			</m:apply>
+		</m:math>. So the probability of both happening is <m:math>
+			<m:apply>
+				<m:divide/>
+				<m:cn>25</m:cn>
+				<m:cn>36</m:cn>
+			</m:apply>
+		</m:math>. It’s an easy question to answer, once you reword it correctly.</item>
+	<item>What is the probability that either die (or “at least one die”) rolls a 1? (Most people think the answer will be <m:math>
+			<m:apply>
+				<m:eq/>
+				<m:apply>
+					<m:plus/>
+					<m:apply>
+						<m:divide/>
+						<m:cn>1</m:cn>
+						<m:cn>6</m:cn>
+					</m:apply>
+					<m:apply>
+						<m:divide/>
+						<m:cn>1</m:cn>
+						<m:cn>6</m:cn>
+					</m:apply>
+				</m:apply>
+				<m:apply>
+					<m:divide/>
+					<m:cn>1</m:cn>
+					<m:cn>3</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:math>. By that logic, by the time you roll six dice, you are guaranteed to get at least one 1: obviously not true!)</item>
+</list>
+</example>
+    <para id="id10755705">The right way to think about this problem is as the reverse, the “not,” of the previous problem. We said that 25 out of 36 times, neither die will roll a 1. So the remaining 11 out of 36 times, at least one of them will. This is an example of the “not” rule we got from last night’s homework: the probability of “no ones” is <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>25</m:cn>
+    <m:cn>36</m:cn>
+  </m:apply>
+</m:math>, so the probability of NOT “no ones” is <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>1</m:cn>
+      <m:apply>
+        <m:divide/>
+        <m:cn>25</m:cn>
+        <m:cn>36</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:divide/>
+      <m:cn>11</m:cn>
+      <m:cn>36</m:cn>
+    </m:apply>
+  </m:apply>
+</m:math>. (*It’s interesting to note that the “naïve” guess of <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math> is not too far off, and makes a reasonable approximation. If you have a 1 in 10 chance of doing something, and you try three times, there is a roughly <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>3</m:cn>
+    <m:cn>10</m:cn>
+  </m:apply>
+</m:math> chance that you will succeed at least once—but not exactly <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>3</m:cn>
+    <m:cn>10</m:cn>
+  </m:apply>
+</m:math>.)</para>
+    <para id="id11765861">The last thing you need to assure the class, before you hit them with the worksheet, is that no one is born knowing how to do this. Probability problems are just like everything else: they make more sense, and get easier, with practice. It’s OK to get frustrated, but don’t give up!</para>
+    <para id="id7367941">Then give them the worksheet. Ideally they should be able to make a good (10-15 minute) start in class, and then finish it up for homework. Expect to spend a lot of the next day going over these. It’s worth it.</para>
+    <para id="id11854745"><title>Homework</title>“Homework: Trickier Probability Problems”</para>
+  </content>
+</document>

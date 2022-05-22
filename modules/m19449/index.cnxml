@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Multiplying Matrices II (the full monty)</title>
+  <metadata>
+  <md:content-id>m19449</md:content-id><md:title>Multiplying Matrices II (the full monty)</md:title>
+  <md:abstract>The second part in a teacher's guide to multiplying matrices.</md:abstract>
+  <md:uuid>c11def4d-2c10-4d1a-b76d-7afca06b6357</md:uuid>
+</metadata>
+
+<content>
+    <para id="id22477950">This time, you’re going to have to lecture. You are going to have to explain, on the board, how to multiply matrices. Probably a good 20 minutes (half the class) dedicated to showing them that this row goes over here to this column, and then we go down to the next row, and so on. Get them to work problems at their desks, make sure they are cool with it. You can also refer them to the “Conceptual Explanations” to see a problem worked out in a whole lot of detail.</para>
+    <para id="id17863017">Two things to stress: <list id="id22057606" list-type="enumerated"><item>Keep doing the visualization of a row (in the first matrix) floating up and twisting to get next to a column (in the second matrix). If the two do not line up—that is, they have different numbers of elements—then the multiplication is illegal.</item>
+      <item>Matrix multiplication does not commute. If you switch the order, you may turn a legal multiplication into an illegal one. Or, you may still have a legal multiplication, but with a different answer. <m:math>
+  <m:ci>AB</m:ci>
+</m:math> and <m:math>
+  <m:ci>BA</m:ci>
+</m:math> are completely different things with matrices.</item>
+    </list></para>
+   
+    <para id="id21563057">You may never get to the in-class assignment at all. If you don’t, that’s OK, just skip it! However, note that the in-class assignment is built on one particular application, which is showing how Professor Snape can do just one matrix multiplication to get the final grades for all his students. This exercise is one of the few applications I have for matrix multiplication.</para>
+
+      <para id="id20829475"><title>Homework:</title>“Homework—Multiplying Matrices II”</para>
+      <para id="id21306671">#4 is important for a couple of reasons. First, of course, by using variables, it forces them to do the work manually even if they have figured out how to do it on a calculator. More importantly, it continues to hammer home that message about what variables are—you can solve this leaving <m:math>
+  <m:ci>x</m:ci>
+</m:math>, <m:math>
+  <m:ci>y</m:ci>
+</m:math>, and <m:math>
+  <m:ci>z</m:ci>
+</m:math> generic, and then you can plug in numbers for them if you want.</para>
+      <para id="id22263760">#5 and #7 set up the identity matrix; #6 sets up using matrices to solve linear equations. You don’t need to mention any of that now, but you may want to refer back to them later. I don’t want them to think of <m:math><m:mo>[</m:mo>
+  <m:ci>I</m:ci><m:mo>]</m:mo>
+</m:math> as being defined as “a diagonal row of 1s.” I want them to know that it is defined by the property <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:ci>AI</m:ci>
+    <m:ci>AI</m:ci>
+    <m:ci>A</m:ci>
+  </m:apply>
+</m:math>, and to see how that definition leads to the diagonal row of 1s. #7 is the key to that.</para>
+
+  </content>
+</document>

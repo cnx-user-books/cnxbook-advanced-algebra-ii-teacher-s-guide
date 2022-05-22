@@ -1,0 +1,215 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Introduction to Imaginary Numbers</title>
+<metadata>
+  <md:content-id>m21990</md:content-id><md:title>Introduction to Imaginary Numbers</md:title>
+  <md:abstract>An introduction to the teacher's guide on imaginary numbers.</md:abstract>
+  <md:uuid>974b57c0-0cff-432f-b733-61fb66fec11c</md:uuid>
+</metadata>
+
+<content>
+
+      
+      <para id="id23181886">This is a fun day, or possibly two days. The first exercise is something that, in theory, they could walk all the way through on their own. But it sets up all the major themes in imaginary numbers.</para>
+      <para id="id22500423">In practice, of course, some groups will have problems, and will need help at various points. But beyond that, almost no groups will see the point of what they have done, even if they get it right. So a number of times in class, you are going to interrupt them and pull them back together into a classwide discussion, and discuss what they have just done. The ideal time to do this is after everyone in the class has reached a certain point—for instance, after they have all done #2 (or struggled with it in vain), you pull them back and talk about #2. All my suggested interruptions are described below.</para>
+      <para id="id20665277">Before you start, remind them that the equation 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math> has no answer, and talk about why. Then explain that we are going to pretend it has an answer. The answer is, of course, an “imaginary” number, so we will call it <m:math>
+<m:mi>i</m:mi>
+</m:math>. The definitions of <m:math>
+<m:mi>i</m:mi>
+</m:math> is therefore <m:math>
+<m:mi>i</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math> or, equivalently, <m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math>.</para>
+      <para id="id21812344">There are two ways to play this. One is to go into the whole “why i is useful” spiel that I spelled out above. The other approach, which is the one I take, is to treat it as a science fiction exercise. I always start by telling the class that in good science fiction, you start with some premise: “What if time travel were possible?” or “What if there were a man who could fly?” or something like that. Then you have to follow that premise rigorously, exploring all the ramifications of that one false assumption. So that is what we are going to do with our imaginary number. We are going to start with one false premise: “What if you could square something and get –1?” And we are going to follow that premise logically, using all the rules of math, and see where it would lead us.</para>
+      <para id="id21474607">Then they get started. And in #2, they get stopped in their tracks. So you give them a minute to struggle, and then walk it through on the board like this.</para>
+      <list id="id19608711" list-type="bulleted"><item><m:math>
+<m:mo>–</m:mo>
+<m:mi>i</m:mi>
+</m:math> means <m:math>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+<m:mo>•</m:mo>
+<m:mi>i</m:mi>
+</m:math> (*Stress that this is not anything unusual about <m:math>
+<m:mi>i</m:mi>
+</m:math>, it is a characteristic of –1. We could just as easily say –2 means <m:math>
+<m:mn>–1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>2</m:mn>
+</m:math>, and so on. So we are treating <m:math>
+<m:mi>i</m:mi>
+</m:math> just like any other number.)</item>
+        <item>So <m:math>
+<m:mi>i</m:mi>
+<m:mo>(</m:mo>
+<m:mo>–</m:mo>
+<m:mn>i</m:mn>
+<m:mo>)</m:mo>
+</m:math> is 
+<m:math>
+<m:mi>i</m:mi>
+<m:mo>•</m:mo>
+<m:mn>–1</m:mn>
+<m:mo>•</m:mo>
+<m:mi>i</m:mi>
+</m:math>.</item>
+        <item>But we can rearrange that as <m:math>
+<m:mi>i</m:mi>
+<m:mo>•</m:mo>
+<m:mi>i</m:mi>
+<m:mo>•</m:mo>
+<m:mn>–1</m:mn>
+</m:math>. (You can always rearrange multiplication any way you want.)</item>
+        <item>But <m:math>
+<m:mi>i</m:mi>
+<m:mo>•</m:mo>
+<m:mi>i</m:mi>
+</m:math> is –1, by definition. So we have <m:math>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+<m:mo>•</m:mo>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math>, so the final answer is 1.</item>
+      </list>
+      <para id="id22679976">The reason to walk through this is to get across the idea of what I meant about a science fiction exercise. Everything we just did was simply following the rules of math—except the last step, where we multiplied 
+<m:math>
+<m:mi>i</m:mi>
+<m:mo>•</m:mo>
+<m:mi>i</m:mi>
+</m:math> and got –1. So it illustrates the basic way we are going to work: assume that all the rules of math work just like they always did, and that 
+<m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:math>.</para>
+      <para id="id18550602">The next few are similar. Many of them will successfully get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "25"} } {}</m:annotation></m:semantics></m:math>on their own. But you will have to point out what it means. So, after you are confident that they have all gotten past that problem (or gotten stuck on it), call the class back and talk a bit. Point out that we started out by just defining a square root of -1. But in doing so, we have actually found a way to take the square root of any negative number! There are two ways to see this answer. One is (since we just came off our unit on radicals) to write 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "25"} } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {"25" cdot  - 1} } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "25"} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math>. The other—which I prefer—is to say, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "25"} } {}</m:annotation></m:semantics></m:math> is asking the question “What number squared is -25? The answer is <m:math>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math>. How do you know? Try it! Square <m:math>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math> and see what you get!”</para>
+      <para id="id9324968">Now remind them of the subtle definition of square root as the positive answer. If you see the problem <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>25</m:mn>
+</m:math> you should answer <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>±</m:mo>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math>
+ (take a moment to make sure they all got the right answer to #4, so they see why <m:math>
+<m:mo>(</m:mo>
+<m:mn>-5</m:mn>
+<m:mi>i</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> gives -25). On the other hand, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "25"} } {}</m:annotation></m:semantics></m:math> is just <m:math>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math>.</para>
+      <para id="id19411119">Next we move on to the cycle of powers. Again, they should be able to do this largely on their own. If a group needs a hint, remind them that if we made a similar table with powers of 2 (<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>1</m:mn>
+</m:msup>
+</m:math>, 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, <m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>, and so on), we would get from each term to the next one by multiplying by 2. So they should be able to figure out that in this case, you get from each term to the next by multiplying by <m:math>
+<m:mi>i</m:mi>
+</m:math>, and they should be able to do the multiplication. They will see for themselves that there is a cycle of fours. So then you can ask the whole class what <m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>40</m:mn>
+</m:msup>
+</m:math> must be, and then <m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>41</m:mn>
+</m:msup>
+</m:math> and so on, and get them to see the general algorithm of looking for the nearest power of 4. (I have tried mentioning that we are actually doing modulo 4 arithmetic and I have stopped doing this—it just confuses things. I do, however, generally mention that the powers of –1 go in a cycle of 2, alternating between 1 and –1, so this is just kind of like that.)</para>
+      <para id="id20057085">#13 is my favorite “gotcha” just to see who falls into the trap and says it’s 9–16.</para>
+      <para id="id13503993">After they do #18, remind them that this is very analogous to the way we got square roots out of the denominator. And this is not a coincidence—<m:math><m:mi>i</m:mi></m:math> is a square root, after all, that we are getting out of the denominator! You may want to introduce the term “complex conjugate” even at this stage, but the real discussion of complex numbers will come later.</para>
+
+      <para id="id20631126"><title>Homework:</title>“Homework: Imaginary Numbers”</para>
+      <para id="id21045112">When going over this homework the next day, make sure they got the point. Our “pattern of fours” can be walked backward as well as forward. It correctly predicts that <m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>0</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math> which it should anyway, of course, since 
+<m:math>
+<m:msup>
+<m:mtext>anything</m:mtext>
+<m:mn>0</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>. It correctly predicts that 
+<m:math>
+<m:msup>
+<m:mi>i</m:mi>
+<m:mn>-1</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>i</m:mi>
+</m:math> which is less obvious—but remind them that, just yesterday, they showed in class that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {i} } } {}</m:annotation></m:semantics></m:math> simplifies to <m:math>
+<m:mo>–</m:mo>
+<m:mi>i</m:mi>
+</m:math>!</para>
+    
+</content>
+
+</document>

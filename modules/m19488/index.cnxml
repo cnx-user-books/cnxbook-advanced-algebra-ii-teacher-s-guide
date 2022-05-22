@@ -1,0 +1,571 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rational Expressions -- Rational Expressions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>685b939d-726a-4e2a-bdac-67fc2888a96e</md:uuid>
+</metadata>
+  <content>
+    <para id="id14181869">Begin by explaining what rational expressions are, and making the points I made above—we are going to put together some of our old skills in a new way, which will require us to be good at fractions. So, we’re going to start by reviewing how to work with fractions.</para>
+    <para id="id15949273">Then pair the students up. We’re going to do a sort of do-it-yourself TAPPS exercise. One partner is the student, one is the teacher. The teacher’s job is to add <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>—not just to come up with the answer, but to walk through the process, explaining what he is doing and why he is doing it at every step, all on paper. The student asks for clarifications of any unclear points. By the time they are done, they should have a written, step-by-step instruction guide for adding fractions.</para>
+    <para id="id14652074">Then they switch roles. The former student becomes the new teacher, and gives two lessons: how to multiply <m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math> and how to divide <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>/</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. Once again, they should wind up with a step-by-step guide.</para>
+    <para id="id12690232">The original teacher takes over again, and shows how to simplify a fraction.</para>
+    <para id="id11304983">Finally, you give a brief lesson on multiplying fractions—they’ve already done that, but the key point to emphasize here is that you can cancel before you multiply. For instance, if you want to multiply <m:math>
+<m:mfrac>
+<m:mn>7</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+</m:math> times 
+<m:math>
+<m:mfrac>
+<m:mn>10</m:mn>
+<m:mn>21</m:mn>
+</m:mfrac>
+</m:math>, you could say:</para>
+    <para id="id15005882"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {7}  over  {8} } } {}</m:annotation></m:semantics><m:mo>×</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>10</m:mtext><m:mtext>21</m:mtext></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>70</m:mtext><m:mtext>168</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"10"}  over  {"21"} } = {  {"70"}  over  {"168"} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id14053504">and then try to simplify that. But it’s a lot easier to simplify before you multiply. The <m:math>
+<m:mfrac>
+<m:mn>7</m:mn>
+<m:mn>21</m:mn>
+</m:mfrac>
+</m:math> becomes 
+<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>, the 
+<m:math>
+<m:mfrac>
+<m:mn>10</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+</m:math> becomes 
+<m:math>
+<m:mfrac>
+<m:mn>5</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math>, so we have:</para>
+    <figure id="id12363073">
+      <media id="idp7545584" alt=""><image src="../../media/graphics1-960b.png" mime-type="image/png" height="59" width="97"/></media>
+    </figure>
+    <para id="id11675882">Of course, you can only do this trick—canceling across different fractions—when you are multiplying. Never when you are adding, subtracting, or dividing!</para>
+    <para id="id14234160">So why are we going through all this? Because, even though they know how to do it with numbers, they are going to get confused when it comes to doing the exact same thing with variables. So whenever they ask a question (“What do I do next?” or “Do I need a common denominator here?” or some such), you refer them back to their own notes on how to handle fractions. I have had a lot of students come into the test and immediately write on the top of it:</para>
+    <para id="id13071999"><m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>3</m:mn>
+<m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>5</m:mn>
+<m:mn>6</m:mn>
+</m:mfrac>
+</m:math> 
+</para>
+    <para id="id11820700">They did this so they would have a “template” to follow when adding rational expressions—it’s a very smart move.</para>
+    <para id="id12447106">Other than basic fraction manipulation, there is only one other big thing to know about rational expressions—always factor first. Factoring shows you what you can cancel (especially when multiplying), and how to find the least common denominator (when adding or subtracting).</para>
+    <para id="id14708681">So, walk through some sample problems for them on the blackboard. Put up the problem, and ask them what the first step is…and what the second step is…and so on, until you have something like this on the blackboard.</para>
+    <para id="id12788445"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x} } + {  {2}  over  {y} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi>y</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2x</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {y}  over  { ital "xy"} } + {  {2x}  over  { ital "xy"} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {y+2x}  over  { ital "xy"} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id13589530">Emphasize over and over that this is just the same steps you would take to add <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. But at the end, point out one other thing—just as we did in the very first week of class, we have asserted that two functions are equal. That means they should come out exactly the same for any <m:math>
+<m:mi>x</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>y</m:mi>
+</m:math>. So have everyone choose an <m:math>
+<m:mi>x</m:mi>
+</m:math>-value and a <m:math>
+<m:mi>y</m:mi>
+</m:math>-value, and plug them into both 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x} } + {  {2}  over  {y} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {y+2x}  over  { ital "xy"} } } {}</m:annotation></m:semantics></m:math>, and make sure they come out with the same number.</para>
+    <para id="id14463721">Now walk through something harder on the blackboard, like this:</para>
+    <table id="id14847496" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>5x</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mn>2x</m:mn>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>9x</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {x rSup { size 8{2} } +5x+6} }  -  {  {2x}  over  {x rSup { size 8{3} }  - 9x} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>The original problem</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mn>2x</m:mn>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  { \( x+3 \)  \( x+2 \) } }  -  {  {2x}  over  {x \( x+3 \)  \( x - 3 \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Always factor first!</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mn>2</m:mn>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  { \( x+3 \)  \( x+2 \) } }  -  {  {2}  over  { \( x+3 \)  \( x - 3 \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Simplify (cancel the “<m:math>
+<m:mi>x</m:mi>
+</m:math>” terms on the right).</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {x \( x - 3 \) }  over  { \( x+3 \)  \( x+2 \)  \( x - 3 \) } }  -  {  {2 \( x+2 \) }  over  { \( x+3 \)  \( x - 3 \)  \( x+2 \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Get a common denominator. This step requires a lot of talking through. You have to explain where the common denominator came from, and how you can always find a common denominator once you have factored.</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3x</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2x</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  { \( x rSup { size 8{2} }  - 3x \)  -  \( 2x+4 \) }  over  { \( x+2 \)  \( x+3 \)  \( x - 3 \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Now that we have a common denominator, we can combine. This step is a very common place to make errors—by forgetting to parenthesize the <m:math>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math> on the right, students wind up adding the 4 instead of subtracting it.</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>5x</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} }  - 5x - 4}  over  { \( x+2 \)  \( x+3 \)  \( x - 3 \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Done! Of course, we could multiply the bottom through, and many students want to. I don’t mind, but I don’t recommend it—there are advantages to leaving it factored.</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id15743616">Once again, have them try numbers (on their calculators) to confirm that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>5x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>2x</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9x</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {x rSup { size 8{2} } +5x+6} }  -  {  {2x}  over  {x rSup { size 8{3} }  - 9x} } } {}</m:annotation></m:semantics></m:math> gives the same answer as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>5x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} }  - 5x - 4}  over  { \( x+2 \)  \( x+3 \)  \( x - 3 \) } } } {}</m:annotation></m:semantics></m:math> for any <m:math>
+<m:mi>x</m:mi>
+</m:math>. But they should also remember (from week 1) how to find the domain of a function—and in this case, the two are not quite the same. The function we ended up with excludes <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-2</m:mn>
+</m:math>,
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-3</m:mn>
+</m:math>, and 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>. The original function excludes all of these, but also <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. So in that one case, the two are not identical. For all other cases, they should be.</para>
+    <para id="id4795866">Whew! OK, you’ve been lecturing all day. If there are 10 minutes left, they can begin the exercise. They should work individually (not in groups or pairs), but they can ask each other for help.</para>
+    
+    <para id="id13037097"><title>Homework:</title>Finish the in-class exercise and do “Homework—Rational Expressions”</para>
+  </content>
+</document>

@@ -1,0 +1,376 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Polynomial Division</title>
+  <metadata>
+  <md:content-id>m19487</md:content-id><md:title>Polynomial Division</md:title>
+  <md:abstract>A teacher's guide to polynomial division.</md:abstract>
+  <md:uuid>864d52c9-21e4-412a-be10-9319f2152db4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id18184207">Half the class, maybe the whole class, will be lecture today—you have to show them how to do this. The lecture goes something like this.</para>
+    <para id="id21932056">Today we’re going to talk about everybody’s favorite topic…long division!</para>
+    <para id="id18563044">Before we do that, I have to start by pointing out some very important cases where you don’t have to use long division. For instance, suppose you have this:</para>
+    <equation id="id19605402">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mtext>36</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mn>8x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>5x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mn>2x</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {"36"x rSup { size 8{3} } +8x rSup { size 8{2} } +5x+"10"}  over  {2x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id20995703">That problem doesn’t require any hard work—you should be able to divide it on sight. (Have them do this.) You should have gotten:</para>
+    <para id="id20132328"><m:math>
+<m:mn>18</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>5</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {x} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id19823888">To take another example, how about this?</para>
+    <equation id="id21647444">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msup>
+                        <m:mn>6x</m:mn>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>5x</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>5x</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{3} }  - 6x rSup { size 8{2} } +5x}  over  {x rSup { size 8{2} }  - 5x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id20162417">That one isn’t quite as easy. What do we do first? (factor!) Oh yes, let’s do that! So it is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x \( x - 5 \)  \( x - 1 \) }  over  {x \( x - 5 \) } } } {}</m:annotation></m:semantics></m:math>. Oh, look…it’s just <m:math>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:math>! Once again, no long division necessary.</para>
+    <para id="id20311512">OK, but suppose we had this?</para>
+    <equation id="id20657686">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>6x</m:mn>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msup>
+                          <m:mn>8x</m:mn>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>4x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2x</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id20818861">How can we simplify it? This is where we’re going to have to use…long division.</para>
+    <para id="id20047522">So, let’s start the same way we started with fractions: by remembering how to do this with numbers. Everyone, at your seats, work out the following problem on paper.</para>
+    <equation id="id20065917">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mtext>4327</m:mtext>
+                  <m:mtext>11</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {"4327"}  over  {"11"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id19225139">(Here you pause briefly while they work it on paper—then you work it on the blackboard.) OK, you should have gotten 393 with a remainder of 4. So the actual answer is 393
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mtext>11</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {"11"} } } {}</m:annotation></m:semantics></m:math>. How could we check that? That’s right…we would want to make sure that 393
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mtext>11</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {"11"} } } {}</m:annotation></m:semantics></m:math> times 11 gives us back 4327. Because that’s what multiplication is—it’s division, backward.</para>
+    <para id="id21694980">Now, let’s go back to that original problem. OK, kids...I’m going to leave my number long division over here on the blackboard, and I’m going to work this rational expressions long division next to it on the blackboard, so you can see that all the steps are the same.</para>
+    <para id="id18222898">We’ll start here:</para>
+    <figure id="id20103518">
+      <media id="id16725879" alt=""><image src="../../media/graphics1-a9e8.png" mime-type="image/png" height="22" width="133"/></media>
+    </figure>
+    <para id="id21646395">From there, develop the whole thing on the blackboard, step by step. (I do this exact problem in the “Conceptual Explanations.” I would not suggest you tell them to look it up at this point; instead, I would recommend that you go through it on the blackboard, explaining steps as you go, and continually reinforcing the analogy to what you did with numbers.) In the end you conclude that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mrow><m:msup><m:mn>6x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>8x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math> is <m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+</m:math> with a remainder of 22: or, to put it another way, <m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>22</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"22"}  over  {2x+4} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id20792179">So then you ask: OK, how could we test that? Hopefully they will come up with one answer, then you say “Good, how else?” and they come up with the other one. One way is to plug a number—any number—into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mrow><m:msup><m:mn>6x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>8x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math>, and the same number into <m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>22</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"22"}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math>, and make sure you get the same thing. The other way is to multiply back <m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>22</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"22"}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math> by 
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>4</m:mn>
+</m:math> and make sure you get back to 
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>8</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:math>. Make sure they understand both ways. If you don’t understand the first way, you don’t understand function equality; if you don’t understand the second way, you don’t understand what division is!</para>
+    <para id="id18800726">Finally, you ask: how could we have made all that a bit easier? The answer, of course, is that we should have divided the top and bottom by 2 before we did anything else. This brings us back to our cardinal rule of rational expressions: always factor first!</para>
+    <para id="id21654432">If there is still time left in class, let them get started on the homework.</para>
+
+    <para id="id21862748"><title>Homework:</title>“Dividing Polynomials”</para>
+    <para id="id19233963">When going over it, see how many people did #1 the “hard way.” Remind them that if the bottom is only one term, you can just do the whole thing quickly and painlessly!</para>
+    
+    <para id="id20148317"><title>Optional Exercise:</title>If you have extra time—if some students get way ahead and you want to give them an extra assignment, or if you want to spend more time on this topic—here is a good exercise that brings things together. Suppose you want to solve the equation <m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>41</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>30</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. You can use the “Solver” on the calculator and it will find one answer: most likely, <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-1</m:mn>
+</m:math>. (This requires a 5-minute introduction to the “Solver.”) How do you find the other answers?</para>
+    <para id="id20063535">Well, we recall from our study of quadratic equations that if <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-1</m:mn>
+</m:math> is an answer, then the original function must be expressible as <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mtext>something</m:mtext>
+<m:mo>)</m:mo>
+</m:math>. How do you find the something? With long division! (Maybe have them try it both ways.) What you end up with, after you divide, is
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>11</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>30</m:mn>
+</m:math>. You can factor that the “old-fashioned” way (which takes a bit of time) and you get <m:math>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>10</m:mn>
+<m:mo>)</m:mo>
+</m:math> which gives you the other two roots.</para>
+    <section id="id19788520">
+      <title>Time for Another Test!</title>
+      <para id="id19664608">And we’re done with yet another unit.</para>
+      <para id="id21015555">On #6 of the sample test, stress that they will get no credit without showing work. They can check their answer either way—multiplying back, or trying a number—but they have to show their work.</para>
+      <para id="id18515286">The extra credit is a good problem that I like to get in somewhere. I generally give one point for the obvious pairs (0,0) and (2,2), and two points for the equation <m:math>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>y</m:mi>
+</m:math>. But what I really want to see is if they remember how to solve that for <m:math>
+<m:mi>y</m:mi>
+</m:math> and get <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {x - 1} } } {}</m:annotation></m:semantics></m:math>. Finally, from that, they should be able to see that <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math> has no pairing number (which is obvious if you think about it: nothing plus one gives you the same thing times one!).</para></section>
+
+  </content>
+</document>

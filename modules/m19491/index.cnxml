@@ -1,0 +1,52 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sequences and Series Guide -- Series and Series Notation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ede681be-d3d5-4c53-8e38-0a8e1b08bc77</md:uuid>
+</metadata>
+  <content>
+          <para id="id8212992">Begin by defining a series: it’s like a sequence, but with plusses instead of commas. So our phone number example of a sequence, “8,6,7,5,3,0,9” becomes the series “<m:math>
+<m:mn>8</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>0</m:mn>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+</m:math>” which is 38.</para>
+      <para id="id8984418">Many of the other words stay the same. The first term is <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math>, the <m:math>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mi>th</m:mi>
+</m:msup>
+</m:math> term is <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+</m:math>, and so on. If you add up all the terms of an arithmetic sequence, that’s called an arithmetic series; and similarly for geometric.</para>
+      <para id="id8213001">The hardest part about this introduction is the notation. Explain about series notation, using weird examples like
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munderover><m:mo stretchy="false">∑</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>7</m:mn></m:mrow></m:mstyle></m:munderover><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum cSub { size 8{n=3} }  cSup { size 8{7} }  { {  {n rSup { size 8{2} }  - 2}  over  {5} } } } {}</m:annotation></m:semantics></m:math> just to make the point that even when the function looks complicated, it is not hard to <emphasis>write out the terms</emphasis>.</para>
+      <para id="id8951994">Note that the “counter” always goes by ones. Does this mean you can’t have a series that goes up by 2s? Ask them how to use series notation for the series <m:math>
+<m:mn>10</m:mn>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+<m:mo>+</m:mo>
+<m:mn>14</m:mn>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+</m:math>.</para>
+      
+      <para id="id8983893"><title>Homework:</title>“Homework—Series and Series Notation”</para>
+
+  </content>
+</document>

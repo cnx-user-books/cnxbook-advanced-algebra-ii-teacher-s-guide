@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Use Matrices for Transformation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>8baeb4aa-9772-49a1-a44f-e0dad418a585</md:uuid>
+</metadata>
+  <content>
+    <para id="id3536796">This is a fun day. No new math, just a cool application of the math we’ve seen.</para>
+    <para id="id16970936">The in-class assignment pretty well speaks for itself. It’s worth mentioning that, despite the very simplified and silly nature of this specific assignment, the underlying message—that matrices are used to transform images in computer graphics—is absolutely true.</para>
+    <para id="id3647492">Some students (good students) may question why the last column 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+0 {} ##
+0
+}  right ]} {}</m:annotation></m:semantics></m:math> is necessary in specifying Harpoona’s initial condition. The reason is this representation is not simply a list of all the corner points in a shape. Yes, each column represents a point. But the matrix is a set of instructions to the computer, to draw lines from this point to that point. Without the last column, Harpoona would be missing her hypotenuse.</para>
+    <para id="id20271772"><title>Homework</title>Homework: “Homework: Using Matrices for Transformation.” Here we see a matrix that rotates any object by 300, counter-clockwise. The inverse matrix, of course, rotates clockwise. Hopefully they will discover all that for themselves. And hopefully most of them will realize why an inverse matrix always does the exact opposite of the original matrix, since if you do them one after the other, you end up back where you started.</para>
+    <section id="id21149066">
+      <title>Time for Another Test!</title>
+      <para id="id4849816">Our first test on matrices.</para>
+    </section>
+  </content>
+</document>

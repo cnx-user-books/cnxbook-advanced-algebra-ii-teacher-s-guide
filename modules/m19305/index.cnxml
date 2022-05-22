@@ -1,0 +1,354 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conic Sections Guide -- Ellipses: From Definition to Equation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d5cb97c2-36a0-42a3-8b44-7eaa1f9f2fa9</md:uuid>
+</metadata>
+  <content>
+    
+    <table id="id9487880" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>
+        <media id="idm1463296" alt="A picture of an ellipse showing the relationship between an ellipse and its foci."><image src="../../media/elps1.PNG" mime-type="image/png" print-width="4in"/></media>
+      </entry>
+            <entry>
+              <emphasis>Here is the geometric definition of an ellipse. There are two points called the “foci”: in this case, </emphasis>
+              <emphasis>(-3,0)</emphasis>
+              <emphasis> and </emphasis>
+              <emphasis>(3,0)</emphasis>
+              <emphasis>. A point is on the ellipse if the </emphasis>
+              <emphasis>sum</emphasis>
+              <emphasis> of its distances to both foci is a certain constant: in this case, I’ll use </emphasis>
+              <emphasis>10</emphasis>
+              <emphasis>. Note that the foci </emphasis>
+              <emphasis>define</emphasis>
+              <emphasis> the ellipse, but are not </emphasis>
+              <emphasis>part of</emphasis>
+              <emphasis> it.</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id11181363">The point (<m:math>
+<m:mi>x</m:mi>
+</m:math>
+,<m:math>
+<m:mi>y</m:mi>
+</m:math>) represents any point on the ellipse. <m:math>
+<m:mi>d</m:mi>
+<m:mn>1</m:mn>
+</m:math> is its distance from the first focus, and <m:math>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+</m:math> to the second. So the ellipse is <emphasis>defined geometrically</emphasis> by the relationship: <m:math>
+<m:mi>d</m:mi>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:math>.</para>
+    <para id="id3588375">To calculate <m:math>
+<m:mi>d</m:mi>
+<m:mn>1</m:mn>
+</m:math> and <m:math>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+</m:math>, we use the Pythagorean Theorem as always: drop a straight line down from (<m:math>
+<m:mi>x</m:mi>
+</m:math>,
+<m:math>
+<m:mi>y</m:mi>
+</m:math>) to create the right triangles. Please verify this result for yourself! You should find that <m:math>
+<m:mi>d</m:mi>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x+3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> and <m:math>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. So the equation becomes:</para>
+    <para id="id3545080"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x+3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>+</m:mo> 
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:math>.  <emphasis> This defines our ellipse</emphasis></para>
+    <para id="id10923755">The goal now is to simplify it. We did problems like this earlier in the year (radical equations, the “harder” variety that have two radicals). The way you do it is by isolating the square root, and then squaring both sides. In this case, there are two square roots, so we will need to go through that process twice.</para>
+    <table id="element-88" summary="A table showing how to simplify the an ellipse equation into standard form.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x+3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>10</m:mn>
+<m:mo>–</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Isolate a radical</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mo>–</m:mo>
+<m:mn>20</m:mn>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></entry>
+    <entry><emphasis>Square both sides</emphasis></entry>
+  </row>
+  <row>
+    <entry>
+<m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mo>–</m:mo>
+<m:mn>20</m:mn>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> </entry>
+    <entry><emphasis>Multiply out the squares</emphasis></entry>
+  </row>
+  <row>
+    <entry>
+<m:math>
+<m:mn>12</m:mn>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mo>–</m:mo>
+<m:mn>20</m:mn>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Cancel &amp; combine like terms</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 3 \)  rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>5</m:mn>
+<m:mo>–</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {5} } } {}</m:annotation></m:semantics><m:mi>x</m:mi>
+</m:math> </entry>
+    <entry><emphasis>Rearrange, divide by 20</emphasis></entry>
+  </row>
+  <row>
+    <entry>
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>25</m:mn>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>9</m:mn><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {9}  over  {"25"} } } {}</m:annotation></m:semantics>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> </entry>
+    <entry><emphasis>Square both sides again</emphasis></entry>
+  </row>
+  <row>
+    <entry>
+<m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>25</m:mn>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>9</m:mn><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {9}  over  {"25"} } } {}</m:annotation></m:semantics><m:msup><m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></entry>
+    <entry><emphasis>Multiply out the square</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>16</m:mtext><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"16"}  over  {"25"} } } {}</m:annotation></m:semantics>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>16</m:mn>
+</m:math></entry>
+<entry><emphasis>Combine like terms</emphasis></entry>
+</row>
+<row>
+<entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mtext>25</m:mtext>
+                    </m:mfrac>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mtext>16</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {"25"} } + {  {y rSup { size 8{2} } }  over  {"16"} } =1} {}</m:annotation>
+        </m:semantics>
+      </m:math></entry>
+<entry><emphasis>Divide by 16</emphasis></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    
+    
+    
+    
+    <para id="id3598574">…and we’re done! Now, according to the “machinery” of ellipses, what should that equation look like? Horizontal or vertical? Where should the center be? What are <m:math>
+<m:mi>a</m:mi>
+</m:math>, <m:math>
+<m:mi>b</m:mi>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+</m:math>? Does all that match the picture we started with?</para>
+  </content>
+</document>

@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Logarithms -- Properties of Logarithms</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fe3929a4-efb9-4e69-a888-903371ac12e5</md:uuid>
+</metadata>
+  <content>
+    <para id="id24844972">This is very standard stuff. Using the in-class exercise in groups of 2 or 3, they should be able to find—in some cases with a bit of help from you—some rules of logarithms. In the homework, they practice using those rules.</para>
+    <para id="id12001374">One thing I don’t do in the worksheets is formally prove the rules. However, I have been known to “throw in” the proofs sometimes in class, either for a group that finishes early, or for the whole class if enough people are interested. One of the proofs is provided as an example in the “Conceptual Explanations” along with guidelines for the other two.</para>
+    <para id="id7725329">But what I really care about is giving them an intuitive grasp of why the rules work, rather than the proof. The intuitive grasp is what comes from the exercise, from realizing that the logarithm is essentially a counter. Once you see that <m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>8</m:mn>
+</m:math> is asking how many 2s there are in 8, then it’s obvious that <m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mn>8</m:mn>
+<m:mo>•</m:mo>
+<m:mn>16</m:mn>
+<m:mo>)</m:mo>
+</m:math> will add up all the 2s in 8, and in 16.</para>
+    
+    <para id="id10978744"><title>Homework:</title>“Homework: Properties of Logarithms”</para>
+  </content>
+</document>

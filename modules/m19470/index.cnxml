@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to Quadratic Equations</title>
+  <metadata>
+  <md:content-id>m19470</md:content-id><md:title>Introduction to Quadratic Equations</md:title>
+  <md:abstract/>
+  <md:uuid>7e33afb0-7bfa-42a8-bed7-c35e7fe1502c</md:uuid>
+</metadata>
+  <content>
+    <para id="id8838516">Get them started on the assignment “Introduction to Quadratic Equations” with little or no preamble. Then, after a few minutes—after everyone has gotten through #5—stop them.</para>
+    <para id="id9489196">Make sure they all got the right answers to numbers 2 and 3, and that they understand them. If <m:math>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> then <emphasis>either</emphasis> <m:math>
+<m:mi>x</m:mi>
+</m:math>, <emphasis>or</emphasis> <m:math>
+<m:mi>y</m:mi>
+</m:math>, <emphasis>must equal zero</emphasis>. There is no other way for it to happen. On the other hand, if <m:math>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>, that doesn’t tell you much—either one of them could be anything (except zero).</para>
+    <para id="id7668744">Now, show how this relates to quadratic equations. They do remember how to solve quadratic equations by factoring. 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>12</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>4</m:mn>
+</m:math> <emphasis>or</emphasis> 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>. But that last step is taken as a random leap, “because they told me so.” The thing I want them to realize is that, when they write 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, they are in fact asserting that “these two numbers multiply to give zero,” so one of them has to be zero. This helps reinforce the idea of the previous lesson, that <m:math>
+<m:mi>x</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>y</m:mi>
+</m:math> can mean <emphasis>anything</emphasis>: 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> is in fact a special case of 
+<m:math>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>.</para>
+    <para id="id8509601">The acid test is, what do you do with <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>? The ones who don’t get it will turn it into 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>, <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>. And get two wrong answers. Instead you have to multiply it out, <emphasis>then</emphasis> get everything on one side so the other side is 0, and <emphasis>then</emphasis> factor.</para>
+    <para id="id8348926">Now they can keep going. Many of them will need help with #6—talk them through it if they need help, but make as much of it as possible come from them. This is a very standard sort of “why we need quadratic equations” type of problem.</para>
+    <para id="id7733370">The last four problems are a sneaky glimpse ahead at completing the square. For #11, many students will say <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>; remind them that it can also be –3. For #12, this is yet another good example of the “<m:math>
+<m:mi>x</m:mi>
+</m:math> can be anything” rule, and should remind them in some ways of the work we did with absolute values: <m:math>
+<m:msup>
+<m:mtext>something</m:mtext>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math>, so <m:math>
+<m:mtext>something</m:mtext>
+<m:mo>=</m:mo>
+<m:mo>±</m:mo>
+<m:mn>3</m:mn>
+</m:math>. #13 is obviously #12 rewritten, and #14 can be turned into #13 by adding 16 to both sides.</para>
+    <para id="id4503308"><title>Homework:</title>“Homework: Introduction to Quadratic Equations.”</para>
+  </content>
+</document>

@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rational Expressions -- Rational Equations</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7fce4751-0e0e-4996-824b-d36dcef6db61</md:uuid>
+</metadata>
+  <content>
+    <para id="id17121662">After you have answered all the questions on the previous homework, they can just get started on this assignment immediately—it should explain itself pretty well.</para>
+    <para id="id14639263">However, after about 5 minutes—when everyone has gotten past the first two problems—pull them back and talk to the whole class for a moment, just to make sure they get the point. The point is that if the denominators are the same, then the numerators must be the same (#1); and if the denominators are not the same, then you make them the same (#2). It’s pretty straightforward with these two problems, but it may be deceptively easy. The real thing to make sure they “get” is that, having established these two principals with these easy problems, they are now going to apply them in much more complicated ones.</para>
+    <para id="id11482916">Then they can get back to it, and you just float around and help. In #3, the only trick is remembering that if <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>25</m:mn>
+</m:math>, then 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>±</m:mo>
+<m:mn>5</m:mn>
+</m:math> (not just 5). Numbers 4 is straightforward. Give them time to struggle with #5 before pointing out that they should factor-and-simplify first—always factor first! #6 is really what all this is building up to: to solve rational equations in general, you must be able to solve quadratic equations!</para>
+    
+    <para id="id16784949"><title>Homework:</title>“Homework: Rational Expressions and Equations”</para>
+  </content>
+</document>

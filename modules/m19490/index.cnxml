@@ -1,0 +1,219 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sequences and Series Guide -- Arithmetic and Geometric Sequences</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1f54452f-1ed8-4853-88d9-fc76fcf0d5c3</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id8281046">The in-class assignment does not need any introduction. Most of them will get the numbers, but they may need help with the last row, with the letters.</para>
+      <para id="id8292854">After this assignment, however, there is a fair bit of talking to do. They have all the concepts; now we have to dump a lot of words on them.</para>
+      <para id="id8720831">A “sequence” is a list of numbers. In principal, it could be anything: the phone number 8,6,7,5,3,0,9 is a sequence.</para>
+      <para id="id8720605">Of course, we will not be focusing on random sequences like that one. Our sequences will usually be expressed by a formula: for instance, “the xxxnth terms of this sequence is given by the formula <m:math>
+<m:mn>100</m:mn>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>−</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>” (or <m:math>
+<m:mn>3</m:mn>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>97</m:mn>
+<m:mo>)</m:mo>
+</m:math> in the case of the first problem on the worksheet. This is a lot like expressing the <emphasis>function</emphasis> <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>−</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>, but it is not exactly the same. In the function <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>97</m:mn>
+</m:math>, the variable <m:math>
+<m:mi>x</m:mi>
+</m:math> can be literally any number. But in a <emphasis>sequence</emphasis>, xxxn must be a positive integer; you do not have a “minus third term” or a “two-and-a-halfth term.”</para>
+      <para id="id8293002">The first term in the sequence is referred to as <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math> and so on. So in our first example, <m:math>
+
+    <m:msub><m:ci>t</m:ci><m:mi>5</m:mi></m:msub><m:mo>=</m:mo>
+    <m:cn>112</m:cn>
+
+</m:math>.</para>
+      <para id="id8330123">The number of terms in a sequence, or the particular term you want, is often designated by the letter <m:math>
+  <m:ci>n</m:ci>
+</m:math>.</para>
+      <para id="id8292713">Our first sequence adds the same amount every time. This is called an <emphasis>arithmetic sequence</emphasis>. The amount it goes up by is called the <emphasis>common difference</emphasis> <m:math>
+  <m:ci>d</m:ci>
+</m:math> (since it is the difference between any two adjacent terms). Note the relationship to linear functions, and slope.</para>
+      <exercise id="element-747"><problem id="idm5154736">
+  <para id="element-646"> If I want to know all about a given arithmetic sequence, what do I need to know? Answer: I need to know <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math> and <m:math>
+<m:mi>d</m:mi>
+</m:math>.
+  </para>
+</problem>
+</exercise>
+      <exercise id="element-985"><problem id="idp774112">
+  <para id="element-340">OK, so if I <emphasis>have</emphasis> <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math> and <m:math>
+<m:mi>d</m:mi>
+</m:math> for the arithmetic sequence, give me a formula for the <m:math>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mi>th</m:mi>
+</m:msup>
+</m:math> term in the sequence. (Answer: <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>. Talk through this carefully before proceeding.)
+  </para>
+</problem>
+
+
+</exercise><para id="id8330227">Time for some more words. A <emphasis>recursive definition</emphasis> of a sequence defines each term in terms of the previous. For an arithmetic sequence, the recursive definition is <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+</m:math>. (For instance, in our example, 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>.</m:mo>
+<m:mo>)</m:mo>
+</m:math> An <emphasis>explicit definition</emphasis> defines each term as an absolute formula, like the <m:math>
+<m:mn>3</m:mn>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>97</m:mn>
+</m:math> or the more general <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math> we came up with.</para>
+      <para id="id8680865">Our second sequence multiplies by the same amount every time. This is called a <emphasis>geometric sequence</emphasis>. The amount it multiplies by is called the <emphasis>common ratio <m:math>
+<m:mi>r</m:mi>
+</m:math></emphasis> (since it is the ratio of any two adjacent terms).</para>
+      
+      <exercise id="element-912"><problem id="idm7175936">
+  <para id="element-77">Find the recursive definition of a geometric sequence. (Answer: <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mi>r</m:mi>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+</m:math>. They will do the explicit definition in the homework.)
+  </para>
+</problem>
+
+</exercise><exercise id="element-810"><problem id="idm4911856">
+  <para id="element-291">
+    Question: How do you make an arithmetic sequence go <emphasis>down</emphasis>? Answer: <m:math>
+<m:mi>d</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+  </para>
+</problem>
+</exercise>
+      
+      <exercise id="element-263"><problem id="idm3671616">
+  <para id="element-627">
+   Question: How do you make a geometric series go down? Answer: <m:math>
+<m:mn>0</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mi>r</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>1</m:mn>
+</m:math>. (Negative <m:math>
+<m:mi>r</m:mi>
+</m:math> values get weird and interesting in their own way...why?)
+  </para>
+</problem>
+</exercise><para id="id8325451"><title>Homework</title>“Homework: Arithmetic and Geometric Sequences”</para>
+    
+  </content>
+</document>

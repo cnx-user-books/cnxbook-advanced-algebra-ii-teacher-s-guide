@@ -1,0 +1,155 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction</title>
+  <metadata>
+  <md:content-id>m19484</md:content-id><md:title>Introduction</md:title>
+  <md:abstract>An introduction to the teacher's guide on radicals.</md:abstract>
+  <md:uuid>ba54493f-28f2-48ae-a57e-563da1daff06</md:uuid>
+</metadata>
+
+<content>
+    <para id="id20202948">Well, this is easier, isn’t it? They know what a radical is. But they’re going to go places with them that they have definitely never been before…</para>
+      
+      <para id="id18359495">This looks long, but a lot of it is very fast. You don’t have to do much setup, except to remind them what a square root is. I would explain it by analogy to the way we explained logs. <m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>8</m:mn>
+</m:math> asks the question “2 to what power is 8?” Well, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>9</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {9} } {}</m:annotation></m:semantics></m:math> also asks a question: “What squared is 9?”</para>
+      <para id="id10681576">But then, there is an important distinction—one that I like to make right away, and then repeat several times. The question “what squared is 9?” actually has two answers. So if we defined square root as the answer to that question, square root would not be a function—9 would go in, and both 3 and –3 would come out (the old “rule of consistency” from day 1). So we somewhat arbitrarily designate the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow/></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {} } {}</m:annotation></m:semantics></m:math> symbol to mean the positive answer, so that it is a function. So if you see <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math> you should properly answer <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>±</m:mo>
+<m:mn>3</m:mn>
+</m:math>. But if you see <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>9</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {9} } {}</m:annotation></m:semantics></m:math> then you should answer only <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>. This is a subtle distinction, but I really want them to get it, and to see that it is nothing inherent in the math—just a definition of the square root, designed to make it single-valued. This is why if you see <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math> you have to answer 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>±</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>, to get both answers.</para>
+      <para id="id13539709">So, on to the assignment. It starts with a couple of word problems, just to set up the idea that radicals really are useful (which is not obvious). After everyone is done with that part, you may want to ask them to make up their own problems that require square roots as answers (they are not allowed to repeat #1). Get them to realize that we square things all the time, and that’s why we need square roots all the time, whenever we want to get back. (We’ll be returning to this theme a lot.)</para>
+      <para id="id14337660">Then there are problems with simplifying radicals. For many of them, they have seen this before—they know how to turn 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>8</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {8} } {}</m:annotation></m:semantics></m:math> into 2
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>. But they don’t realize that they are allowed to do that because of the general rule that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ab</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { ital "ab"} } {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>a</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {a} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>b</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {b} } {}</m:annotation></m:semantics></m:math>. So it’s important for them to get that generalization, but it’s also important for them to see that it allows them to simplify radicals. And it’s equally important for them to see that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {a+b} } {}</m:annotation></m:semantics></m:math> is not
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>a</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {a} } {}</m:annotation></m:semantics></m:math>+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>b</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {b} } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id13009226">The final question is a trap, of course—many of them will answer <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math>. But they should know they can test their answer by squaring back, and oops, <m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is not <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>16</m:mn>
+</m:msup>
+</m:math>.</para>
+      <para id="id19023333">There are two ways to look at this problem correctly. One is that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>16</m:mtext></m:mrow></m:mstyle></m:msup></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{"16"} } } } {}</m:annotation></m:semantics></m:math> asks a question: “What number, squared, is <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>16</m:mn>
+</m:msup>
+</m:math>? The rules of exponents are enough to answer this with <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>8</m:mn>
+</m:msup>
+</m:math>. The other way to look at it is to remember that raising something to the <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math> power is the same as taking a square root. So 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>16</m:mtext></m:mrow></m:mstyle></m:msup></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{"16"} } } } {}</m:annotation></m:semantics></m:math> is the same as <m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>16</m:mn>
+</m:msup>
+<m:msup>
+<m:mrow>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math> which, again by the rules of exponents, is 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>8</m:mn>
+</m:msup>
+</m:math>. (I prefer the first way.)</para>
+
+      <para id="id19650966"><title>Homework:</title>“Homework: Radicals”</para>
+      <para id="id17017554">When going over the homework the next day, make sure to talk about the last few problems (the inverse functions). Make sure they tested them! There are several points that you want to make sure they got.</para>
+      <list id="id20309832" list-type="bulleted"><item>
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> has no perfect inverse. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math> works only if we confine ourselves to positive numbers. On the other hand, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {x} } {}</m:annotation></m:semantics></m:math> is a perfect inverse of <m:math>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:math>. I always take a moment here to talk about what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {x} } {}</m:annotation></m:semantics></m:math> is, and also to make sure they understand that it is not the same thing as 3
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math>, so it’s vitally important to be careful in how you write it.</item>
+        <item>
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> and <m:math>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+</m:math> are completely different functions. This is why exponents really have two different inverses, logs and radicals. Our last unit was on one of them, this unit will be on the other.</item>
+      </list>
+
+
+  </content>
+</document>

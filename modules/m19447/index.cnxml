@@ -1,0 +1,20 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Matrices on the Calculator</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e7e02f55-a569-4620-b2c8-b4bd692247aa</md:uuid>
+</metadata>
+  <content>
+    <para id="id3411962">This starts with a lecture. You have to show them how to do matrices on the calculator. They should be able to…</para>
+    <list list-type="bulleted" id="id16720656">
+      <item>Enter several matrices at once</item>
+      <item>Add several matrices</item>
+      <item>Subtract</item>
+      <item>Multiply</item>
+      <item>Find inverses</item>
+    </list>
+    <para id="id16052877">All of this is explained step-by-step in the “Conceptual Explanations.”</para>
+    <para id="id13078135">There are two things I stress. First, whenever I enter a matrix, I always check it. For instance, after I enter matrix [A], I go back to the home screen and go [A][Enter], and the calculator displays matrix [A] to me, so I can make sure I typed it right. One small mistype will ruin a whole problem, and it’s really easy to do!</para>
+    <para id="id10949769">Second, the calculator is very smart about interpreting equations. After you enter three matrices, you can just type [A][B]-1-[C] and it will multiply [A] by the inverse of [B] and then subtract [C].</para>
+    
+    <para id="id3435962"><title>Homework</title>“Homework—Calculators.” Depending on how things go, they may be able to finish this in class and have no homework.</para>
+  </content>
+</document>

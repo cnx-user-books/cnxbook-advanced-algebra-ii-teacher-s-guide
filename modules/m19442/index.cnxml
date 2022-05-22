@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Determinants</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>12a4ee3c-e965-4055-b3fa-5083cdc616a6</md:uuid>
+</metadata>
+  <content>
+    <para id="id19319580">Another very lecture-heavy topic, I’m afraid. Like multiplying matrices, finding the determinant is something you just have to show on the board. And once again, you can refer them in the end to the “Conceptual Explanations” to see an example worked out in detail.</para>
+    <para id="id3398741">Start by talking about the ad-bc that played such a prominent role in the inverse of a 2×2 matrix. This is, in fact, the determinant of a 2×2 matrix.</para>
+    <para id="id3399104">Then show them how to find the determinant of a three-by-three matrix, using either the “diagonals” or “expansion by minors” method, whichever you prefer. (I would not do both. Personally, I prefer “expansion by minors,” and that is the one I demonstrate in the “Conceptual Explanations.”)</para>
+    <para id="id17345286">Hot points to mention:</para>
+    <list list-type="bulleted" id="id10949635">
+      <item>Brackets like this [A] mean a matrix; brackets like this |A| mean a determinant. A determinant is a number associated with a matrix: it is not, itself, a matrix.</item>
+      <item>Only square matrices have a determinant.</item>
+      <item>Also show them how to find a determinant on the calculator. They need to be able to do this (like everything else) both manually and with a calculator.</item>
+      <item>To find the area of a triangle whose vertices are (a,b), (c,d), and (e,f), you can use the formula: Area = ½
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mi>a</m:mi><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mi>c</m:mi><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mi>e</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi>b</m:mi><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mi>d</m:mi><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mi>f</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  matrix {
+a {} # c {} # e {} ##
+b {} # d {} # f {} ##
+1 {} # 1 {} # 1{}
+}  rline } {}</m:annotation></m:semantics></m:math>. This is the only use I can really give them for determinants. They will need to know this for the homework. Do an example or two. I like to challenge them to find that area any other way, just to make the point that it is not a trivial problem without matrices. (I don’t know any other good way.)</item>
+      <item>All we’re really going to use “expansion by minors” for is 3×3 matrices. However, I like to point out that it can be obviously extended to 4×4, 5×5, etc. It also extends down to a 2×2—if you “expand minors” on that, you end up with the good old familiar formula ad-bc.</item>
+      <item>Finally, mention that any matrix with determinant zero has no inverse. This is analogous to the rule that the number 0 is the only number with no inverse.</item>
+    </list>
+    
+    <para id="id16868080"><title>Homework</title>“Homework—Determinants”</para>
+  </content>
+</document>

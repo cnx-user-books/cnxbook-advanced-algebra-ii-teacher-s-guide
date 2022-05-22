@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Radical Equations</title>
+  <metadata>
+  <md:content-id>m19485</md:content-id><md:title>Radical Equations</md:title>
+  <md:abstract>A teacher's guide to radical equations.</md:abstract>
+  <md:uuid>e6cc0db5-18ad-4dc8-9f5e-ccae49c50e66</md:uuid>
+</metadata>
+  <content>
+    <para id="id19885760">If you read over the assignment carefully, I think it’s pretty self-explanatory. Encourage the students to read it carefully as they go (not just skip to the equations).</para>
+    <para id="id18009526">In my experience, most the trouble with this section comes from trying to make easy problems, hard (that is, squaring both sides when you don’t need to); or from trying to make hard problems, easy (neglecting to square both sides when you should). Make sure they are clear on the distinction—if there is a variable under the radical, you will need to square; otherwise, you won’t.</para>
+    <para id="id18721045">Also, it can’t hurt to say this about a hundred times: whenever you square both sides, you have to check your answers—they may not work even if you did all your math right! Make sure they understand when this rule applies, and also why squaring both sides can introduce false answers. (I work through that explanation pretty carefully in the “Conceptual Explanations.”)</para>
+    
+    <para id="id15703267"><title>Homework:</title>“Homework: Radical Equations”</para>
+    <section id="id15566484">
+      <title>Time for another test!</title>
+      <para id="id16981330">Not much to say here, except that the real point of the extra credit is to see if they realize that the behavior will be very similar on the right, but it will extend down to the left as well.</para>
+    </section>
+  </content>
+</document>

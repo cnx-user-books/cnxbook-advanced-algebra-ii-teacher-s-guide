@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Graphing Quadratic Functions II</title>
+  <metadata>
+  <md:content-id>m19467</md:content-id><md:title>Graphing Quadratic Functions II</md:title>
+  <md:abstract/>
+  <md:uuid>8d48d30d-930f-4ce7-abc8-f40a087b33ab</md:uuid>
+</metadata>
+  <content>
+    <para id="id15150879">The beginning of the “Graphing Quadratic Functions II” exercise is review of yesterday. After letting them work on it together, you may want to interrupt and have them do the thing in the middle as a TAPPS exercise. The key things you need to ask them about are how this is the same as, and different from, the way we completed the square before. For instance, we used to add nine to both sides (because, let’s face it, we <emphasis>had</emphasis> two sides). Now we only have one side, so we add 9 to it, <emphasis>and</emphasis> subtract 9 from it, at the same time. This gives us what we want (the perfect square) without changing the function.</para>
+    <para id="id13528812"><title>Homework:</title>“Homework: Graphing Quadratic Functions II.” You will get questions the next day about #8 (which is really a line) and #11 (which they just flat can’t graph at this point). These lead nicely into #12. If it has an <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> but no 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, it’s a vertical parabola. If it has a 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> but no 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, it’s a horizontal parabola.</para>
+  </content>
+</document>

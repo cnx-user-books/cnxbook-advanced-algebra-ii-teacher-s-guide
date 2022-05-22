@@ -1,0 +1,131 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Lines</title>
+  <metadata>
+  <md:content-id>m19337</md:content-id><md:title>Lines</md:title>
+  <md:abstract>A teacher's guide to the section on lines in preparation for later lectures on functions.</md:abstract>
+  <md:uuid>37ee6792-4db8-4608-babf-8367a8367abf</md:uuid>
+</metadata>
+  <content>
+    <para id="id13089901">This is largely review: if there is one thing the students <emphasis>do</emphasis> remember from Algebra I, it’s that <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>m</m:mi>
+</m:math> is the slope and <m:math>
+<m:mi>b</m:mi>
+</m:math> is the <m:math>
+<m:mi>y</m:mi>
+</m:math>-intercept. However, we’re going to view this from the viewpoint of <emphasis>linear functions.</emphasis></para>
+    <para id="id11464235">Start by giving an example like the following: I have 100 markers in my desk. Every day, I lose 3 markers. Talk about the fact that you can write a function <m:math>
+<m:mi>m</m:mi>
+<m:mo>(</m:mo>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+</m:math> that represents the number of markers I have as a function of day. It is a <emphasis>linear</emphasis> function because it <emphasis>changes by the same amount every day</emphasis>. If I lose three markers one day and four the next, there is still a function <m:math>
+<m:mi>m</m:mi>
+<m:mo>(</m:mo>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+</m:math>, but it is no longer a <emphasis>linear </emphasis>function. (If this is done right, it sets the stage for exponential functions later: linear functions <emphasis>add</emphasis> the same amount every day, exponential functions <emphasis>multiply</emphasis> by the same amount every day. But I wouldn’t mention that yet.)</para>
+    <para id="id13173559">So, given that it changes by the same amount every day, what do you need to know? Just two things: how much it changes every day <m:math>
+<m:mo>(</m:mo>
+<m:mn>-3</m:mn>
+<m:mo>)</m:mo>
+</m:math>, and where it started <m:math>
+<m:mo>(</m:mo>
+<m:mn>100</m:mn>
+<m:mo>)</m:mo>
+</m:math>. These are the slope and the <m:math>
+<m:mi>y</m:mi>
+</m:math>-intercept, respectively. So we can say <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>100</m:mn>
+</m:math> but I actually prefer to write the <m:math>
+<m:mi>b</m:mi>
+</m:math> first: <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+</m:math>. This reads very naturally as “start with 100, and then subtract 3, <m:math>
+<m:mi>x</m:mi>
+</m:math> times.”</para>
+    <para id="id13081961">Hammer this point home: a linear function is one that adds the same amount every time. Other examples are: I started with $100 and make $5.50 each hour. (Money as a function of time.) I start on a 40' roof and start piling on bricks that are
+<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math> ' each. (Height as a function of number of bricks.)</para>
+    <para id="id6538664">Then talk more about slope—that slippery concept that doesn’t tell you <emphasis>how high</emphasis> the function is at all, but just <emphasis>how fast it’s going up</emphasis>. With a few quick drawings on the board, show how you can look at a line and guesstimate its slope: positive if it’s going up, negative if it’s going down, zero for horizontal. You can’t necessarily tell the difference between a slope of 3 and a slope of 5, but you can immediately see the difference between 3 and <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>. Emphasize that when we say “going up” and “going down” we always mean <emphasis>as you go from left to right</emphasis>: this is a very common source of errors.</para>
+    <para id="id13113603">Talk about the strict definition of slope. Actually, I always give two definitions. One is: every time <m:math>
+<m:mi>x</m:mi></m:math> increases by 1, y increases by the slope. (Again: if the slope is negative, <m:math>
+<m:mi>y</m:mi>
+</m:math> decreases.) The other is: for <emphasis>any two points</emphasis> on the line, the slope is <m:math>
+<m:mfrac>
+<m:mrow>
+<m:mi>Δ</m:mi>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>Δ</m:mi>
+<m:mi>y</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math> (“rise over run”). Show that this ratio is the same whether you choose two points that are close, or two points that are far apart. Emphasize that this is only true for lines.</para>
+    <para id="id13169785">Finally, why is it that in <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>, the <m:math>
+<m:mi>b</m:mi>
+</m:math> is the <m:math>
+<m:mi>y</m:mi>
+</m:math>-intercept? Because the <m:math>
+<m:mi>y</m:mi>
+</m:math>-intercept is, by definition, the value of <m:math>
+<m:mi>y</m:mi>
+</m:math> when <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. If you plug <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> into <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi></m:math> you get 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>b</m:mi>
+</m:math>.</para>
+    <para id="id12446789">All this may take all day, or more than one day. Or, it may go very quickly, since so much of it is review. When you’re done, have them work the in-class assignment “Lines” in groups.</para>
+    <para id="id13132641"><title>Homework:</title>“Homework: Graphing Lines”</para>
+  </content>
+</document>

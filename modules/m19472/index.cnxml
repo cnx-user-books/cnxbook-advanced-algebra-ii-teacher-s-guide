@@ -1,0 +1,259 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Multiplying Binomials</title>
+  <metadata>
+  <md:content-id>m19472</md:content-id><md:title>Multiplying Binomials</md:title>
+  <md:abstract/>
+  <md:uuid>86803e96-e827-45e5-89e1-5b019bd4dc53</md:uuid>
+</metadata>
+  <content>
+    <para id="id47089473">Sounds trivial, doesn’t it? But this is one of the most important days in the year.</para>
+    <para id="id47560429">What they <emphasis>do </emphasis>know, from Algebra I, is how to FOIL. This takes two seconds of review and you’re done. However, there are two points that their Algebra I teacher never made.</para>
+    <list id="id47489707" list-type="enumerated"><item>When we say 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+</m:math>, we are asserting the equality of two functions—that is, if I plug any number into <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math>, and plug that same number into 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+</m:math>, it should come out the same. It’s an <emphasis>algebraic generalization</emphasis>.</item>
+      <item>FOIL leaves you high and dry if you have to multiply 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+</m:math>. The <emphasis>real</emphasis> algorithm for multiplying polynomials is to multiply <emphasis>everything on the left</emphasis> by <emphasis>everything on the right</emphasis>. Walk through an example of this on the board. Show them how FOIL is just a special case of this rule, with both things are binomials.</item>
+    </list>
+    <para id="id47640715">At this point, they can start working in pairs on the exercise “Multiplying Binomials.” They should have no problem with the first few. As you are walking around, your main job is to make sure that they are doing #5 correctly. They should <emphasis>not</emphasis> be multiplying these out explicitly (so that 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math> becomes 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+<m:mo>)</m:mo>
+</m:math> and then combining the middle terms. They should instead be using the <emphasis>formula</emphasis> that they just developed, 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> to jump straight to the right answer. A lot of them will find this very confusing. I always explain it this way: <m:math>
+<m:mi>x</m:mi>
+</m:math> and a are both placeholders that could represent <emphasis>anything</emphasis>. So when we say:</para>
+    <para id="id46933159"><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para>
+    <para id="id46843802">what we’re really saying is:</para>
+    <para id="id47572666"><m:math>
+<m:mo>(</m:mo>
+<m:mtext>something</m:mtext>
+<m:mo>+</m:mo>
+<m:mtext>something_else</m:mtext>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mtext>something</m:mtext>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>(</m:mo>
+<m:mtext>something</m:mtext>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mtext>something_else</m:mtext>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mtext>something_else</m:mtext>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para>
+    <para id="id47527021">Maybe walk them through the first one as an example.</para>
+    <para id="id47566350">One point of this exercise is to get them to the point where they can see immediately, <emphasis>with no in-between steps</emphasis>, that 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>8</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+</m:math>. Some of them will think that this new, confusing method may be faster, but they can just go right on doing it the “old way” with FOIL. I always explain to them that, in a few days, we’ll be learning a technique called <term>completing the square</term> that involves <emphasis>reversing</emphasis> this formula, and therefore cannot possibly be done with FOIL. They need to know the formula.</para>
+    <para id="id47483692">Another point is to get our three formulae on the table: 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, and 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. There are very few things I ask the class to memorize during the year, but these three formulae should all be committed to memory.</para>
+    <para id="id47552335">But the larger point is to give them a new understanding and appreciation for what variables do—to understand that <m:math>
+<m:mi>x</m:mi>
+</m:math> and a represent <emphasis>anything</emphasis>, so that once you have a formula for <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> you can use that formula directly to find 
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>z</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.</para>
+    <para id="id47393195"><title>Homework:</title>“Homework: Multiplying Binomials”</para>
+  </content>
+</document>

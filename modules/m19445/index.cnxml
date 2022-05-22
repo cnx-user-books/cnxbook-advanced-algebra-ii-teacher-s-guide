@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Introduction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>39df9069-8133-4aad-8437-9ba838a884f6</md:uuid>
+</metadata>
+  <content>
+    <para id="id20930926">This is a “double” unit—that is, it is so long that I have a major test right in the middle of it.</para>
+    <para id="id21467276">The EOC spends an inordinate amount of time on problems like this:</para>
+    <para id="id20785256">The Kind of Problem I Don’t Bother Too Much With</para>
+    <para id="id15231268">This matrix shows McDonald’s sales for a three-day period.</para>
+    <para id="id18507062"><table id="id20912582" summary="A table showing McDonalds' sales for a three day period.">
+
+
+<tgroup cols="4"><colspec colnum="1" colname="c1"/><colspec colnum="2" colname="c2"/><colspec colnum="3" colname="c3"/><colspec colnum="4" colname="c4"/><tbody><row><entry/><entry>Big Macs</entry><entry>Fries</entry><entry>Coke</entry></row><row><entry>Monday</entry><entry>$1,000</entry><entry>$500</entry><entry>$2,000</entry></row><row><entry>Tuesday</entry><entry>$1,500</entry><entry>$700</entry><entry>$2,700</entry></row><row><entry>Wednesday</entry><entry>$800</entry><entry>$800</entry><entry>$1,500</entry></row></tbody></tgroup></table>What were their total sales on Monday? What were their total sales of Big Macs? On which day did they make the most profit? etc etc…</para>
+    <para id="id3409626">I guess the object is to make it appear that “matrices are useful” but it is really deceptive. Of course, matrices are useful, but not because they give you a convenient way to organize tabular data and then add columns or look things up.</para>
+    <para id="id4887429">So I don’t spend much time on this kind of thing. I start with what a matrix is (which is sort of like that). I develop the rules for adding matrices, subtracting them, multiplying a matrix by a constant, and setting two matrices equal to each other—all of which are very obvious, and should not be presented as a mystery, but rather just as something obvious.</para>
+    <para id="id17501109">Then comes the big two days of magic, in which we learn to multiply matrices. I use a “gradebook” application which gives an example of why you would want to do this strange operation—it makes a lot of sense up to the point where you are multiplying an arbitrary-dimensions matrix by a column matrix, although it gets a bit strained when you expand the second matrix. No matter. They need to get the mechanics of how you multiply matrices, and just practice them.</para>
+    <para id="id21358589">After that bit of magic, the rest should follow logically. The definition of <m:math><m:mo>[</m:mo><m:ci>I</m:ci><m:mo>]</m:mo></m:math>, the definition of an inverse matrix and how you find one, and (the final hoorah) the way you use matrices to solve linear equations, should all be logical and consistent, based on the one magic trick, which is multiplying them. Oh, also there is a magic trick where you find determinants, which doesn’t have much to do with anything else.</para>
+    <para id="id5033460">There is one other thing I need to address, which is calculators. There is a day that I set aside to teach them explicitly how to do matrices on the calculator. But that day is after the first test. Before that day, I don’t mention it at all. And even after that day, I stress doing things by hand, and give them problems that will force them to do so (by using variables). But I do love showing them that you can solve five equations with five unknowns quickly and easily by using matrices and a calculator!</para>
+    <section id="id16969990">
+      <title>Introduction to Matrices</title>
+      <para id="id10051658">Tell them to get into groups and work on “Introduction to Matrices.” I think it is very self-explanatory. You may want to make the analogy at some point that setting two matrices equal to each other is kind of like setting two complex numbers equal to each other: for “this” to equal “that,” all their respective parts must be equal.</para>
+      
+      <para id="id18693981"><title>Homework:</title>“Homework—Introduction to Matrices”</para>
+    </section>
+  </content>
+</document>

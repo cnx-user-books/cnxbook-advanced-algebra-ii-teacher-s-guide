@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to Simultaneous Equations</title>
+  <metadata>
+  <md:content-id>m19497</md:content-id><md:title>Introduction to Simultaneous Equations</md:title>
+  <md:abstract/>
+  <md:uuid>d8b7df40-00bc-40e5-a6aa-fe8ddd1454a2</md:uuid>
+</metadata>
+  <content>
+    <para id="eip-496">Like all our topics so far, this unit reviews something the students covered in Algebra I—but it goes deeper.</para><para id="id3160344">Begin by having them work their way through the assignment “Distance, Rate, and Time” in pairs. Most of it should be pretty easy, including getting to the general relation <m:math>
+<m:mi>d</m:mi>
+<m:mo>=</m:mo>
+<m:mi>r</m:mi>
+<m:mi>t</m:mi>
+</m:math>. It should not take much time.</para>
+    <para id="id3160362">Until the last question, that is. Let them work on this for a while. Some will get all the way, some will not get very far at all. But after they’ve been at it for a while, tell them to stop working and pull them back to a classwide discussion. Show them how to set up <m:math>
+<m:mi>d</m:mi>
+<m:mo>=</m:mo>
+<m:mi>r</m:mi>
+<m:mi>t</m:mi>
+</m:math> for each case, and make sure they understand. Maybe come up with another problem or two along the same lines, including one where the <emphasis>times</emphasis> are the same and the <emphasis>distances</emphasis> are different. (A train leaves Chicago and a train leaves New York, when do they crash…) Get them comfortable with <emphasis>setting up</emphasis> the two equations—we’re not really focused on solving them.</para>
+    <para id="id3160416">Toward the end, see if they remember that there are three ways of solving these equations. Two of them, Substitution and Elimination, will be covered tomorrow. Tonight, on homework, we are going to solve by graphing. Your big job is to drive home the point that since a graph represents all the points where a particular relationship is true, therefore the place where the two graphs intersect is the point where both relationships are true. Also talk about the fact that graphing is not 100% accurate (you sort of eyeball a point and say “it looks like around this”) and how to check your answer (plug it back into both equations).</para>
+    <para id="id3160443"><title>Homework:</title>“Homework: Simultaneous Equations by Graphing”</para>
+  </content>
+</document>

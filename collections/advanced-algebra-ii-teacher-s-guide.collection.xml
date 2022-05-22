@@ -1,0 +1,165 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10687</md:content-id>
+    <md:title>Advanced Algebra II: Teacher's Guide</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>500964bd-c0be-4fe2-b11e-c3cb5a560781</md:uuid>
+<md:slug>advanced-algebra-ii-teacher-s-guide</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m19503"/>
+    <col:module document="m19435"/>
+    <col:subcollection>
+      <md:title>Functions</md:title>
+      <col:content>
+        <col:module document="m19335"/>
+        <col:module document="m19342"/>
+        <col:module document="m19331"/>
+        <col:module document="m19332"/>
+        <col:module document="m19334"/>
+        <col:module document="m19339"/>
+        <col:module document="m19340"/>
+        <col:module document="m19337"/>
+        <col:module document="m19333"/>
+        <col:module document="m19336"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Inequalities and Absolute Values</md:title>
+      <col:content>
+        <col:module document="m19432"/>
+        <col:module document="m19430"/>
+        <col:module document="m19428"/>
+        <col:module document="m19426"/>
+        <col:module document="m19431"/>
+        <col:module document="m19433"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Simultaneous Equations</md:title>
+      <col:content>
+        <col:module document="m19497"/>
+        <col:module document="m19498"/>
+        <col:module document="m19499"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Quadratics</md:title>
+      <col:content>
+        <col:module document="m19469"/>
+        <col:module document="m19472"/>
+        <col:module document="m19466"/>
+        <col:module document="m19470"/>
+        <col:module document="m19465"/>
+        <col:module document="m19480"/>
+        <col:module document="m19468"/>
+        <col:module document="m19467"/>
+        <col:module document="m19479"/>
+        <col:module document="m19473"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Exponents</md:title>
+      <col:content>
+        <col:module document="m19325"/>
+        <col:module document="m19327"/>
+        <col:module document="m19318"/>
+        <col:module document="m19322"/>
+        <col:module document="m19329"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Logarithms</md:title>
+      <col:content>
+        <col:module document="m19436"/>
+        <col:module document="m19438"/>
+        <col:module document="m19440"/>
+        <col:module document="m19439"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Rational Expressions</md:title>
+      <col:content>
+        <col:module document="m19486"/>
+        <col:module document="m19488"/>
+        <col:module document="m19489"/>
+        <col:module document="m19487"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Radicals</md:title>
+      <col:content>
+        <col:module document="m19484"/>
+        <col:module document="m19483"/>
+        <col:module document="m19485"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Imaginary Numbers</md:title>
+      <col:content>
+        <col:module document="m19424"/>
+        <col:module document="m21990"/>
+        <col:module document="m19423"/>
+        <col:module document="m19425"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Matrices</md:title>
+      <col:content>
+        <col:module document="m19445"/>
+        <col:module document="m19448"/>
+        <col:module document="m19449"/>
+        <col:module document="m19443"/>
+        <col:module document="m19446"/>
+        <col:module document="m19451"/>
+        <col:module document="m19447"/>
+        <col:module document="m19442"/>
+        <col:module document="m19450"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Modeling Data with Functions</md:title>
+      <col:content>
+        <col:module document="m19454"/>
+        <col:module document="m19452"/>
+        <col:module document="m19453"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Conics</md:title>
+      <col:content>
+        <col:module document="m19307"/>
+        <col:module document="m19299"/>
+        <col:module document="m19298"/>
+        <col:module document="m19315"/>
+        <col:module document="m19313"/>
+        <col:module document="m19311"/>
+        <col:module document="m19303"/>
+        <col:module document="m19305"/>
+        <col:module document="m19306"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Sequences and Series</md:title>
+      <col:content>
+        <col:module document="m19495"/>
+        <col:module document="m19490"/>
+        <col:module document="m19491"/>
+        <col:module document="m19494"/>
+        <col:module document="m19492"/>
+        <col:module document="m19493"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Probability</md:title>
+      <col:content>
+        <col:module document="m19463"/>
+        <col:module document="m19461"/>
+        <col:module document="m19464"/>
+        <col:module document="m19462"/>
+        <col:module document="m19460"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

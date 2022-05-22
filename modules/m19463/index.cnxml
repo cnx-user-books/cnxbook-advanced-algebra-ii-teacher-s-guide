@@ -1,0 +1,109 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Probability -- Tree Diagrams</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7180271d-d131-427c-ac13-93acf9ecb655</md:uuid>
+</metadata>
+  <content>
+    <para id="id11965912">You can start them off here with the in-class assignment “How Many Groups?” or even hand it out after the previous test: it isn’t long or difficult, and it does not require any introduction.</para>
+    <para id="id6358150">It does, however, require a lot of follow-up. The worksheet leads to a lecture, and the lecture goes something like this.</para>
+    <para id="id11047740">The big lesson for the first day is how to make a chart of all the possibilities for these kinds of scenarios. For the die-and-coin problem, the tree diagram looks like (draw this on the board):</para>
+    <figure id="id12181587"><media id="idp1225568" alt="Outcome from the coin flipping experiment."><image src="../../media/graphics1-98dc.png" mime-type="image/png" print-width="4in"/></media></figure>
+    <para id="id6348457">It may seem silly to repeat “Heads-Tails, Heads-Tails,” and so on, six times. But if you do so, each “leaf” of this “tree” represents exactly one possibility. For instance, the third leaf represents “The die rolls a 2, and the coin gets heads.” That’s a completely different outcome from the fifth leaf, “The die rolls a 3 and the coin gets heads.”</para>
+    <para id="id7821672">Using a tree like this, we can answer probability questions.</para>
+<exercise id="ex1">
+<problem id="idp7111280">
+    <para id="id6310485"> What is the probability of the outcome “Die rolls 2, coin gets heads?” Just ask this question, give them 15 seconds or so to think about it, then call on someone for the answer. But then, talk through the following process for getting the answer.</para>
+</problem>
+</exercise>
+    <list id="id10845799" list-type="enumerated"><item>Count the number of leaves that have this particular outcome. In this case, only one leaf.</item>
+      <item>Count the total number of leaves. In this case, twelve.</item>
+      <item>Divide. The probability is <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>12</m:cn>
+  </m:apply>
+</m:math>.</item>
+    </list>
+<exercise id="ex2">
+<problem id="idp1838960">
+    <para id="id5254376">What is the probability of the outcome “Die rolls a prime number, coin gets tails?” Give them 30 seconds or so, then go through it carefully on the chart. There are three such leaves. (*Trivia fact: 1 is not considered a prime number.) So the probability is <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>3</m:cn>
+    <m:cn>12</m:cn>
+  </m:apply>
+</m:math>, or <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math>.</para>
+</problem>
+</exercise>
+<exercise id="ex3"><problem id="idp94768">
+    <para id="id7774114">What does that really mean? I mean, either you’re going to get that outcome, or you’re not. After you roll-and-flip, does it really mean anything to say “The probability of that outcome was <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math>?”</para>
+
+</problem>
+</exercise>
+<para id="element-286">Give the class a minute, in pairs, to come up with the best possible explanation they can of what that statement, “The probability of this event is <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math>,” really means. Call on a few. Ultimately, you want to get to this: it doesn’t really mean much, for one particular experiment. But if you repeat the experiment 1,000 times, you should expect to get this result about 250 of them.</para><exercise id="ex4"><problem id="idm9965744">
+    <para id="id6348108">Why are there twelve leaves? (Or: How could you figure out that there are twelve leaves, without counting them?)</para>
+</problem>
+<solution id="idp7170384">    
+<para id="id6349113">It’s six (number of possibilities for the die) times two (number of possibilities for the coin). For the second question on the worksheet, with the frogs, there are 15,000 groups, or 5,000×3. This multiplication rule is really the heart of all probability work, so it’s best to get used to it early.</para>
+</solution>
+</exercise>
+    <para id="id11438405">Get the idea? OK, let’s try a new one.</para>
+    <para id="id11513040">A Ford dealer has three kinds of sedans: Ford Focus, Taurus, or Fusion. The Focus sedan comes in three types: S, SE, or SES. The Fusion sedan also comes in three types: S, SE, or SEL. The Taurus comes in only two models: SEL, and Limited. (All this is more or less true, as far as I can make out from their Web site.)</para>
+    <para id="id4960995">Ask everyone in the class, in pairs, to draw the appropriate tree and use it to answer the following questions.</para>
+    <list id="id8958200" list-type="bulleted"><item>If you choose a car at random from the dealer lot, what are the odds that it is a Fusion? (Answer: <m:math>
+<m:mfrac>
+<m:mn>3</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+</m:math>.)</item>
+      <item>What are the odds that it is a Fusion SE? (Answer: <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>8</m:cn>
+  </m:apply>
+</m:math>.)</item>
+      <item>What are the odds that it is any kind of SEL? (Answer: <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math>.)</item>
+      <item>Finally—and most important—what assumption must you make in answering all of the above questions, that was not stated in the original description of the situation?</item>
+    </list>
+    <para id="id10261154">Hopefully someone will come up with the answer I’m looking for to that last question: you’re assuming that the dealer’s lot has exactly the same number of each possible kind of car. In real life, of course, that assumption is very likely wrong.</para>
+    <para id="id8780165">This ties in, of course, to the last question on the assignment they did. Red-haired people are considerably more rare than the other types. So this business of “counting leaves” only works when each leaf is exactly as common, or probable, as each other leaf. This does not mean we cannot do probability in more complicated situations, but it means we will need to develop a more sophisticated rule.</para>
+    <section id="id10332940"><title>Homework</title><para id="hw2323">“Homework: Tree Diagrams”</para>
+    <para id="id11952778">When going over this homework the next day, there are two things you want to emphasize about problem #2 (stars). First: because the actual tree diagram would have 70 leaves, you don’t want to physically draw it. You sort of have to imagine it. They have seen three diagrams now: the coin-and-die, the cars, and the three-coins. That should be enough for them to start to imagine them without always having to draw them.</para>
+    <para id="id9824850">Second: the answer to question 2(c) is not “one in 70, so maybe 14 or so.” That logic worked fine with 1(e), but in this case, it is not reasonable to assume that all types of stars are equally common. The right answer is, “I can’t answer this question without knowing more about the distribution of types.”</para>
+    <para id="id10897448">Problem #3(e) is subtler. The fact that <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math> of the population is children does not mean that <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math> of the white population is children. It is quite possible that different ethnic groups have different age breakdowns. But ignoring that for the moment, problem #3 really brings out a lot of the main points that you want to make the next day:</para></section>
+  </content>
+</document>

@@ -1,0 +1,76 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Radicals -- A Bunch of Other Stuff About Radicals</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>96d675e4-4183-4d17-8c07-245252ba029f</md:uuid>
+</metadata>
+  <content>
+    <para id="id12320755">Yeah, it’s sort of a grab bag—a miscellaneous compilation of word problems, review from yesterday, and so on. You can just get them started working on the assignment after you’re done going over yesterday’s homework.</para>
+    <para id="id9420819">Toward the end, however, they are going to start running into trouble. This is when you introduce rationalizing the denominator. You may want to bring the whole class together to see who can figure out how to rationalize 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {3} +1} } } {}</m:annotation></m:semantics></m:math>. It’s a great opportunity to review our rules of multiplying binomials: 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+<m:mi>b</m:mi>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> which is why multiplying by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> doesn’t work; 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>a</m:mi>
+<m:mo>-</m:mo>
+<m:mi>b</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> which is why multiplying by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics><m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:math> does.</para>
+    <para id="id12658765">But please be very careful here, because this particular topic has a very subtle danger. A lot of teachers communicate the idea that denominators should always be rationalized, “just because”—because I said so, or because somehow 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {2} }  over  {2} } } {}</m:annotation></m:semantics></m:math>is “simpler” than 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {2} } } } {}</m:annotation></m:semantics></m:math>. This is one of the best ways to convince students that math just doesn’t make sense.</para>
+    <para id="id14061317">What I’m trying to do with this exercise is demonstrate a real practical benefit of rationalizing the denominator, which is that it helps you add and subtract fractions. It’s difficult or impossible to come up with a common denominator without doing this first!</para>
+    <para id="id11048695">And of course, we have the “you never understand a function until you’ve graphed it” question. Talk a bit about the graph after they get it. They should be able to see that the domain and range are both <m:math>
+<m:mo>≥</m:mo>
+<m:mn>0</m:mn>
+</m:math> and why this must be so. They should see that for large values, it grows very slowly (like a log), but without the drastic behavior that the log shows in the <m:math>
+<m:mn>0</m:mn>
+<m:mo>≤</m:mo>
+<m:mi>x</m:mi>
+<m:mo>≤</m:mo>
+<m:mn>1</m:mn>
+</m:math> range.</para>
+    
+    <para id="id14428718"><title>Homework:</title>“Homework: A Bunch of Other Stuff About Radicals”</para>
+  </content>
+</document>

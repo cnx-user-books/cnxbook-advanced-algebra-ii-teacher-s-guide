@@ -1,0 +1,40 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Parabolas, Day 1</title>
+  <metadata>
+  <md:content-id>m19315</md:content-id><md:title>Parabolas, Day 1</md:title>
+  <md:abstract>A teacher's guide to lectures on parabolas.</md:abstract>
+  <md:uuid>182e4113-c161-45b7-b702-f62673161639</md:uuid>
+</metadata>
+  <content>
+
+      <para id="id10808383">Once again, when you start, <emphasis>don’t tell them</emphasis> we’re doing parabolas! Tell them we’re going to create another club. This time the requirement for membership is: you must be exactly the same distance from the point (0,3) that you are from the line <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-3</m:mn>
+</m:math>. For instance, the point (3,3) is not part of our club—it is 3 units away from (0,3) and <emphasis>six</emphasis> units away from <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-3</m:mn>
+</m:math>.</para>
+      <para id="id12323213">Now, let them work in groups on “All the Points Equidistant from a Point and a Line” to see if they can find the shape from just that. If they need a hint, tell them there is one <emphasis>extremely</emphasis> obvious point, and two <emphasis>somewhat</emphasis> obvious points. After that they have to dink around.</para>
+      <para id="id12681705">When all or most groups have it, go through it on the blackboard, something like this. The extremely obvious point is the origin. The “somewhat” obvious points are (-6,3) and (6,3). Show why all those work.</para>
+      <para id="id13253631">Now, can any point <emphasis>below the</emphasis> x-axis work? Clearly not. Any point below the x-axis is “obviously” (meaning, after you show them for a minute) closer to the line, than to the point.</para>
+      <para id="id13163537">So, let’s start working up from the origin. The origin was in the club. As we move up, we are getting <emphasis>closer</emphasis> to the point, and <emphasis>farther away</emphasis> from the line. So how can we maintain equality? The only way is to move <emphasis>farther away</emphasis> from the point, by moving out. In this way, you sketch in the parabola.</para>
+      <para id="id11499352">Now, you introduce the terminology. We’re already old friends with the <emphasis>vertex</emphasis> of a parabola. This point up here is called the <emphasis>focus.</emphasis> This line down here is the <emphasis>directrix.</emphasis> The focus and directrix are kind of like the center of a circle, in the sense that they are central to the <emphasis>definition</emphasis> of what a parabola is, but they are not themselves <emphasis>part</emphasis> of the parabola. The vertex, on the other hand, <emphasis>is</emphasis> a part of the parabola, but is not a part of the definition.</para>
+      <para id="id13283553">The directrix, of course, is a horizontal line: but what if it isn’t? What is the directrix is vertical? Then we have a <emphasis>horizontal parabola.</emphasis> Of course it isn’t a function, but it’s still a shape we can graph and talk about, and we have seen them a few times before. If you have time, work through <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>8</m:mn>
+<m:mi>y</m:mi>
+</m:math>.</para>
+      <para id="id12187106"><title>Homework:</title>“Homework: Vertical and Horizontal Parabolas”</para>
+      
+    
+  </content>
+</document>

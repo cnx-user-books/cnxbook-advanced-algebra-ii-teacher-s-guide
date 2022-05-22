@@ -1,0 +1,173 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Permutations</title>
+  <metadata>
+  <md:content-id>m19339</md:content-id><md:title>Permutations</md:title>
+  <md:abstract>A teacher's guide to permutations and functions.</md:abstract>
+  <md:uuid>3a1cc2ac-ddb0-4d31-afb0-708b3eaea083</md:uuid>
+</metadata>
+
+<content>
+          <para id="id3265080">The end of the “Graphing” homework sets this topic up.</para>
+      <para id="id8127203">Have one person in the class “be” <m:math><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. He is allowed to use a calculator; so you can, for instance, hand him the number 1.7 and he will square it, producing the point (1.7,2.89).</para>
+      <para id="id12421238">Another person is <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>. He is <emphasis effect="italics">not</emphasis> allowed to use a calculator, but he <emphasis effect="italics">is</emphasis> allowed to talk to the first person, who is. So if you hand him 1.7, he asks the first person, who says 2.9, and then he comes back with a 3.9. Make sure everyone understands what we have just learned: the graph of <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> contains the point (1.7,3.9). Do a few points this way.</para>
+      <para id="id4213543">Another person is <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn></m:msup>
+</m:math> with the same rules. So if you give him a 1.7 he hands a 2.7 to the calculator person. Make sure everyone understands how this process gives us the point (1.7,7.3).</para>
+      <para id="id6637142">Talk about the fact that the first graph is a <emphasis effect="italics">vertical</emphasis> permutation: it messed with the y-values that came out of the function. It’s easy to understand what it did. It added 1 to every y-value, so the function went up 1.</para>
+      <para id="id8141884">The second graph is a <emphasis effect="italics">horizontal</emphasis> permutation: it messed with the x-values that went into the function. It’s harder to see what that did: why did <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> move to the left? Ask them to explain that.</para>
+      <para id="id9369224">Now hand them the worksheet “Horizontal and Vertical Permutations I.” Hand one to each person—they will start in class, but probably finish in the homework. It’s on the long side.</para>
+      <para id="id13995656">The next day, talk it all through very carefully. Key points to bring out:</para>
+      <list id="id8724457" list-type="enumerated" number-style="arabic"><item>What does <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+</m:math> mean? It means first plug a number into <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>, and then add 2.</item>
+        <item>And what does that do to the graph? It means every y-value is two higher than it used to be, so the graph moves up by 2.</item>
+        <item>What does <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+</m:math> mean? It means first add 2, then plug a number into <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>.</item>
+        <item>And what does that do to the graph? It means that when <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math> you have the same y-value that the old graph had when <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>. So your new graph is to the <emphasis effect="italics">left</emphasis> of the old one.</item>
+        <item>What does all that have to do with our rock? This should be a long-ish conversation by itself. The vertical and horizontal permutations represent very different types of changes in the life of our rock. Suggest a different scenario, such as our old standard, the number of candy bars in the room as a function of the number of students, <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mi>s</m:mi>
+<m:mo>)</m:mo>
+</m:math>. What scenario would <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mi>s</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:math> represent? How about <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mi>s</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+</m:math>?</item>
+      </list>
+      <para id="id7605073">If you haven’t already done so, introduce graphing on the calculator, including how to properly set the window. It only takes 5-10 minutes, but is necessary for the homework.</para>
+      <para id="id3451021">Now, put the graph of <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> on the board. We saw what <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> looked like yesterday. What do you think <m:math>
+<m:mo>−</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> would look like? How about <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo>
+<m:mn>3</m:mn>
+</m:math>?</para>
+      <para id="id14757308">At some point, during the first or second day, you can come back to the idea of domain. What is the domain of <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x+3} } {}</m:annotation></m:semantics></m:math>? See if they can see the answer both numerically (you can plug in <m:math><m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>−</m:mo>
+<m:mn>3</m:mn>
+</m:math> but not 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>−</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math> and graphically (the graph of <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math> moved three spaces to the left, and its domain moved too).</para>
+      <para id="id6715669"><title>Homework:</title>“Horizontal and Vertical Permutations II”</para>
+ 
+  </content>
+</document>

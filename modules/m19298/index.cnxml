@@ -1,0 +1,121 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Circles</title>
+  <metadata>
+  <md:content-id>m19298</md:content-id><md:title>Circles</md:title>
+  <md:abstract>A teacher's guide to lecturing on circles.</md:abstract>
+  <md:uuid>4bd930b4-d2c9-45c4-bd27-c455486c42f2</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id47717654">Our first shape. (Sometimes I have started with parabolas first, but I think this is simpler.)</para>
+      <para id="id47717662">Here’s how you’re going to start—and this will be the same for every shape. <emphasis>Don’t tell them what the shape is.</emphasis> Instead, tell them this. A bunch of points are getting together to form a very exclusive club. The membership requirement for the club is this: <emphasis>you must be exactly 5 units away from the origin.</emphasis> Any point that fulfills this requirement is in the club; any point that is either too close or too far, is not in the club. Give them a piece of graph paper, and have them draw all the points in the club. You come around and look at their work. If they are stuck, point out that there are a few very obvious points on the <m:math>
+<m:mi>x</m:mi>
+</m:math>-axis. The point is that, before any math happens at all, every individual group should have convinced themselves that this club forms a circle.</para>
+      <para id="id47719055">Then you step back and say—in Geometry class you used circles all the time, but you may never have formally defined what a circle is. We now have a formal definition: <emphasis>a circle is all the points in a plane that are the same distance from a given point.</emphasis> That distance is called what? (Someone will come up with “radius.”) And that given point is called what? (Someone may or may not come up with “center.”) The center plays a very interesting role in this story. It is the most important part, the only point that is key to the definition of the circle—but it is <emphasis>not itself part of the circle,</emphasis> not itself a member of the club. (The origin is not 5 units away from the origin.) This is worth stressing even though it’s obvious, because it will help set up less obvious ideas later (such as the focus of a parabola).</para>
+      <para id="id47719114">Point out, also, that—as predicted—the definition of a circle is based entirely on the idea of <emphasis>distance.</emphasis> So in order to take our general geometric definition and turn it into math, we will need to mathematically understand distance. Which we do.</para>
+      <para id="id47719134">At this point, they should be ready for the in-class assignment. They may need some help here, but with just a little nudging, they should be able to see how we can take the <emphasis>geometric definition</emphasis> of a circle leads very directly to the <emphasis>equation</emphasis> of a circle, <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> where (<m:math>
+<m:mi>h</m:mi>
+</m:math>,<m:math>
+<m:mi>k</m:mi>
+</m:math>) is the center and <m:math>
+<m:mi>r</m:mi>
+</m:math> is the radius. This formula should be in their notes, <emphasis>etc.</emphasis> Once we have this formula, we can use it to immediately graph things like <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>25</m:mn>
+</m:math>—to go from the equation to the graph, and vice-versa.</para>
+      <para id="id47719226">Once you have explained this and they get it, they are ready for the homework. They now know how to graph a circle in standard form, but what if the circle <emphasis>doesn’t</emphasis> come in standard form? The answer is to complete the square—twice, once for <m:math>
+<m:mi>x</m:mi>
+</m:math> and once for <m:math>
+<m:mi>y</m:mi>
+</m:math>. If it works out that the homework gets done in class (this day or the next day), you may want to do a brief TAPPS exercise with my little completing-the-square demo in the middle of the homework. However, they should also be able to follow it on their own at home.</para>
+      <para id="id47719265"><title>Homework:</title>“Homework: Circles”</para>
+      
+      <para id="id47720117">It may take a fair amount of debriefing afterward, and even a few more practice problems, before you are confident that they “get” the circle thing. They need to be able to take an equation for a circle in non-standard form, <emphasis>put</emphasis> it in standard form, and then graph it. And they need to still see how that form comes directly from the Pythagorean Theorem and the definition of a circle.</para>
+      <para id="id47720138">There is one other fact that I always slip into the conversation somewhere, which is: how can you look at an equation, such as 
+<m:math>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, and even tell if it is a circle? Answer: it has both an <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and a 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term, and they have the <emphasis>same coefficient.</emphasis> If there is no <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> or <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term, you have a line. If one exists but not the other, you have a parabola. By the time we’re done with this unit, we will have filled out all the other possible cases, and I expect them to be able to look at any equation and recognize immediately what shape it will be.</para>
+    
+  </content>
+</document>

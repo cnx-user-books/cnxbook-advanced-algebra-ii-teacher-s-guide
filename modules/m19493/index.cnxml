@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sequences and Series Guide -- Extra Credit</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>75b5517d-433b-4b22-88fc-f6bf82b56c2f</md:uuid>
+</metadata>
+  <content>
+    <section id="id10618086"><title>An extra cool problem you may want to use as an extra credit or something</title>
+      
+      <exercise id="ex1">
+<problem id="idp3389312">
+        <para id="id5168223">A bank gives <m:math>
+<m:mi>i</m:mi>
+<m:mo>%</m:mo>
+</m:math> interest, compounded annually. (For instance, if <m:math>
+<m:mi>i</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math>, that means 6% interest.) You put <m:math>
+<m:mi>A</m:mi>
+</m:math> dollars in the bank <emphasis>every year for <m:math>
+<m:mi>n</m:mi>
+</m:math> years</emphasis>. At the end of that time, how much money do you have?</para>
+
+      <note type="Note" id="idm3737520"><label>Note</label>(The fine print: Let’s say you make your deposit on January 1 every year, and then you check your account on December 31 of the last year. So if <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>, you put money in exactly once, and it grows for exactly one year.)</note>
+</problem>
+<solution id="idp5652432">      
+<para id="id8272102"> The money you put in the very <emphasis>last</emphasis> year receives interest exactly once. “Receiving interest” in a year always means being multiplied by
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics></m:math>. (For instance, if you make 6% interest, your money multiplies by 1.06.) So the 
+<m:math>
+<m:mi>A</m:mi>
+</m:math> dollars that you put in the last year is worth, in the end, <m:math>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics></m:math>.</para></solution>
+</exercise>
+      <para id="id11002268">The <emphasis>previous</emphasis> year’s money receives interest twice, so it is worth <m:math>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> at the end. And so on, back to the first year, which is worth <m:math>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n} } } {}</m:annotation></m:semantics></m:math> (since that initial contribution has received interest <m:math>
+<m:mi>n</m:mi>
+</m:math> times).</para>
+      <para id="id8005603">So we have a Geometric series:</para>
+      <para id="id8005606"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mo>...</m:mo>
+<m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id7104683">We resolve it using the standard trick for such series: multiply the equation by the common ratio, and then subtract the two equations.</para>
+      <para id="id7159931"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics><m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mo>...</m:mo>
+<m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n+1} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id10220161"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics>
+<m:mo>+</m:mo>
+<m:mo>...</m:mo>
+<m:mo>+</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id5193100"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics><m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n+1} } } {}</m:annotation></m:semantics><m:mo>–</m:mo>
+<m:mi>A</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1+ {  {i}  over  {"100"} }  right )} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12152641"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>100</m:mtext><m:mi>A</m:mi></m:mrow><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"100"A}  over  {i} } } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>i</m:mi><m:mtext>100</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ left (1+ {  {i}  over  {"100"} }  right ) rSup { size 8{n+1} }  -  left (1+ {  {i}  over  {"100"} }  right ) right ]} {}</m:annotation></m:semantics></m:math></para>
+<example id="exam1">      
+<para id="id11104458">Example: If you invest $5,000 per year at 6% interest for 30 years, you end up with:</para>
+      <para id="id8075112"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>100</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>5000</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"100" \( "5000" \) }  over  {6} } } {}</m:annotation></m:semantics><m:mo>[</m:mo>
+<m:mn>1.0631</m:mn>
+<m:mo>–</m:mo>
+<m:mn>1.06</m:mn>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo>
+<m:mo>$</m:mo>
+<m:mn>419,008.39</m:mn>
+</m:math></para>
+      <para id="id8680857">Not bad for a total investment of $150,000!</para>
+    </example></section>
+  </content>
+</document>

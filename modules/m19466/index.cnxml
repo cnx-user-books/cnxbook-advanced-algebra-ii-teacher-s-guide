@@ -1,0 +1,122 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Factoring</title>
+  <metadata>
+  <md:content-id>m19466</md:content-id><md:title>Factoring</md:title>
+  <md:abstract/>
+  <md:uuid>8013f03f-0cd7-4fde-a70e-5d2f5ee47ee9</md:uuid>
+</metadata>
+  <content>
+    <para id="id48746574">Begin class by reminding them of what they already know: factoring means turning <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+</m:math> into 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math>. Then ask—how would we <emphasis>check</emphasis> that? There are two ways. First, we can multiply it back (using FOIL for instance). Second, we can try a number (since we are making the claim that these two functions are “equal,” remember?). Stress this very heavily: they have to know <emphasis>both ways</emphasis> of checking. Why? Because if you don’t know both ways of checking, then you don’t really understand what factoring is, even if you get the right answer.</para>
+    <para id="id48746641">OK, on to…how do you do it? There are three steps to factoring.</para>
+    <list id="id48746648" list-type="enumerated"><item>Pull out common terms. <emphasis>This is always the first step!</emphasis></item>
+      <item>Use the formulae from yesterday. For instance, given 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>9</m:mn>
+</m:math>, you recognize it as the difference between two squares. Given 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+</m:math>, you recognize it as 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.</item>
+      <item>When all else fails, plain old-fashioned factoring. Do a few examples on the board, just to refresh their memory. <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+</m:math>, 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>12</m:mn>
+</m:math>, 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>12</m:mn>
+</m:math>, 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>12</m:mn>
+</m:math> are good starting examples, and give you an opportunity to talk about what effect negative numbers have, both in the middle term (not much) and in the last term (lots). The thing I always stress is to <emphasis>start with the last term</emphasis>—find all the pairs of numbers that multiply to give you the last term, and then see if any of them add to give you the middle term. The real test is when you are faced with something like 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>8</m:mn>
+</m:math>; it should <emphasis>not take long</emphasis> to determine that it cannot be factored!</item>
+    </list>
+    <para id="id47866000">Now they are ready to start on the “Factoring” assignment during class.</para>
+    <para id="id47866007"><title>Homework:</title>“Homewoik: Factah Alla Dese Heah Spressions”</para>
+    <para id="id47866017">As I mentioned, this might be a good place to break and have a quiz. Or it might not. What do I know? Anyway, on to quadratics…</para>
+  </content>
+</document>

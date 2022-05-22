@@ -1,0 +1,22 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>So What Are Logarithms Good For, Anyway?</title>
+  <metadata>
+  <md:content-id>m19439</md:content-id><md:title>So What Are Logarithms Good For, Anyway?</md:title>
+  <md:abstract>A teacher's guide to the applications of logarithmic functions.</md:abstract>
+  <md:uuid>edc2485d-9ec0-46d3-b025-4fad9ca68bfd</md:uuid>
+</metadata>
+  <content>
+    <para id="id14609256">As always, things get harder when we get into word problems. There are a few things I want them to take away here.</para>
+    <para id="id20872168">First—logs are used in a wide variety of real world situations.</para>
+    <para id="id19992337">Second—logs are used because they compress scales. In other words, because they grow so slowly, we use logarithmic scales whenever we want to work with a function that, by itself, grows too quickly. Or, to put it another way, we use logarithms whenever something varies so much that you don’t care exactly what is, just what the power of 10 is. Don’t say all this before they start working, but hopefully they will come up with something like this on #6.</para>
+    
+    <para id="id18641232"><title>Homework:</title>“Homework: What Are Logarithms Good For, Anyway?”</para>
+    <para id="id16684011">In addition to following up on the in-class work, the homework here also introduces the common and natural logs. It’s a bit of a weak connection, but I had to stick them somewhere.</para>
+    <section id="id19721318">
+      <title>Time for Another Test!</title>
+      <para id="id9206353">The sample test is actually pretty important here. It pulls together a lot of ideas that have been covered pretty quickly.</para>
+      <para id="id21480912">The extra credit is just a pun. The answer is log cabin or, better yet, natural log cabin. Who says math can’t be fun?</para>
+      <para id="id14487545">According to my reckoning, you are now approximately halfway through the curriculum. Mid-terms are approaching. If there are a couple of weeks before mid-terms, I would not recommend going on to radicals—spend a couple of weeks reviewing. Each topic (each test, really) can stand a whole day of review. It may be the most important time in the whole class!</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Identity and Inverse Matrices</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>315e59d7-b9d3-4d54-a20a-086477a44fe3</md:uuid>
+</metadata>
+  <content>
+    <para id="id22488060">This may, in fact, be two days masquerading as one—it depends on the class. They can work through the sheet on their own, but as you are circulating and helping, make sure they are really reading it, and getting the point! As I said earlier, they need to know that <m:math><m:mo>[</m:mo>
+  <m:ci>I</m:ci><m:mo>]</m:mo>
+</m:math> is defined by the property <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:ci>AI</m:ci>
+    <m:ci>IA</m:ci>
+    <m:ci>A</m:ci>
+  </m:apply>
+</m:math>, and to see how that definition leads to the diagonal row of 1s. They need to know that <m:math>
+  <m:apply>
+    <m:power/>
+    <m:ci>A</m:ci>
+    <m:cn>-1</m:cn>
+  </m:apply>
+</m:math> is defined by the property <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:power/>
+      <m:ci>AA</m:ci>
+      <m:apply>
+        <m:minus/>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:power/>
+      <m:ci>A</m:ci>
+      <m:cn>1</m:cn>
+    </m:apply>
+  </m:apply>
+</m:math> <m:math><m:mo>=</m:mo><m:mi>I</m:mi></m:math>, and to see how they can find the inverse of a matrix directly from this definition. That may all be too much for one day.</para>
+    <para id="id19139439">I also always mention that only a square matrix can have an <m:math><m:mo>[</m:mo><m:ci>I</m:ci><m:mo>]</m:mo></m:math>. The reason is that the definition requires <m:math>
+  <m:ci>I</m:ci>
+</m:math> to work commutatively: <m:math>
+  <m:ci>AI</m:ci>
+</m:math> and <m:math>
+  <m:ci>IA</m:ci>
+</m:math> both have to give <m:math>
+  <m:ci>A</m:ci>
+</m:math>. You can play around very quickly to find that a <m:math>
+  <m:apply>
+    <m:times/>
+    <m:cn>2</m:cn>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math> matrix cannot possibly have an <m:math><m:mo>[</m:mo><m:ci>I</m:ci><m:mo>]</m:mo></m:math> with this requirement. And of course, a non-square matrix has no inverse, since it has no <m:math><m:mo>[</m:mo><m:ci>I</m:ci><m:mo>]</m:mo></m:math> and the inverse is defined in terms of <m:math><m:mo>[</m:mo><m:ci>I</m:ci><m:mo>]</m:mo></m:math>!</para>
+    
+    <para id="id19287218"><title>Homework:</title>“Homework—The Identity and Inverse Matrices”</para>
+  </content>
+</document>

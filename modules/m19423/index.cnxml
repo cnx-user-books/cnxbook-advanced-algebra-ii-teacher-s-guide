@@ -1,0 +1,144 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Complex Numbers</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19423</md:content-id>
+  <md:title>Complex Numbers</md:title>
+  <md:abstract>A teacher's guide to complex numbers.</md:abstract>
+  <md:uuid>e46f773f-e1f6-4c8e-89c0-7ef001700b29</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/introduction-to-imaginary-numbers" strength="3">Imaginary Numbers Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id6267214">The first thing you need to do is define a complex number. A complex number is a combination of real and imaginary numbers. It is written in the form <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math>, where <m:math>
+<m:mi>a</m:mi>
+</m:math> and <m:math>
+<m:mi>b</m:mi>
+</m:math> are both real numbers. Hence, there is a “real part” <m:math>
+<m:mo>(</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+</m:math> and an “imaginary part” <m:math>
+<m:mo>(</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+<m:mo>)</m:mo>
+</m:math>. For instance, in <m:math>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mi>i</m:mi>
+</m:math>, the real part is 3 and the imaginary part is <m:math>
+<m:mn>4</m:mn>
+<m:mi>i</m:mi>
+</m:math>.</para>
+    <para id="id16787235">At this point, I like to try to put this in context, by talking about all the different kinds of numbers we have seen. We started with counting numbers: 1, 2, 3, 4, and so on. If you are counting pebbles, these are the only numbers you will ever need.</para>
+    <para id="id15896786">Then you add zero, and negative numbers. Are negative numbers real things? Can they be the answers to real questions? Well, sure…depending on the question. If the question is “How many pebbles do you have?” or “How many feet long is this stick?” then the answer can never be –2: negative numbers are just not valid in these situations. But if the answer is “What is the temperature outside?” or “How much money is this company worth?” then the answer can be negative. This may seem like an obvious point, but I’m building up to something, so make sure it’s clear—we have invented new numbers for certain situations, which are completely meaningless in other situations. I also stress that we have gone from the counting numbers to a more general set, the integers, which includes the counting numbers plus other stuff.</para>
+    <para id="id15951660">Then we add fractions, and the same thing applies. If the question is “How many pebbles do you have?” or “How many live cows are on this farm?” the answer can never be a fraction. But if the question is “How many feet long is this stick?” a fraction may be the answer. So again, we have a new set—the rational numbers­—and our old set (integers) is a subset of it. And once again, these new numbers are meaningful for some real life questions and not for others. I always mention that “rational numbers” (“rational” not meaning “sane,” but meaning rather a “ratio”) are always expressable as the ratio of two integers, such as <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math> or 
+<m:math>
+<m:mfrac>
+<m:mn>–22</m:mn>
+<m:mn>7</m:mn>
+</m:mfrac>
+</m:math>. So since we have already defined the integers, we can use them to help define our larger set, the rational numbers.</para>
+    <para id="id14795358">But some numbers are not rational—they cannot be expressed as the ratio of two integers. These are the irrational numbers. Examples are <m:math>
+<m:mi>π</m:mi>
+</m:math>, <m:math>
+<m:mi>e</m:mi>
+</m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> (or the square root of any other number that is not a perfect square).</para>
+    <para id="id13984899">If we add those to our collection—put the rational and irrationals together—we now have all the real numbers. You can draw a number line, going infinitely off in both directions, and that is a visual representation of the real numbers.</para>
+    <para id="id16375812">And now, finally, we have expanded our set even further, to the complex numbers, <m:math>
+		<m:mi>a</m:mi>
+		<m:mo>+</m:mo>
+		<m:mi>b</m:mi>
+		<m:mi>i</m:mi>
+	</m:math>. Just as we piggybacked the definition of rational numbers on top of our definition of integers, we are piggybacking our definition of complex numbers on top of our definition of real numbers.</para>
+    <para id="id12190183">All that may sound unnecessary, and of course, it is. But some students really get into it. I have had students draw the whole thing into a big Venn diagram—which I did not ask them to do. (*It is a good extra credit assignment, though.) My own diagram is at the very end of this unit in the “Conceptual Explanations,” under the heading “The World of Numbers.” Many students like seeing all of math put into one big structure. And it helps make the point that complex numbers—just like each other generalization—are valid answers to some questions, but not to others. In other words, as I said before, you will never measure a brick that is 5i inches long. (It never hurts to keep saying this.)</para>
+    <para id="id17203910">The complex numbers are completely general—any number in the world can be expressed as <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math>. This is not obvious! There are plenty of things you can write that don’t look like <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math>. One example is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {i} } } {}</m:annotation></m:semantics></m:math> which does not look like <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math> but can be put into that form, as we have already seen. Other examples are <m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mi>i</m:mi>
+</m:msup>
+</m:math> and 
+<m:math>
+<m:mi>ln</m:mi>
+<m:mo>(</m:mo>
+<m:mi>i</m:mi>
+<m:mo>)</m:mo>
+</m:math>, which we are not going to mess with, but they are worth pointing out as other examples of numbers that don’t look like <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math>, but take-my-word-for-it you can make them if you want to. And then there is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>i</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {i} } {}</m:annotation></m:semantics></m:math>, which we are going to tackle tomorrow.</para>
+    <para id="id16956873">That is probably all the setup you need. They can do the in-class exercise on Complex Numbers and see for themselves that whether you add, subtract, multiply, or divide them, you get back to a complex number. Also make sure they get the point about what it means for two complex numbers to be equal: this will be very important as we move on. One other thing I like to mention at some point (doesn’t have to be now) is that there are no inequalities with imaginary numbers. You cannot meaningfully say that 
+<m:math>
+<m:mn>1</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mi>i</m:mi>
+</m:math> or that <m:math>
+<m:mn>1</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mi>i</m:mi>
+</m:math>. Because they cannot be graphed on a number line, they don’t really have “sizes”—they can be equal or not, but they cannot be greater than or less than each other.</para>
+
+    <para id="id7357161"><title>Homework:</title>“Homework: Complex Numbers”</para>
+    <para id="id15901783">When going over this homework, make a special point of talking about #12. This helps reinforce the most important point of the year, about generalizations. Once you have found what happens to <m:math>
+<m:mo>(</m:mo>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+<m:mo>)</m:mo>
+</m:math> when you multiply it by its complex conjugate, you have a general formula which can be used to multiply any complex number by its complex conjugate, without actually going through the work. Show them how #6, 8, and 10 can all be solved using this formula. Also, remind them that <m:math>
+<m:mi>a</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>b</m:mi>
+</m:math> are by definition real—so the answer <m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is also real. That is, whenever you multiply a number by its complex conjugate, you get a real answer. This is why there is no possible answer to #14.</para>
+  </content>
+</document>

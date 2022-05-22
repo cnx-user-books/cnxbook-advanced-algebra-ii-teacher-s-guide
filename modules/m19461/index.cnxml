@@ -1,0 +1,147 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Probability -- Introduction to Probability</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>61971795-d952-4934-8e24-ddf6c23a1078</md:uuid>
+</metadata>
+  <content>
+    <para id="id13610173">OK, let’s really talk about problem #3 from last night’s homework. And for the moment, let’s ignore part (e), and go ahead and assume that <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math> of all white people are children. Based on that assumption, you would expect roughly 75 white people, about 19 of whom are children, and about 9 of whom are boys. If you answered exactly <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>75</m:cn>
+    <m:cn>8</m:cn>
+  </m:apply>
+</m:math>, or 9.375, that isn’t a crazy answer. Of course, you can’t actually have 9.375 white boys in a room. But that is actually the “expectation value” for such an experiment. If you have a thousand rooms with a hundred people each, the average number of white boys in each room will probably be 9.375.</para>
+    <para id="id17415668">In the formal language of probability, we would say that for any randomly chosen person in the U.S. in 2006, there is a 9.375% chance that this person will be a white boy. That’s what “percent” means: out of a hundred.</para>
+<exercise id="ex1">
+<problem id="idm8161376">
+    <para id="id13878717">What percent of the people in this class, right now, are girls?</para>
+</problem>
+</exercise>
+<exercise id="ex2">
+<problem id="idm5858432">
+    <para id="id21850045">If you roll a die, what is the percent chance that you will get an even number?</para>
+</problem>
+</exercise>
+    <para id="id24940324">OK, that’s easy enough. But we’re going to tweak it a bit. Obviously, there is nothing magical about the number 100. We could just as easily ask “How many out of a thousand?” or “How many out of 365?” But what turns out to be most convenient, mathematically, is to ask the question “How many out of 1?”</para>
+    <para id="id22319047">This is how we are going to work with probability numbers from here on out, so it is very important to understand this numbering system!</para>
+    <list id="id14752031" list-type="bulleted"><item>The probability of any event whatsoever, under any and all circumstances, is always between 0 and 1. A probability of –2, or a probability of 2, is meaningless.</item>
+      <item>A probability of 0 means “It cannot possibly happen.”</item>
+      <item>A probability of 1 means “It is guaranteed to happen.”</item>
+      <item>A probability of <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math> means “It has a one in four chance of happening,” or “If you try this 100 times, it will probably happen 25 of them,” so it is the same as a 25% chance.</item>
+    </list>
+    <para id="id5176612">After you have said all that, you’re ready to hit them with the worksheet “Introduction to Probability.” It should only take 10 minutes (half of which is spent on #2a).</para>
+    <para id="id24597202">Then come back. Let’s go over #2 carefully.</para>
+    <para id="id23008149">2b. The probability is <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>16</m:cn>
+  </m:apply>
+</m:math>. You can see this from the tree diagram, but how could we have figured it out without a drawing? The answer—we’ve discussed this before, and it is absolutely central—is by multiplying. 4 possibilities for the first die, times 4 possibilities for the second die, makes 16 possibilities for the combination.</para>
+    <para id="id20487316">But here’s another way we can look at that same multiplication. The probability of “3 on the first die” is <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math>. The probability of “2 on the second die” is also <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math>. So the probability of both these events happening is <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+</m:math>, or <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>16</m:mn>
+</m:mfrac>
+</m:math>.</para>
+    <para id="id22540765">When you have two different independent events—that is, neither one has an effect on the other—the probability of both happening is the probability of the first one, times the probability of the second one.</para>
+    <para id="id10875980">The idea of “independent” events is crucial here, of course, and you have to stress it. But it’s also a fairly obvious point, and there is a real danger of making it sound more esoteric than it is. If you spend ten minutes discussing the word “independent” you may do more harm than good. Consider trying this instead. Tell that class that you’re looking into a big box full of bananas. One out of every four bananas in the box is green; the rest are yellow. Also, one out of every three bananas is stamped “Ship to California”; the rest say “ship to New York.” Finally, half the bananas are over four days old.</para>
+    <list id="id13059121" list-type="bulleted"><item>What is the probability that a given banana is green, and destined for New York? <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:divide/>
+        <m:cn>1</m:cn>
+        <m:cn>4</m:cn>
+      </m:apply>
+<m:mo>×</m:mo>
+      <m:apply>
+        <m:divide/>
+        <m:cn>2</m:cn>
+        <m:cn>3</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:divide/>
+      <m:cn>1</m:cn>
+      <m:cn>6</m:cn>
+    </m:apply>
+  </m:apply>
+</m:math>. One out of every six bananas have both of these attributes. Or, to put it another way, a given randomly chosen banana has a <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>1</m:cn>
+    <m:cn>6</m:cn>
+  </m:apply>
+</m:math> chance of having both attributes.</item>
+      <item>What is the probability that a given banana is green, and over four days old? Well, not much. Not <m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:divide/>
+        <m:cn>1</m:cn>
+        <m:cn>4</m:cn>
+      </m:apply>
+<m:mo>×</m:mo>
+      <m:apply>
+        <m:divide/>
+        <m:cn>1</m:cn>
+        <m:cn>2</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:divide/>
+      <m:cn>1</m:cn>
+      <m:cn>8</m:cn>
+    </m:apply>
+  </m:apply>
+</m:math>. Because in general, as a banana gets older, it turns from green to yellow. So being green, and being old, are not independent: one makes the other less likely.</item>
+    </list>
+    <para id="id7290541">Now, ask the class, in pairs, to come up with a similar scenario. (It should not involve fruit!) They should think of two events that are independent, and calculate the probability of both of them happening. Then they should think of two events that are not independent, and explain why the probability of both of them happening is not the product of their individual probabilities.</para>
+    <para id="id5403700"><title>Homework</title>“Homework: The Multiplication Rule”</para>
+    <para id="id24102324">Going over this homework, of course you want to make sure that the last problem gets answered. With a little thought, it should be obvious to anyone that if <m:math>
+  <m:ci>P</m:ci>
+</m:math> is the probability that something will occur, <m:math>
+  <m:apply>
+    <m:minus/>
+    <m:cn>1</m:cn>
+    <m:ci>P</m:ci>
+  </m:apply>
+</m:math> is the probability that it will not occur. If it happens 1 time out of 5, then it doesn’t happen 4 times out of 5. This can be memorized as a new rule, along with the multiplication rule, but it is easier to see why it works.</para>
+  </content>
+</document>

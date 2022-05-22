@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Parabolas: From Definition to Equation</title>
+  <metadata>
+  <md:content-id>m19311</md:content-id><md:title>Parabolas: From Definition to Equation</md:title>
+  <md:abstract>A teacher's guide on teaching the connection between the definition and equation of a parabola, and how to get from one to the other.</md:abstract>
+  <md:uuid>896b79b6-55ff-4128-944e-38a520fc3e08</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id11510350">OK, where are we? We started with the geometric definition of a parabola. Then we jumped straight to the machinery, and we never attempted to connect the two. But that is what we’re going to do now.</para>
+      <para id="id11189144">Remember what we did with circles? We started with our geometric definition. We picked an arbitrary point on the circle, called it (<m:math>
+<m:mi>x</m:mi>
+</m:math>,<m:math>
+<m:mi>y</m:mi>
+</m:math>), and wrote an equation that said “you, Mr. (<m:math>
+<m:mi>x</m:mi>
+</m:math>,
+<m:math>
+<m:mi>y</m:mi>
+</m:math>), are exactly 5 units away from the origin.” That equation became the equation for the circle.</para>
+      <para id="id10821205">Now we’re going to do the same thing with a parabola. We’re going to write an equation that says “you, Mr. (<m:math>
+<m:mi>x</m:mi>
+</m:math>,
+<m:math>
+<m:mi>y</m:mi>
+</m:math>), are the same distance from the focus that you are from the directrix.” In doing so, we will write the equation for a parabola, <emphasis>based on</emphasis> the geometric definition. And we will discover, along the way, that the distance from the focus to the vertex really is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id11153921">That’s really all the setup this assignment needs. But they will need a lot of help doing it. Let them go at it, in groups, and walk around and give hints when necessary. The answers we are looking for are:</para>
+      <list id="id11110648" list-type="enumerated"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. As always, hint at this by pushing them toward the Pythagorean triangle.</item>
+        <item><m:math>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+</m:math>. The way I always hint at this is by saying “Try numbers. Suppose instead of (<m:math>
+<m:mi>x</m:mi>
+</m:math>,
+<m:math>
+<m:mi>y</m:mi>
+</m:math>) this were (3,10). Now, how about (10,3)?” and so on, until they see that they are just adding 4 to the y-coordinate. Then remind them of the rule, from day one of this unit—to find distances, subtract. In this case, subtract -4.</item>
+        <item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+</m:math>. This is the key step! By asserting that <m:math>
+<m:mi>d</m:mi>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+</m:math>, we are writing the definition equation for the parabola.</item>
+        <item>Good algebra exercise! Square both sides, the <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> terms cancel, and you’re left with 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>8</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+</m:math>. Solve for <m:math>
+<m:mi>y</m:mi>
+</m:math>, and you end up with <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:math>. Some of them will have difficulty seeing that this is the final form—point out that we can rewrite it as <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>0</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:math>, if that helps. So the vertex is (0,-2) and the distance from focus to vertex is 2, just as they should be.</item>
+      </list>
+      <para id="id10429994">Warn them that this <emphasis>will be on the test!</emphasis></para>
+      <para id="id5409418">Which brings me to…</para><section id="eip-864"><title>Time for another test!</title><para id="eip-765">
+Our first test on conics. I go back and forth as to whether I should give them a bunch of free information at the top of the test—but it’s probably a good idea to give them a chart, sort of like the one on top of my sample.
+</para></section>
+    
+  </content>
+</document>

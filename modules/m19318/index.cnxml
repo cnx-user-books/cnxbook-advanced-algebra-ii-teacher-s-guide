@@ -1,0 +1,255 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Extending the Idea of Exponents</title>
+  <metadata>
+  <md:content-id>m19318</md:content-id><md:title>Extending the Idea of Exponents</md:title>
+  <md:abstract>A teacher's guide to extending the concept of exponents to students.</md:abstract>
+  <md:uuid>26a31e6e-402d-4b19-8016-55035b794bb4</md:uuid>
+</metadata>
+  <content>
+    <para id="id12116124">This is one of my favorite class discussions. You’re going to talk almost the entire class, and just give out an assignment toward the end.</para>
+    <para id="id12360733">So far, we have only talked about exponents in the context of positive integers. The base can be anything: for instance, we can find 
+<m:math>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math> or 
+<m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>. But when we say that 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> means 
+<m:math>
+<m:mn>2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>2</m:mn>
+</m:math>, that definition is really only meaningful if the exponent is a positive integer. We can’t multiply 
+<m:math>
+<m:mn>2</m:mn>
+</m:math> by itself “
+<m:math>
+<m:mn>–3</m:mn>
+</m:math> times” or “<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math> times.” Or “0 times” for that matter.</para>
+    <para id="id14244614">So, let’s plop ourselves down in an imaginary point in history where exponents are only defined for positive integers. We are the king’s mathematicians. The king has just walked in and demanded that we come up with some sort of definition for what 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>-3</m:mn>
+</m:msup>
+</m:math> means. “Zero and negative numbers have rights too,” he growls. “They must be treated equally, and given equal rights to be in the exponent.”</para>
+    <para id="id10585094">So we start with a brainstorming exercise. The object is to come up with as many possible things as you can think of, for 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>-3</m:mn>
+</m:msup>
+</m:math> to mean. As always, this should be done in groups of 2 or 3, and remind them that the object is quantity, not quality: let’s get creative. If you can’t think of more than two or three definitions, you’re not trying hard enough.</para>
+    <para id="id12663468">By the way, somewhere in class there is a smart-aleck who knows the right answer and therefore won’t plan. “It’s 
+<m:math>
+<m:mn>1</m:mn>
+<m:mo>/</m:mo>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>” he insists proudly. “Why are we doing this?” To which you reply: “The people in the class are coming up with dozens of things it could mean. Can you give them a good argument as to why it should mean that, instead of all the others?” And he weakly answers “Well, my Algebra I teacher told me…” and you’ve won. The point, you explain, is not to parrot what your teacher told you, but to understand several things. The first is that our old definition of an exponent (“multiply by itself this many times”) just doesn’t apply here, and so we need quite literally a new definition. The second is that there are a ton of definitions we could choose, and it frankly seems arbitrary which one we pick. The third is that there really is a good reason for choosing one and only one definition. But if he doesn’t know what that he, how about if he gets with the program and brainstorms? End of discussion.</para>
+    <para id="id14394810">OK, so after a few minutes, you start collecting ideas from the groups. 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>-3</m:mn>
+</m:msup>
+</m:math> means…
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>, only negative (so it’s –8). It means 2 divided by itself three times, <m:math>
+<m:mn>2</m:mn>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math> (so it’s either <m:math>
+<m:mn>2</m:mn>
+</m:math> or <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac></m:math>, depending on how you parenthesize it). And so on. With a bunch of ideas on the board, you say, now we have to choose one. How do we do that? That is, what criteria do we use to decide that one definition is better than the others? (silence)</para>
+    <para id="id12117992">The answer is—the definition should be as consistent as possible with the one we already have. Of course it won’t mean the same thing. But it should behave mathematically consistently with the rules we have: for instance, it should still obey our three laws of exponents. That sort of consistency is going to be the guideline that we use to choose a definition for the king.</para>
+    <para id="id13252402">And hey, what exactly do negative numbers mean anyway? One way to look at them is, they are what happens when you take the positive numbers and keep going down. That is, if you go from 5 to 4 to 3 and just keep going, you eventually get to 0 and then negative numbers. This alone is a very powerful way of looking at negative numbers. You can use this to see, for instance, why positive-times-negative-equals-negative and why negative-times-negative-equals-positive.</para>
+    <table id="id12800435" summary="A table showing the result of multiplying signed integers.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>
+<m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn>3</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>15</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>0</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>-1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-5</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>-2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-10</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</entry>
+            <entry/>
+            <entry>
+<m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn>3</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-15</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-10</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-5</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>0</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>-1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>-2</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table>
+    <para id="id10507532">OK, you may or may not want to get into this, but I think it’s cool, and it does help pave the way for where we’re going. (It also helps reinforce the idea that even the rules you learned in second grade have reasons.) The numbers I’ve written on the left there show what happens to “multiply-by-5” as you count down. Clearly, looking at the positive numbers, the answers are going down by 5 every time. So if that trend continues as we dip into negative numbers, then we will get –5 and then –10 on the bottom: negative times positive equals negative.</para>
+    <para id="id10671517">On the right, we see what happens to “multiply-by--5” as you count down. Since we already know (just proved) that positive-times-negative-equals-negative, we know that <m:math>
+<m:mn>3</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-15</m:mn>
+</m:math> and so on. But what is happening to these answers as we count down? They are going up by 5. So, continuing the trend, we find that <m:math>
+<m:mn>-1</m:mn>
+<m:mo>•</m:mo>
+<m:mn>-5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math> and so on.</para>
+    <para id="id14426511">As I say, you may want to skip that. What is essential is to get across the point that we need a new definition that will cover negative exponents, and that we are going to get there by looking for consistency with the positive ones. Then they are ready for the in-class assignment: it shouldn’t take long. Do make sure to give them 10 minutes for it, though—you want them to finish it in class, and have time to ask you questions, so you know they are ready for the homework.</para>
+    
+    <para id="id12909110"><title>Homework:</title>“Homework: Extending the Idea of Exponents”</para>
+  </content>
+</document>

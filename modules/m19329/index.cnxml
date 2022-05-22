@@ -1,0 +1,155 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>“Real Life” Exponential Curves</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19329</md:content-id>
+  <md:title>“Real Life” Exponential Curves</md:title>
+  <md:abstract>A teacher's guide to example exponential curves.</md:abstract>
+  <md:uuid>fe0fc4e1-4263-4843-b993-e8fe74bc5811</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/compound-interest-finite-number-of-calculations" strength="3">Compound Interest Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/exponential-growth-and-decay" strength="3">Exponential Growth and Decay Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id15830491">This is another one of those topics where the in-class exercise and the homework may take a total of two days, combined, instead of just one. This is a difficult and important topic.</para>
+    <para id="id21027664">We begin with a lecture something like the following:</para>
+    <para id="id22663380">Earlier this year, we talked about “linear functions”: they add a certain amount every time. For instance, if you gain $5 every hour, then the graph of your money vs. time will be a line: every hour, the total will add 5. The amount you gain each hour (5 in this case) is the slope.</para>
+    <para id="id22206305">Can a line also subtract every day? Sure! That isn’t a different rule, because adding is the same as subtracting a negative number. So if Mr. Felder is losing ten hairs a day, and you graph his hairs vs. time, the graph will be a line going down. The total subtracts 10 every day, but another way of saying that is, it adds –10 every day. The slope is –10. This is still a linear function.</para>
+    <para id="id22803774">So why am I telling you all this? Because “exponential functions” are very similar, except that they multiply by the same thing every time. And, just as linear functions can subtract (by adding negative numbers), exponential functions can divide (by multiplying by fractions: for instance, multiplying by <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math> is the same as dividing by 3). The amount you multiply by is called…well, come to think of it, it doesn’t have a cool name like “slope.” I guess we could call it the “base.”</para>
+    <para id="id17007477">Then they can begin to work on the assignment. They will make it through the table all right. But when it comes to finding the formula for the nth day, many will fall down. Here is a way to help them. Go back to the table and say: “On day 3, let’s not write “4”—even though it is 4 pennies. It is 2 times the previous amount, so let’s just write that: <m:math>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+</m:math>. On day 4, it’s 2 times that amount, or <m:math>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+</m:math>. On day 5, it’s 2 times that amount, or 
+<m:math>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+</m:math>. This is getting tedious…what’s a shorter way we can write that?” Once they have expressed every answer in powers of 2, they should be able to see the 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+</m:math> generalization. If they get the wrong generalization, step them through to the next paragraph, where they test to see if they got the right answer for day 30.</para>
+    <para id="id17132214">You go through the same thing on the compound interest, only harder. A lot of hand-holding. If you end one year with <m:math>
+<m:mi>x</m:mi>
+</m:math> then the bank gives you <m:math>
+<m:mn>.06</m:mn>
+<m:mi>x</m:mi>
+</m:math> so you now have a total of <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>.06</m:mn>
+<m:mi>x</m:mi>
+</m:math> which is, in fact, <m:math>
+<m:mn>1.06</m:mn>
+<m:mi>x</m:mi>
+</m:math>. So, hey, your money is multiplying by <m:math>
+<m:mn>1.06</m:mn>
+</m:math> every year! Which means if you started with $1000 then the next year you had <m:math>
+<m:mtext>$</m:mtext>
+<m:mn>1000</m:mn>
+<m:mo>•</m:mo>
+<m:mn>1.06</m:mn>
+</m:math>. And the next year, you multiplied that by <m:math>
+<m:mn>1.06</m:mn>
+</m:math>, so then you had <m:math>
+<m:mtext>$</m:mtext>
+<m:mn>1000</m:mn>
+<m:mo>×</m:mo>
+<m:mn>1.06</m:mn>
+<m:mo>×</m:mo>
+<m:mn>1.06</m:mn>
+</m:math>. And the year after that….</para>
+    <para id="id18869499">Toward the end of class, put that formula, <m:math>
+<m:mtext>$</m:mtext>
+<m:mn>1000</m:mn>
+<m:mo>×</m:mo>
+<m:mn>1.06</m:mn>
+<m:mi>n</m:mi>
+</m:math>, on the board. Explain to them that they can read it this way: “Just looking at it, we can see that it is saying you have $1000 multiplied by 1.06, <m:math>
+<m:mi>n</m:mi>
+</m:math> times.” This is always the way to think about exponential functions—you are multiplying by something a bunch of times.</para>
+    <para id="id19240318">The assignment is also meant to bring out one other point that you want to mention explicitly at the end. When we developed our definitions of negative and fractional exponents, we wanted them to follow the rules of exponents and so on. But now they are coming up in a much more practical context, and we have a new need. We want 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math> to be bigger than 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and smaller than <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>, right? After all, after 2½ years, you certainly expect to have more money than you had at the beginning of the year! It isn’t obvious at all that our definition, <m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>5</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{5} } } } {}</m:annotation></m:semantics></m:math>, will have that property: and if it doesn’t, it’s useless in the real world, even if it makes mathematicians happy. Fortunately, it does work out exactly that way.</para>
+    
+    <para id="id21412796"><title>Homework:</title>“Homework: ‘Real life’ exponential curves”</para><section id="element-877"><title>Time for Another Test!</title>
+<para id="element-878">The sample test will serve as a good reminder of all the topics we’ve covered here.  It will also alert them that knowing why <m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math> is defined the way it is <emphasis>really does count</emphasis>.  And it will give them a bit more practice (much-needed) with compound interest.
+</para></section>
+  </content>
+</document>

@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Graphing Quadratic Functions</title>
+  <metadata>
+  <md:content-id>m19468</md:content-id><md:title>Graphing Quadratic Functions</md:title>
+  <md:abstract/>
+  <md:uuid>47eab970-3d39-41f0-9090-f14cf2b7e292</md:uuid>
+</metadata>
+  <content>
+    <para id="id11859978">OK, we’re done solving quadratic equations—we already have three techniques and that’s enough. But—one thing I say a million times throughout my class—you never really understand a function until you graph it.</para>
+    <para id="id12499413">So, they can do the exercise “Graphing Quadratic Functions.” It doesn’t require any buildup, they can do it right now. Note that we are not introducing any of the formal machinery of parabolas (focus, directrix, <foreign>etc.)</foreign>—all that will come much later, in the unit on conics. We are graphing both horizontal and vertical parabolas the way we did in the very first unit on functions—by taking an initial starting point (
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> or 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>) and moving it up and down and left and right and stretching it and turning it upside-down. None of this should require a calculator.</para>
+    <para id="id13323418">It might be worth mentioning that a horizontal parabola is not a function. But we can still talk about it and graph it.</para>
+    <para id="id10899920"><title>Homework:</title>Finish the in-class assignment. That was a long one, wasn’t it?</para>
+  </content>
+</document>

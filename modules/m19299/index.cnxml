@@ -1,0 +1,76 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Distance</title>
+  <metadata>
+  <md:content-id>m19299</md:content-id><md:title>Distance</md:title>
+  <md:abstract>A teacher's guide to lecturing on distance in preparation for later classes on conic sections.</md:abstract>
+  <md:uuid>d29eb147-5a42-44be-882a-1e4669f8ab9f</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id5571397">Before I hand this out, I tell them a bit about where we’re going, in terms of the whole unit. We’re going to do “analytic geometry”—that is, linking geometry with algebra. We’re going to graph a bunch of shapes. And everything we’re going to do is built upon one simple idea: the idea of <emphasis>distance</emphasis>.</para>
+      <para id="id5745927">Let’s start with distance on a number line. (Draw a number line on the board.) Here’s 4, and here’s 10. What’s the distance between them? Right, 6. You don’t need to do any math, you can just count—1, 2, 3, 4, 5, 6. There we are.</para>
+      <para id="id5717142">How about the distance from 4 to 1? Right, 3. 4 to 0? Right, 4. One more: what is the distance from 4 to -5? Again, just count…1,2,3,4,5,6,7,8,9. The distance is nine.</para>
+      <para id="id5733289">So, what’s going on here? In each case, we’re counting from 4 to some other number: to 10, to 1, to 0, then to -5. What happened mathematically? We <emphasis>subtracted</emphasis>. This is a point that looks incredibly obvious, but really it isn’t, so it’s worth repeating: <emphasis>if you subtract two numbers, you get the distance between them</emphasis>. 10-4 is 6. 4-1 is 3. And the last one? 
+<m:math>
+<m:mn>4</m:mn>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math>. So even that works. Remember that we saw, by counting, that the distance from 4 to -5 is 9. Now we see that it works mathematically because subtracting a <emphasis>negative</emphasis> is like adding a <emphasis>positive</emphasis>.</para>
+      <para id="id5717425">Oh yeah…what if we had subtracted the other way? You know, 4-9 or -5-4. We would have gotten the right answers, only negative. But the distance would still be positive, because distance is always positive.</para>
+      <para id="id5757893">So, based on all that, at your seats, write down a <emphasis>formula</emphasis> for the distance from a to b on a number line: go! <emphasis>(give them thirty seconds)</emphasis> What did you get? 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>a</m:mi>
+<m:mo>-</m:mo>
+<m:mi>b</m:mi>
+<m:mo>|</m:mo>
+</m:math>? Good! <m:math>
+<m:mo>|</m:mo>
+<m:mi>b</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:mo>|</m:mo>
+</m:math>? Also good! They are the same thing. <m:math>
+<m:mi>a</m:mi>
+</m:math>-<m:math>
+<m:mi>b</m:mi>
+</m:math> and <m:math>
+<m:mi>b</m:mi>
+</m:math>-<m:math>
+<m:mi>a</m:mi>
+</m:math> are <emphasis>not</emphasis> the same thing, but when you take the absolute value, then they are.</para>
+      <para id="id5088896">Now, let’s get two-dimensional here. We’ll start with the easy case, which is when the points line up. In that case, we can use the same rule, right? For instance, let’s look at (4,3) and (10,3). How far apart are they? Same as before—6. We can just count, or we can just subtract, because the y-coordinates are the same. <emphasis>(Show them this visually!)</emphasis> Similarly, suppose we take (-2,5) and (-2,-8). Since the <m:math>
+<m:mi>x</m:mi>
+</m:math>-coordinates are the same, we can just count again, or just subtract the <m:math>
+<m:mi>y</m:mi>
+</m:math>-coordinates, and get a distance of 13.</para>
+      <para id="id5715832">Now, what if <emphasis>neither</emphasis> coordinate is the same? Then it’s a bit trickier. But we’re not going to use any magic “distance formula”—if you ever memorized one, throw it out. All we need is what we’ve already done. Let’s look at (-2,1) and (4,9). <emphasis>(Draw it!)</emphasis> To find that distance, we’re going to find the distance <emphasis>across</emphasis> and the distance <emphasis>up.</emphasis> So draw in this other point at (4,1). Now, draw a triangle, with the distance we want over here, and the distance across here, and the distance up here. These two sides are easy, because they are just what we have already been doing, right? So this is 6 and this is 8. So how do we find this third side, which is the distance we wanted? Right, the Pythagorean Theorem! So it comes out as 10.</para>
+      <para id="id5673301">The moral of the story is—<emphasis>whenever you need to find a distance, use the Pythagorean Theorem.</emphasis></para>
+      <para id="id5187414">OK, one more thing before you start the assignment. That was the distance between two <emphasis>points.</emphasis>How about the distance from <emphasis>a point to a line?</emphasis> For instance, what is the distance from you to the nearest street? The answer, of course, is—it depends on where on the street you want to get. But when we say, distance from you to the street, we mean the <emphasis>shortest</emphasis> distance. <emphasis>(Do a few drawings to make sure they get the idea of shortest distance from a point to a line. If the line is vertical or horizontal, then we are back to just counting. If it’s diagonal, life gets much more complicated, and we’re not going to get into it. Except I sometimes assign, as an extra credit assignment, “find the distance from the arbitrary point</emphasis> (<m:math>
+<m:mi>x</m:mi>
+</m:math>,<m:math>
+<m:mi>y</m:mi>
+</m:math>) <emphasis>to the arbitrary line</emphasis> 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>. <emphasis>It’s ugly and difficult, but I usually have one or two kids take me up on it. For the rest of the class, just promise to stick with horizontal and vertical lines, and counting.)</emphasis></para>
+      <para id="id5574115">After all that is said, they are ready to start on the assignment.</para>
+      <para id="id5122360"><title>Homework:</title>“Homework: Distance”</para>
+      
+    
+  </content>
+</document>

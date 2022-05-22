@@ -1,0 +1,190 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Solving Linear Equations</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d473b780-df1e-4283-85e7-8308322dd791</md:uuid>
+</metadata>
+  <content>
+    <para id="id25178061">Just let them start this assignment, it should explain itself.</para>
+    <para id="id10700976">This is the coolest thing in our whole unit on matrices. It is also the most dangerous.</para>
+    <para id="id10496137">The cool thing is, you can solve real-world problems very quickly, thanks to matrices—so matrices (and matrix multiplication and the inverse matrix and so on) prove their worth. If you are given:</para>
+    <para id="id25186952"><m:math>
+  <m:apply>
+    <m:minus/>
+    <m:apply>
+      <m:times/>
+      <m:cn>2</m:cn>
+      <m:ci>x</m:ci>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+      <m:cn>5</m:cn>
+      <m:ci>y</m:ci>
+    </m:apply>
+  </m:apply><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+</m:math></para>
+    <para id="id23562206"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:minus/>
+        <m:apply>
+          <m:times/>
+          <m:cn>6</m:cn>
+          <m:ci>x</m:ci>
+        </m:apply>
+        <m:ci>y</m:ci>
+      </m:apply>
+      <m:cn>2</m:cn>
+    </m:apply>
+    <m:cn>4</m:cn>
+  </m:apply>
+</m:math></para>
+    <para id="id11196983"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:minus/>
+        <m:apply>
+          <m:times/>
+          <m:cn>4</m:cn>
+          <m:ci>x</m:ci>
+        </m:apply>
+        <m:apply>
+          <m:times/>
+          <m:cn>10</m:cn>
+          <m:ci>y</m:ci>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>2</m:cn>
+        <m:ci>z</m:ci>
+      </m:apply>
+    </m:apply>
+    <m:cn>2</m:cn>
+  </m:apply>
+</m:math></para>
+    <para id="id24380157">you plug into your calculator <m:math><m:mo>[</m:mo><m:ci>A</m:ci><m:mo>]</m:mo><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>6</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+2 {} #  - 5 {} # 1 {} ##
+6 {} #  - 1 {} # 2 {} ##
+4 {} #  - "10" {} # 2{}
+}  right ]} {}</m:annotation></m:semantics></m:math>, <m:math><m:mo>[</m:mo><m:ci>B</m:ci><m:mo>]</m:mo><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+1 {} ##
+4 {} ##
+2
+}  right ]} {}</m:annotation></m:semantics></m:math>, ask for <m:math>
+  <m:apply>
+    <m:times/>
+    <m:apply>
+      <m:power/>
+      <m:ci>A</m:ci>
+      <m:apply>
+        <m:minus/>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:ci>B</m:ci>
+  </m:apply>
+</m:math>, and the answer pops out! They should be able to do this process quickly and mechanically.</para>
+    <para id="id13585032">But the quick, mechanical nature of the process is also its great danger. I want them to see the logic of it. I want them to see exactly why the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>6</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+2 {} #  - 5 {} # 1 {} ##
+6 {} #  - 1 {} # 2 {} ##
+4 {} #  - "10" {} # 2{}
+}  right ]} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mi>x</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi>y</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>z</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+x {} ##
+y {} ##
+z
+}  right ]} {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+1 {} ##
+4 {} ##
+2
+}  right ]} {}</m:annotation></m:semantics></m:math> is exactly like those three separate equations up there. I want them to be able to solve like this:</para>
+    <para id="id12488450"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:ci>AX</m:ci>
+    <m:ci>B</m:ci>
+  </m:apply>
+</m:math></para>
+    <para id="id24308347"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:power/>
+        <m:ci>A</m:ci>
+        <m:apply>
+          <m:minus/>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:ci>AX</m:ci>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:power/>
+        <m:ci>A</m:ci>
+        <m:apply>
+          <m:minus/>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:ci>B</m:ci>
+    </m:apply>
+  </m:apply>
+</m:math></para>
+    <para id="id25644597"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:ci>IX</m:ci>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:power/>
+        <m:ci>A</m:ci>
+        <m:apply>
+          <m:minus/>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:ci>B</m:ci>
+    </m:apply>
+  </m:apply>
+</m:math></para>
+    <para id="id25574526"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:ci>X</m:ci>
+    <m:apply>
+      <m:times/>
+      <m:apply>
+        <m:power/>
+        <m:ci>A</m:ci>
+        <m:apply>
+          <m:minus/>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:ci>B</m:ci>
+    </m:apply>
+  </m:apply>
+</m:math></para>
+    <para id="id24427839">to see why it comes out as it does. If they see that this is all perfectly logical, and they know how to do it, the day is a big success—and in fact, this sort of justifies the whole unit on matrices.</para>
+    <para id="id25419149">As a final point, mention what happens if the equations were unsolvable: matrix A will have a 0 determinant, and will therefore have no inverse, so the equation won’t work. (You get an error on the calculator.)</para>
+    
+    <para id="id24512665"><title>Homework</title>“Homework—Solving Linear Equations”</para>
+    <section id="id13826154">
+      <title>Time for Another Test!</title>
+      <para id="id24839340">And, time to conclude our unit on matrices.</para>
+    </section>
+  </content>
+</document>

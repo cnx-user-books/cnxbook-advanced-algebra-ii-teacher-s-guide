@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19432</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract>Introduction to Chapter 2 of Felder's Algebra 2 Teacher's Guide.</md:abstract>
+  <md:uuid>dd3958ef-d7dc-4044-9785-dc3b34398753</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/absolute-value/t/definitions-and-applications-of-absolute-value" strength="3">Absolute Value Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="element-353">I like to have this unit early in the year, because it introduces another of my main themes: some of these problems <emphasis>require you to think</emphasis>.  There is almost no “mechanical” way to solve them.  I want to set up that expectation early.</para><para id="delete_me">Of course, this is really two very different topics, and both of them contain an element of review as well as some new material. But by the time we get to combining them in problems like <m:math>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>|</m:mo>
+<m:mo>&lt;</m:mo>
+<m:mn>7</m:mn>
+</m:math>, it is new to everybody.  Those problems are harder than you might suppose!</para>   
+  </content>
+  
+</document>

@@ -1,0 +1,164 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Graphing</title>
+  <metadata>
+  <md:content-id>m19334</md:content-id><md:title>Graphing</md:title>
+  <md:abstract>A teacher's guide to graphing functions.</md:abstract>
+  <md:uuid>bf1d726c-80c3-4f99-8847-c3cf7edee183</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">Make sure, on the homework, that they reached something like <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.  Of course, someone may have used completely different letters; and someone else may have said that 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.  Point out that these are just as good—they look different, but they say the same thing.  Finally, show them how they could have arrived at 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> through FOIL.</para><para id="element-661">Once all questions are satisfied, on to graphing.  This may actually be two days worth of material.  Don’t rush it!  And once again, no in-class assignment, but a lot of interaction.</para><para id="element-992">Start by putting the following points on the board: (6,5)(3,6)(2,9)(5,7)(1,10)(4,8).  Ask for a general description—if these represent the number of pushups you do each day, what’s the trend?  Then graph them, and you can see a definite downward trend with an odd spike in the middle.  Moral: we can see things in <emphasis>shapes</emphasis> that we can’t see in <emphasis>numbers</emphasis>.</para><para id="element-946">Now, let’s jump to the idea of graphing functions.  Draw a U-shape, the equation <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, and say “This drawing is the graph of that function—but what does that <emphasis>mean</emphasis>?  What does this drawing actually have to do with that function?”  Get to the point where the following ideas have come out.  Every time you “do” the function, one number goes in and another comes out.  When we graph it, the “in” function is always <m:math>
+<m:mi>x</m:mi>
+</m:math>, and the “out” function is always <m:math>
+<m:mi>y</m:mi>
+</m:math>—in other words, <emphasis>every time we graph a function, we are always graphing <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math></emphasis>.  To put it another way, we are graphing all the points that have this particular relationship to each other.  (Take as much time as you need on this point.)</para><para id="element-624">Have the students graph <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> (individually at their desks) by plotting points.  This is not intended to teach them about absolute value, but to reinforce the ideas I just made about what it means to graph a function.</para><para id="element-395">What can we tell by looking at a graph?  Draw the graphs of <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> on the board.  Talk about the things we can tell about these two <emphasis>functions</emphasis> by looking at the <emphasis>graphs</emphasis>.  They both have one zero; they are similar on the right, except that <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> rises faster; they are completely different on the left; they both have unlimited domains, but only one has an unlimited range.  (Make sure to connect this back to “domain” and “range” from the function game!)</para><para id="element-64">Now, draw this on the board.
+
+<figure id="fig1"><media id="id23586896" alt="a random function to be graphed."><image src="../../media/felderTGfunctionsgraph.gif" mime-type="image/gif" print-width="4in"/></media></figure></para><para id="element-270">Time for another…brainstorming exercise!  (Remind them that the object is quantity, not quality!)  Each pair of students has to list as many things as it can tell about this function <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math> by looking at the graph.  Key points I want to bring out are:</para><list id="element-129" list-type="bulleted"><item>The three zeros.  (Talk about the word “zeros.”)</item>
+<item>Places where the function is negative and places where it is positive.</item>
+<item>Places where it is increasing and places where it is decreasing.  (Talk about slope!)</item>
+<item>What happens for very low and very high values of <m:math>
+<m:mi>x</m:mi>
+</m:math>.</item>
+<item>For the experts, odd symmetry: <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>.</item>
+</list><para id="element-544">Talk more about domain and range.  This is unrestricted in both.  We saw that <m:math>
+		<m:msup>
+			<m:mi>x</m:mi>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:math> has an unrestricted domain, but a restricted range.  Why would any function have a limited domain?  Generally, it is because of the two "thou shalt not" rules: <emphasis>thou shalt not divide by zero,</emphasis> and <emphasis>thou shalt not take the square root of a negative number.</emphasis>  So, consider the following three statements.
+
+<list id="eip-id4246042" list-type="enumerated">
+		<item>You can't take the square root of a negative number.</item>
+		<item>The domain of the function y=<m:math><m:msqrt><m:mi>x</m:mi></m:msqrt></m:math> is x≥0.</item>
+		<item>The graph of y=<m:math><m:msqrt><m:mi>x</m:mi></m:msqrt></m:math> starts at the y-axis, and goes to the right; it doesn't go to the left.  (Draw it.)</item>
+	</list>
+
+
+Give them all three of these statements, and see if they can see that <emphasis>they are all three saying the same thing.</emphasis>  Then see if they can generate three equivalent versions of "You can't divide by zero."  ("The domain of the function y=<m:math><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>x</m:mi></m:math> is all numbers except 0," and "The graph of y=<m:math><m:mn>1</m:mn><m:mo>/</m:mo><m:mi>x</m:mi></m:math> never touches the y-axis.")</para><para id="element-195">Remind them of the “rule of consistency” that we discussed earlier: a function can never take one <emphasis>input</emphasis> and generate two different <emphasis>outputs</emphasis>.  Ask them to discuss in pairs, for one minute, how this rule manifests on a graph.  Then have class discussion until you have reached the vertical line test.</para><para id="element-96">Come back to the question we started with: why do we graph things?  As we demonstrated earlier, graphs enable us to see things visually that are very hard to see in numbers.  Draw several different jaggy, shaky graphs, and suggest that they represent the price of gas—ask for verbal descriptions of what each one tells us.  Talk again about domain, range, positive, negative.</para><para id="element-223">Throw something straight up into the air and catch it.  Tell them there is a function <m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+</m:math> that represents the height of that object, as a function of time.  (Make sure they get this.)  Give them one minute to sketch the graph of that function.  Then show them that it is an upside-down parabola (you don’t need to use that word).  Emphasize that this does <emphasis>not</emphasis> mean the object traveled in an arc shape: it traveled straight up and down.  The horizontal axis is <emphasis>time</emphasis> and the vertical axis is height.</para><para id="element-826">If you have a bit of extra time, explain how to generate graphs (and set the window) on the calculator.</para><para id="element-379"><title>Homework:</title>“Homework: Graphing”
+</para>   
+  </content>
+  
+</document>

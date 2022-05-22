@@ -1,0 +1,242 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Parabolas, Day 2</title>
+  <metadata>
+  <md:content-id>m19313</md:content-id><md:title>Parabolas, Day 2</md:title>
+  <md:abstract>A teacher's guide to lectures on parabolas.</md:abstract>
+  <md:uuid>183d2550-192a-4e26-ae78-b139b24cca46</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id13275937">What good are parabolas? We’ve already seen some use for graphing parabolas, in terms of modeling certain kinds of behavior. If I throw a ball into the air, <emphasis>not</emphasis> straight up, its path through the air is a parabola. But here is another cool thing: if parallel lines come into a parabola, they all bounce to the focus.</para>
+      <figure id="id12487562"><media id="id34611394" alt="A parabola showing parallel lines intersecting at the focus."><image src="../../media/graphics1-1291.png" mime-type="image/png" print-width="4in"/></media><caption>Draw this on the board:</caption></figure>
+      <para id="id12574413">So <emphasis>telescopes</emphasis> are made by creating <emphasis>parabolic mirrors</emphasis>—all the incoming light is concentrated at the focus. Pretty cool, huh?</para>
+      <para id="id13226624">We are already somewhat familiar with parabola machinery. We recall that the equation for a vertical parabola is <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>k</m:mi>
+</m:math> and the equation for a horizontal parabola is
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>h</m:mi>
+</m:math>. The vertex in either case is at (<m:math>
+<m:mi>h</m:mi>
+</m:math>,<m:math>
+<m:mi>k</m:mi>
+</m:math>). We also recall that if a is positive, it opens up (vertical) or to the right (horizontal); if a is negative, it opens down or to the left. This is all old news.</para>
+      <para id="id12964789">Thus far, whenever we have graphed parabolas, we have found the vertex, determined whether they open up or down or right or left, and then gone “swoosh.” If we were a little more sophisticated, we remembered that the width of the parabola was determined by <m:math>
+<m:mi>a</m:mi>
+</m:math>; so <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is narrower than 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> which is narrower than 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. But how can we use a to actually draw the width accurately? That is the question for today. And the answer starts out with one fact which may seem quite unrelated: the distance from the vertex to the focus is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>. I’m going to present this as a magical fact for the moment—we will never prove it, though we will demonstrate it for a few examples. But that one little fact is the only thing I am going to ask you to “take my word for”—everything else is going to flow logically from that.</para>
+      <para id="id12681780">(Go back to your drawing of our parabola with focus (0,3) and directrix <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-3</m:mn>
+</m:math>, and point out the distance from vertex to focus—label it 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>.) Now, what is the distance from the vertex to the <emphasis>directrix?</emphasis> Someone should get this: it must also be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>. Why? Because the vertex is part of the parabola, so by definition, it must be the same distance from the directrix that it is from the focus. Label that.</para>
+      <para id="id10951631">Now, let’s start at this point here (point to (-6,3)) and go down to the directrix. How long is that? Again, someone should get it: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>, which is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {4a} } } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2a} } } {}</m:annotation></m:semantics></m:math>. Now, how far <emphasis>over</emphasis> is it, from this same point to the focus? Well, again, this is on the parabola, so it must be the same distance to the focus that it is to the directrix: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2a} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id13032392">If you extend that line all the way to the other side, you have two of those: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2a} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2a} } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {2a} } } {}</m:annotation></m:semantics></m:math>, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {a} } } {}</m:annotation></m:semantics></m:math>, running between (6,3) and (–6,3). This line is called the <emphasis>latus rectum</emphasis>—Latin for “straight line”—it is always a line that touches the parabola at two points, runs <emphasis>parallel</emphasis> to the directrix, and goes <emphasis>through</emphasis> the focus.</para>
+      <para id="id13274127">At this point, the blackboard looks something like this:</para>
+      <figure id="id3417505"><media id="id34612134" alt="A picture of a parabola and its latus rectum."><image src="../../media/graphics2-7900.png" mime-type="image/png" print-width="4in"/></media></figure>
+      <para id="id13253467">The point should be clear. Starting with the one magical fact that the distance from the focus to the vertex is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>, we can get everything else, including the length of the latus rectum, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {a} } } {}</m:annotation></m:semantics></m:math>. And that gives us a way of doing exactly what we wanted, which is using a to more accurately draw a parabola.</para>
+      <para id="id13164198">At this point, you do a sample problem on the board, soup to nuts. Say, <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>4</m:mn>
+</m:math>. They should be able to see quickly that it is horizontal, opens to the right, with vertex at (-4,-3)—that’s all review. But now we can also say that the distance from the focus to the vertex is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math> which in this case (since <m:math>
+<m:mi>a</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>) is 
+<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>. So where is the focus? Draw the parabola quickly on the board. They should be able to see that the focus is to the <emphasis>right</emphasis> of the vertex, so that puts us at(<m:math>
+<m:mn>-3</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>,<m:math>
+<m:mn>-3</m:mn>
+</m:math>). The directrix is to the <emphasis>left,</emphasis> at <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-4</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>. (I always warn them at this point, a very common way to miss points on the test is to say that the directrix is (<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-4</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>,<m:math>
+<m:mn>-3</m:mn>
+</m:math>). That’s a point—the directrix is a line!)</para>
+      <para id="id12921114">How wide is the parabola? When we graphed them before, we had no way of determining that: but now we have the latus rectum to help us out. The length of the latus rectum is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {a} } } {}</m:annotation></m:semantics></m:math> which is 2. So you can draw that in around the focus—going up one and down one—and then draw the parabola more accurately, staring from the focus and touching the latus rectum on both sides.</para>
+      <para id="id12654921">Whew! Got all that? Good then, you’re ready for the homework! (You may want to mention that a different sample problem is worked in the “Conceptual Explanations.”)</para>
+      <para id="id12960644"><title>Homework:</title>“Homework: Parabolas and the Latus Rectum”</para>
+      
+      <para id="id12921895">This one will take a lot of debriefing afterwards. Let’s talk about #3 for a minute. The first thing they should have done is draw it—that can’t be stressed enough—always draw it! Drawing the vertex and focus, they should be able to see that the parabola opens to the right. Since we know the vertex, we can write immediately 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>. Many of them will have gotten that far, and then gotten stuck. Show them that the distance from the vertex to the focus is 2, and we know that this distance must be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4a} } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>. We can solve this to find <m:math>
+<m:mi>a</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+</m:math> which fills in the final piece of the puzzle.</para>
+      <para id="id11565428">On #5, again, before doing anything else, they should draw it! They should see that there is one vertical and one horizontal parabola that fits this definition.</para>
+      <para id="id13288112">But how can they find them? You do the vertical, they can do the horizontal. Knowing the vertex, we know that the vertical one will look like <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>. How can we find a this time, by using the information that it “contains the point (0,1)”? Well, we have to go back to our last unit, when we found the equation for a parabola containing certain points! Remember, we said that if it <emphasis>contains</emphasis> a point, then that point must make the equation <emphasis>true!</emphasis> So we can plug in (0,1) to the equation, and solve for <m:math>
+<m:mi>a</m:mi>
+</m:math>. 
+<m:math>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mn>0</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>, 
+<m:math>
+<m:mn>4</m:mn>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>, 
+<m:math>
+<m:mi>a</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-1</m:mn>
+</m:math>. The negative <m:math>
+<m:mi>a</m:mi>
+</m:math> tells us that the parabola will open down—and our drawing already told us that, so that’s a good reality check.</para>
+    
+  </content>
+</document>

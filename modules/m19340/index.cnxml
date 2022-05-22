@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Test Preparation</title>
+  <metadata>
+  <md:content-id>m19340</md:content-id><md:title>Test Preparation</md:title>
+  <md:abstract>A teacher's guide to preparing a sample test over functions.</md:abstract>
+  <md:uuid>0bb6de15-3714-4a15-81d8-39c46e45b1e2</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">Follow up carefully on the homework from the day before.  In #8, make sure they understand that losing money is <emphasis>negative</emphasis> profit.  But mostly talk about #9.  Make sure they understand how, and why, each modification of the original function changed the graph.  When we make a statement like “Adding two to a function moves the graph <emphasis>up</emphasis> by 2” this is not a new rule to be memorized: it is a common-sense result of the basic idea of graphing a function, and should be understood as such.</para><para id="element-384">Ask what they think <m:math>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+</m:math> would look like, and then show them how it combines three of the modifications.  (The <m:math>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> moves it to the left, the <m:math>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:math> moves it down, and the <m:math>
+<m:mo>-</m:mo>
+</m:math> in front turns it upside-down.)</para><para id="element-172">Talk about the fact that you can do those generalizations to any function, eg <m:math>
+<m:mo>–</m:mo>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>|</m:mo>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+</m:math> (recalling that they graphed absolute value yesterday in class).</para><para id="element-681">Draw some random squiggly <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math> on the board, and have them draw the graph of <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+</m:math>.  Then, see if they can do <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+</m:math>.</para><para id="element-80">Go back to the idea of algebraic generalizations.  We talked about what it means for two functions to be “equal”—what does that look like, graphically?  They should be able to see that it means the two functions have exactly the same graph.  But this is an opportunity for you to come back to the main themes.  If two functions are equal, they turn every <m:math>
+<m:mi>x</m:mi></m:math> into the same <m:math><m:mi>y</m:mi></m:math>.  So their graphs are the same because a graph is all the (<m:math>
+<m:mi>x</m:mi></m:math>,<m:math><m:mi>y</m:mi></m:math>) pairs a function can generate!</para><para id="element-920">I also like to mention at this point that we actually use the = sign to mean some pretty different things.  When we say <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math> we are asking <emphasis>for what value of <m:math>
+<m:mi>x</m:mi></m:math> is this true?</emphasis>  Whereas, when we say <m:math>
+<m:mn>2</m:mn>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>7</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>14</m:mn>
+</m:math> we are asserting that <emphasis>this is true for all values of <m:math><m:mi>x</m:mi></m:math></emphasis>.  Mention, or ask them to find, statements of equality that are not true for <emphasis>any</emphasis> value of <m:math><m:mi>x</m:mi></m:math>
+ (eg <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>).</para><para id="element-301">Now, at this point, you hand out the “sample test.”  Tell them this test was actually used for a past class; and although the test you give will be different, this test is a good way of reviewing.  I have found this technique—handing out a real test from a previous year, as a review—to be tremendously powerful.  But I have to say a word here about how to use it.  <emphasis>Sometimes</emphasis> I say “Work on it in class if you have time, glance it over tonight if it helps you study; the test is tomorrow.”  And <emphasis>sometimes</emphasis> I say “This is the homework.  Tonight, do the sample test, and also look over all the materials we have done so far.  Tomorrow, we will go over the sample test and any questions you have on the material, in preparation for the test, which will be the day after tomorrow.”  It all depends on timing, and on how prepared you think the class is.</para><para id="element-228"><title>Homework:</title>“Sample Test: Functions I”
+</para><para id="element-417">I should say a word about #2 here, just to be clear about what I’m looking for.  We have a function <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mi>s</m:mi>
+<m:mo>)</m:mo>
+</m:math>.  In part (b) I supply <m:math><m:mi>s</m:mi>
+<m:mo>=</m:mo>
+<m:mn>20</m:mn>
+</m:math> and ask for <m:math>
+<m:mi>c</m:mi>
+</m:math>: so the question in function notation is <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:math>.  (Then you plug a 20 into the formula and go from there.)  In part (c) I supply <m:math>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>35</m:mn>
+</m:math> and ask for <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mn>20</m:mn>
+<m:mo>)</m:mo>
+</m:math>: so this question in function notation is <m:math>
+<m:mi>c</m:mi>
+<m:mo>(</m:mo>
+<m:mi>s</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>35</m:mn>
+</m:math>.  (Then you set the formula equal to 35 and solve.)  Students have a lot of difficulty with this asymmetry.</para><section id="eip-93"><title>Now give a test of your own on functions I</title><para id="eip-391">You may use something very similar to my test, except changing numbers around.  Or you may do something quite different.</para><para id="element-317">I will tell you, as a matter of personal bias, that I feel very strongly about question #7.  Many students will do quite poorly on this question.  For instance, they may give you two variables that do not in fact depend on each other (number of guitarists and number of drummers).  Or they may give you variables that are in fact constants (let <m:math><m:mi>n</m:mi>
+</m:math> equal the number of notes in an octave).  The answers don’t have to be complicated, although sometimes they are—sometimes a very simple answer gets full credit.  (“CDs cost $12 apiece, I spend <m:math>
+<m:mi>d</m:mi>
+</m:math> dollars on <m:math>
+<m:mi>c</m:mi>
+</m:math> CDs.  <m:math>
+<m:mi>d</m:mi>
+<m:mo>(</m:mo>
+<m:mi>c</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>12</m:mn>
+<m:mi>c</m:mi>
+</m:math>” is a full credit answer to parts a-c.)  But they have to show that they can clearly articulate what the variables are, and how they depend on each other.  If they cannot, spend the time to explain why it is wrong, and work them through correct answers.  In my opinion, this skill is the best measure of whether someone really understands what a function is.  And it is a skill like any other, in the sense that it develops over time and practice.</para><para id="element-183">(Also, I don’t believe in surprises.  Tell them in advance that this question will definitely be on the test—the only thing that will change is the topic.)</para>
+</section>   
+  </content>
+  
+</document>

@@ -1,0 +1,14 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction</title>
+  <metadata>
+  <md:content-id>m19454</md:content-id><md:title>Introduction</md:title>
+  <md:abstract>Felder Algebra 2 Teacher's Guide introduction to chapter on modeling data with functions.</md:abstract>
+  <md:uuid>fae00b28-ad09-4121-827c-4a26989ba8b3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10994998">This unit is really three different topics, joined together by a somewhat weak thread.</para>
+    <para id="id11298945">The first topic is direct and inverse variation. The second topic is finding a parabola that fits any three given points. The third topic is regression on a calculator.</para>
+    <para id="id9597760">The weak thread that connects them is that they all involve starting with data, and finding a function that models that data. (At least, the latter topics are clearly about that, and the first topic is about that if you approach it the way I do…)</para>
+  </content>
+</document>

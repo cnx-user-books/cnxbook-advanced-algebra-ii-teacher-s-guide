@@ -1,0 +1,176 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Composite Functions</title>
+  <metadata>
+  <md:content-id>m19333</md:content-id><md:title>Composite Functions</md:title>
+  <md:abstract>A teacher's guide to composite functions.</md:abstract>
+  <md:uuid>ff594bb9-d2ba-4da5-b3d2-ec41e92b79cb</md:uuid>
+</metadata>
+  <content>
+    <para id="id11057450">OK, it’s getting hard again: this one may take a couple of days. We start with discussion.</para>
+    <para id="id11112066">There are a number of ways to look at composite functions. It’s important to be able to use <emphasis>all</emphasis> of these ways, and to see how they relate.</para>
+    <list id="id4761163" list-type="enumerated"><item>All the way back to the function game. Let one student be the function <m:math>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+</m:math>, and another student be the function <m:math>
+<m:mi>x</m:mi>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math>. You give a number to the first student, who spits out a number at the second student, who spits out a number back at you. For instance, if you give the first student a 3, his output is an 18; the second student takes this 18 and comes out with a 9. Do this for a while until everyone has the hang of it. See if anyone realizes that what’s going on is, in the end, the function <m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:math> is being done to your number.</item>
+      <item>Now, talk about a factory. One box turns garbage into gloop; the next box turns gloop into shlop; the final box turns shlop into food. Each box can be represented by a function that says “If this much goes in, that much goes out.” The entire factory is a gigantic composite function, where the output of each box is the input of the next, and the composite function says “If this much garbage goes in, this much food goes out.” (Draw it!)</item>
+      <item>In general, composite functions come up with <emphasis>this variable depends on that variable, which in turn depends on the other variable</emphasis>. The amount of taxes you pay depends on the amount of money you make, which in turn depends on the number of hours you work. Have them come up with a few examples. Be very careful to distinguish composite functions from multivariate functions, <emphasis>e.g</emphasis>. the number of kids in the class depends on the number of boys, and the number of girls. That is not a function, because those two variables don’t depend on each other.</item>
+      <item>Finally, there is the formalism, <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+</m:math>. Remind them that this is mechanical. If <m:math>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+</m:math> and 
+<m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math>, then what is 
+<m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+</m:math>? Well, <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mtext>anything</m:mtext>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mtext>anything</m:mtext>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math>. So 
+<m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math>, which is 
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>)</m:mo>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+</m:math> or 
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:math>. Note that this is completely different from 
+<m:math>
+<m:mi>g</m:mi>
+<m:mo>(</m:mo>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+</m:math>! Take a moment to connect this mechanical process with the idea of a composite function that you have already discussed.</item>
+    </list>
+    <para id="id11163772">Now, have them work through the in-class assignment on “Composite Functions” in groups. Make sure they do all right on #4.</para>
+    <para id="id11147135">#6 is a build-up to inverse functions, although you don’t need to mention that. If anyone asks for help, help them see that if 
+<m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+</m:math>, then <m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mtext>anything</m:mtext>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mtext>anything</m:mtext>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+</m:math>, so
+<m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>i</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>i</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+</m:math>. So 
+<m:math>
+<m:mi>i</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math>, and we can solve this to find 
+<m:math>
+<m:mi>i</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>.</para>
+    <para id="id9620635"><title>Homework:</title>“Homework: Composite Functions”</para>
+  </content>
+</document>

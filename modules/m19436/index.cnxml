@@ -1,0 +1,97 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction</title>
+  <metadata>
+  <md:content-id>m19436</md:content-id><md:title>Introduction</md:title>
+  <md:abstract>The introduction to a teacher's guide on logarithms.</md:abstract>
+  <md:uuid>7f4fbca8-b3d7-423f-bf7b-8bad97ffa9d1</md:uuid>
+</metadata>
+  <content>
+    <para id="id21913344">I talk to a surprising number of math teachers who are really uncomfortable with logs. There’s something about this topic that just makes people squeamish in Algebra, in the same way that “proving a series converges” makes people squeamish in Calculus.</para>
+    <para id="id16997721">It doesn’t have to be hard. It is not intrinsically more complicated than a radical. When you see 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {x} } {}</m:annotation></m:semantics></m:math> you are seeing a mathematical question: “What number, raised to the 3rd power, gives me 
+<m:math>
+<m:mi>x</m:mi>
+</m:math>?” When you see 
+<m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mi>x</m:mi>
+</m:math> you are seeing a question which is quite similar: “3, raised to what power, gives me <m:math>
+<m:mi>x</m:mi>
+</m:math>?” I say this about a hundred times a day during this section. My students may forget the rules of logs and they may forget what a common log is and they will almost certainly forget <m:math>
+<m:mi>e</m:mi>
+</m:math>, but none of them will forget that <m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>8</m:mn>
+</m:math> means the question “2 to what power is 8?” You may want to show them the “Few Quick Examples” at the beginning of the Conceptual Explanations chapter to drive the point home.</para>
+    <para id="id19746606">It is possible to take any arbitrary logarithm on a standard scientific or graphing calculator. I deliberately never mention this fact to my students, until the entire unit (including the test) is over. Faced with 
+<m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>8</m:mn>
+</m:math> I want them to think it through and realize that the answer is 3 because <m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>8</m:mn>
+</m:math>. The good news is, none of them will figure out how to do that problem on the calculator, if you don’t tell them.</para>
+    <section id="id22371031"><title>Introduction to Logarithms</title><para id="id20963371">This is a pretty short, self-explanatory exercise. There isn’t anything you need to say before it. But you do need to do some talking after the assignment. Introduce the word “log” and explain it, as I explained it above: 
+<m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>8</m:mn>
+</m:math> means “2 to what power is 8?” Also discuss the fact that the log is always the inverse of the exponential function.</para>
+      <para id="id22272105">After they have done the assignment, and heard your explanation of the word log, then they are ready for the homework. It wouldn’t hurt if that happens in the middle of the class, so they can get started on the homework in class, and finish it up at home. The in-class exercise is short, the homework is long.</para>
+      
+
+      <para id="id20119728"><title>“Homework: Logs”</title>When going over the homework the next day, #20 can be explained two ways. First: 5 to what power is <m:math>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math>? When asked that way, it’s easy, isn’t it? You don’t have to find what <m:math>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math> is, to see that the answer is 4! But there is also another way to explain it, which gets back to the idea of 
+<m:math>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mi>x</m:mi>
+</m:math> being inverse functions. The first function turns 4 into <m:math>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math>. So the second one has to reverse this process, and turn <m:math>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math> back into 4. This way is harder to understand, but it makes it a lot easier to see why #21 also has to be 4.</para>
+      <para id="id18175342">Then, there is the graph—as always, make sure they get the right general shape. Point out that the most salient feature of this graph is that it grows…incredibly…slowly as you go farther out to the right. (Every time <m:math>
+<m:mi>x</m:mi>
+</m:math> doubles, the graph just goes up by 1.) This is a lot of what makes logs useful, as we will see.</para>
+</section>
+  </content>
+</document>

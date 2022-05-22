@@ -1,0 +1,22 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Modeling Data with Functions -- Calculator Regression</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9310cd47-dffe-4aeb-b1da-6e6808c13eb4</md:uuid>
+</metadata>
+  <content>
+    <para id="id4989684">Lecture time. Talk about the importance of regression again. Walk them, step-by-step, through a few regressions on the calculator. (Detailed instructions for a TI-83 are included in the “Conceptual Explanations” for this section.)</para>
+    <para id="id21598578">My advice right now is to look at the points first (which may require resetting the window!) and then categorize them according to concavity—although I don’t use that word. I talk about three kinds of increasing functions:</para>
+    <list list-type="bulleted" id="id20075020">
+      <item>Linear functions increase steadily</item>
+      <item>Logs and square roots increase more and more slowly</item>
+      <item>Parabolas and exponential functions increase more and more quickly</item>
+    </list>
+    <para id="id21490240">Similarly, of course, for decreasing functions. Choose an appropriate kind of regression, and let the calculator do the rest.</para>
+    <para id="id3565162">After a few examples, hand out the homework.</para>
+    
+    <para id="id20642369"><title>Homework</title>“Homework: Calculator Regression”</para>
+    <section id="id3513993">
+      <title>Time for Another Test!</title>
+      <para id="id3500887">Question 11c is not something I would put on a real test, for a couple of reasons. First, it would be pretty hard to grade; second, and more importantly, it is unlike anything we’ve seen on a homework. But I might use it for an extra credit, and in any case, it can’t hurt them to see it and discuss it on a sample.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Matrices -- Multiplying Matrices I (row × column)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>466e5daf-ad23-4b21-81d1-3bd5b47e90b6</md:uuid>
+</metadata>
+  <content>
+    <para id="id18746149">Once again, you may just want to get them started on the assignment, and let it speak for itself.</para>
+    <para id="id17256268">However, toward the end of class—after they have all struggled through, or gotten stuck—pull them back and do some blackboard talk. Start by pointing out that we are doing two different things here. Multiplying a matrix times a constant is both easy and intuitive. If you can add two matrices, then you can add <m:math><m:mo>[</m:mo>
+  <m:ci>A</m:ci><m:mo>]</m:mo><m:mo>+</m:mo><m:mo>[</m:mo>
+  <m:ci>A</m:ci><m:mo>]</m:mo>
+</m:math> and thus figure out what <m:math><m:mn>2</m:mn><m:mo>[</m:mo>
+  <m:ci>A</m:ci><m:mo>]</m:mo>
+</m:math> has to be.</para>
+    <para id="id12687980">On the other hand, multiplying two matrices (a row times a column) is not easy or intuitive. Show how to multiply a row matrix by a column matrix, do a few examples, and talk about how it applies to the gradebook example. In other words, make sure they get it.</para>
+    <para id="id15086210">What I do, about a hundred times, is try to get them to visualize the row floating up in the air and twisting around so that it lines up with the column. I use my hands, I use sticks, anything to get them to visually see this row floating up and twisting to line up with that column. This visualization is not essential today, but if they get it today, it will really help them tomorrow, when we start multiplying full matrices! As I mentioned earlier—this is a radical departure from my normal philosophy—I am more concerned that they get the mechanics here (how to do the multiplication) than any sort of logic behind it. They should be able to see, for instance, that if the row and column do not have the same number of elements, then the matrix multiplication is illegal.</para>
+    <para id="id16283181">Oh yeah, one more thing—I always stress that when you multiply two matrices, the product is a matrix. In the case of a row times a column, it is a <m:math>
+  <m:apply>
+    <m:times/>
+    <m:cn>1</m:cn>
+    <m:cn>1</m:cn>
+  </m:apply>
+</m:math> matrix, but it is still a matrix, not a number.</para>
+      <para id="id12020415"><title>Homework</title>“Homework—Multiplying Matrices I”</para>
+  </content>
+</document>

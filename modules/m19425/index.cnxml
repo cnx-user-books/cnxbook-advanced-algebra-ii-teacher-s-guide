@@ -1,0 +1,70 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Me, Myself, and the Square Root of i</title>
+  <metadata>
+  <md:content-id>m19425</md:content-id><md:title>Me, Myself, and the Square Root of i</md:title>
+  <md:abstract>A teacher's guide to the square root of the imaginary number.</md:abstract>
+  <md:uuid>6512684f-b487-43b0-9459-6d086ce966e3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id14401216">This is arguably the most advanced, difficult thing we do all year. But I like it because it contains absolutely nothing they haven’t already done. It’s not here because it’s terribly important to know 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>i</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {i} } {}</m:annotation></m:semantics></m:math>, or even because it’s terribly important to know that all numbers can be written in <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math> format. It is here because it reinforces certain skills—squaring out a binomial (always a good thing to practice), working with variables and numbers together, setting two complex numbers equal by setting the real part on the left equal to the real part on the right and ditto for the imaginary parts, and solving simultaneous equations.</para>
+    <para id="id17332889">Explain the problem we’re going to solve, hand it out, and let them go. Hopefully, by the end of class, they have all reached the point where they know that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {2} } } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {2} } } } {}</m:annotation></m:semantics><m:mi>i</m:mi></m:math> and <m:math>
+<m:mo>–</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {2} } } } {}</m:annotation></m:semantics><m:mo>–</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { sqrt {2} } } } {}</m:annotation></m:semantics><m:mi>i</m:mi>
+</m:math> are the two answers, and have tested them.</para>
+    <para id="id10209338">Note that right after this in the workbook comes a more advanced version of the same thing, where they find 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  { - 1} } {}</m:annotation></m:semantics></m:math> (all three answers: <m:math>
+<m:mn>–1</m:mn>
+</m:math>, <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {3} }  over  {2} } } {}</m:annotation></m:semantics><m:mi>i</m:mi>
+</m:math>, and <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>–</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {3} }  over  {2} } } {}</m:annotation></m:semantics><m:mi>i</m:mi>
+</m:math>). I tried using this for the whole class, and it was just a bridge too far. But you could give it to some very advanced students—either as an alternative to the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>i</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {i} } {}</m:annotation></m:semantics></m:math> exercise, or as an extra credit follow-up to it.</para>
+
+    <para id="id15064573"><title>Homework:</title>They should finish the worksheet if they haven’t done so, including #7. Then they should also do the “Homework: Quadratic Equations and Complex Numbers.” It’s a good opportunity to review quadratic equations, and to bring in something new! (It’s also a pretty short homework.)</para>
+    <para id="id15717092">When going over the homework, make sure they did #3 by completing the square—again, it’s just a good review, and they can see how the complex answers emerge either way you do it. #4 is back to the discriminant, of course: if <m:math>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>4</m:mn>
+<m:mi>a</m:mi>
+<m:mi>c</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> then you will have two complex roots. The answer to #6 is no. The only way to have only one root is if that root is 0. (OK, 0 is technically complex…but that’s obviously not what the question meant, right?)</para>
+    <para id="id12784887">The fun is seeing if anyone got #5. The answer, of course, is that the two roots are complex conjugates of each other—real part the same, imaginary part different sign. This is obvious if you rewrite the quadratic formula like this:</para>
+    <para id="id15948266"><m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo> 
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>b</m:mi></m:mrow><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - b}  over  {2a} } } {}</m:annotation></m:semantics><m:mo>±</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ac</m:mtext></m:mrow></m:mstyle></m:mrow></m:msqrt><m:mn>2a</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {b rSup { size 8{2} }  - 4 ital "ac"} }  over  {2a} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id17430606">and realize that the part on the left is always real, and the part on the right is where you get your <m:math>
+<m:mi>i</m:mi>
+</m:math> from.</para>
+    <section id="id16777864">
+      <title>Time for another test!</title>
+      <para id="id15793891">Not much to say here, except that you may want to reuse this extra credit on your own test—if they learn it from the sample (by asking you) and then get it right on your test, they learned something valuable.</para>
+    </section>
+  </content>
+</document>

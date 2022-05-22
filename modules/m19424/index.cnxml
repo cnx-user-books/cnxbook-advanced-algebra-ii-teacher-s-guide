@@ -1,0 +1,36 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction</title>
+  <metadata>
+  <md:content-id>m19424</md:content-id><md:title>Introduction</md:title>
+  <md:abstract>Some basics on imaginary numbers.</md:abstract>
+  <md:uuid>e9323a02-d8f1-4d81-b5f5-24edb1943ac3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id17737997">This is an interesting unit in several ways, both good and bad.</para>
+    <para id="id16016698">The good news is, it’s fun. It’s like a game, and I always try to present it that way.</para>
+    <para id="id16824934">The bad news is, it’s incredibly abstract. It’s abstract because it’s hard to understand these numbers-that-aren’t-numbers, and it’s also abstract because, to save my life, I can’t come up with any good explanation of why imaginary numbers are useful. Of course, they are useful—invaluable even—but how can I explain that to an Algebra II student? Here are a few things I do always say (several times).</para>
+    <list id="id19056530" list-type="enumerated"><item>These numbers are indeed useful, and they are used in the real world, even if I can’t do a great job of explaining why to you right now.</item>
+      <item>Nothing in the real world is imaginary. That is, you will never have i tomatoes, or measure a brick that is <m:math>
+<m:mn>5</m:mn>
+<m:mi>i</m:mi>
+</m:math> feet long, or wait for 
+<m:math>
+<m:mn>3</m:mn>
+<m:mi>i</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+</m:math> seconds. So why are these useful? Because there are very often problems where the problem is real, and the answer is real, but in between, as you get from the problem to the answer, you have to use imaginary numbers. Repeat this several times. You have a problem, or real-world situation, which (of course) involves all real numbers. You do a bunch of math, which includes imaginary numbers. In the end, you wind up with the answer, which (of course) involves all real numbers again. But it would have been difficult or impossible to find that answer, if you didn’t have imaginary numbers.</item>
+      <item>One example is electrical engineering. In an electric circuit you have resistors, capacitors, and inductors. They all act very differently in the circuit. When you model the circuit mathematically, to determine how it will behave (what current will flow through it), the inductor has an inductance and the capacitor has a capacitance and the resistor has a resistance and they are all very different, which makes the math really hairy. However, you can define a complex quantity called impedance which makes resistors, capacitors, and inductors all look mathematically the same. The disadvantage is that you are now working with a complex number instead of all real numbers. The advantage is that resistors, capacitors, and inductors now look the same in the equations, which makes life a whole lot simpler. So this is a good example of how you use complex numbers to make the math easier. (As a side note, electrical engineers call the imaginary number <m:math>
+<m:mi>j</m:mi>
+</m:math> whereas everyone else on the planet calls it <m:math>
+<m:mi>i</m:mi>
+</m:math>. I think kids like that bit of trivia.)</item>
+      <item>Imaginary numbers are also used in many other applications, such as quantum mechanics.</item>
+    </list>
+    <para id="id20880821">It’s all very hand-wavy, and I admit that up front, and I don’t hold the kids responsible for it. But I want them to know that this is really useful, and at the same time, I want to explain why we aren’t going to have any “real world” problems in this unit.</para>
+    <para id="id20774496">This lecture, by the way, usually comes toward the end of day 1, or during day 2—not at the very beginning of day 1. In the beginning, I prefer to treat it as a game—“What if there were a square root of –1? Just suppose, what if there were?” With one class I went so far in treating it as a game that it was day 3 before they realized I wasn’t making the whole thing up.</para>
+    <para id="id18949763">Oh yeah, one more thing. The calculators will do imaginary numbers for them. I never tell them this. If they figure it out, more power to them. But I literally don’t tell them until after the test that the calculator knows anything at all about imaginary numbers! I want them to be able to do these things on their own.</para>
+    
+  </content>
+</document>

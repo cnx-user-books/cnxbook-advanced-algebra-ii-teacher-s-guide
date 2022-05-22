@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Solving Problems by Graphing Quadratic Functions</title>
+  <metadata>
+  <md:content-id>m19479</md:content-id><md:title>Solving Problems by Graphing Quadratic Functions</md:title>
+  <md:abstract/>
+  <md:uuid>ca9ffdc3-8c39-455a-acd7-78296ecd1d24</md:uuid>
+</metadata>
+  <content>
+    <para id="id14445447">Now, at long last, we see a <emphasis>use</emphasis> for all this graphing we’ve been doing.</para>
+    <para id="id9808665">In the throwing-a-ball scenario, we have an 
+<m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+</m:math> that can be used to answer two kinds of questions. “I know the time, but what is the height?” (easy, plug in) and “I know the height, what is the time?” (harder, requires solving a quadratic equation). But there is a third kind of question, very important in the real world, which is: “How high does it go?” Now we don’t know the time <emphasis>or </emphasis>the height! But if we graph it, and find the vertex, we can find both.</para>
+    <para id="id10653409">Now they can work a while on the in-class assignment. Many of them will get stuck dead on #3. This is where you have to pull back and lecture a bit more. Help them draw it, and set up the function <m:math>
+<m:mi>A</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>. But more importantly, talk about what that function <emphasis>means</emphasis>. You plug in any <m:math>
+<m:mi>x</m:mi>
+</m:math> (length) and you get back an <m:math>
+<m:mi>A</m:mi>
+</m:math> (area). So, if the graph looks like this ∩ what does that tell us? Well, at the peak there, that is the highest <m:math>
+<m:mi>A</m:mi>
+</m:math> ever gets on our graph—that is, the highest the area ever gets. Find the vertex, and you will find the <m:math>
+<m:mi>x</m:mi>
+</m:math> that maximizes <m:math>
+<m:mi>A</m:mi>
+</m:math>!</para>
+    <para id="id9546426">This is worth a lot of time to make sure people really get it. It comes all the way back to week 1, and the idea of graphing a function. On one level, it’s incredibly abstract—we are drawing an upside-down parabola that somehow represents the “possibility spaces” for a bunch of rectangles. But if you understand the idea of graphing a function, it is really very simple. Every point on that parabola pairs an <m:math>
+<m:mi>x</m:mi>
+</m:math> (length) with an <m:math>
+<m:mi>A</m:mi>
+</m:math> (area). Every point represents one farm that our farmer could create. It’s obvious, looking at it, that this point at the top here represents the one with the <emphasis>highest area</emphasis>.</para>
+    <para id="id11695489">This is one of those cases where the in-class assignment and the homework, together, could easily take two days instead of one. Let it take that, if it does. Make up more problems, if you have to. But don’t let them get away with thinking “I understand everything else, I just don’t get the word problems.”</para>
+    <para id="id13451745"><title>Homework:</title>“Homework: Solving Problems by Graphing Quadratic Functions”</para>
+  </content>
+</document>

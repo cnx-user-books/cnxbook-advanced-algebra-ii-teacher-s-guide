@@ -1,0 +1,437 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Graphing Inequalities and Absolute Values</title>
+  <metadata>
+  <md:content-id>m19433</md:content-id><md:title>Graphing Inequalities and Absolute Values</md:title>
+  <md:abstract>A teacher's guide to graphing inequalities and absolute values.</md:abstract>
+  <md:uuid>e3e77ce3-0fb1-4e6b-9391-942ac0c366ed</md:uuid>
+</metadata>
+
+<content>
+    <para id="id18676709">This is a two-day topic, possibly three.</para>
+    <para id="id10301338">Start by putting the function <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math> on the board. Now, distinguish between two different kinds of questions.</para>
+    <list id="id17666527" list-type="enumerated"><item>Solve (or graph the solution of) 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>. This should remind the students of problems we did in the last unit, where we asked “For what <m:math>
+<m:mi>x</m:mi>
+</m:math>-values is this function negative?” The answer is <m:math>
+<m:mn>–1</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>1</m:mn>
+</m:math>; it could be graphed on a number line.</item>
+      <item>Graph <m:math>
+<m:mi>y</m:mi>
+<m:mo>&lt;</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math>. This is a completely different sort of question: it is not asking “For what <m:math>
+<m:mi>x</m:mi>
+</m:math>-values is this true?” It is asking “For what (<m:math>
+<m:mi>x</m:mi>
+</m:math>,
+<m:math>
+<m:mi>y</m:mi>
+</m:math>) pairs is this true?” The answer cannot live on a number line: it must be a shaded region on a two-dimensional graph. Which region? Well, for every point <emphasis>on</emphasis> this curve, the y-value is <emphasis>equal</emphasis> to <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math>. So if you go <emphasis>up</emphasis> from there, then <m:math>
+<m:mi>y</m:mi>
+</m:math> is <emphasis>greater than</emphasis>...but if you go <emphasis>down </emphasis>from there, then <m:math>
+<m:mi>y</m:mi>
+</m:math> is <emphasis>less than</emphasis>... So you shade below it.</item>
+    </list>
+    <para id="id18068047">It is important to be able to solve both types of problems, but it is even more important, I think, to distinguish between them. If you answer the first type of question with a shaded area, or the second type on a number line, then you aren’t just wrong—you’re farther than wrong—you’re not even thinking about what the question is asking. (“<m:math>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>” is wrong, but “<m:math>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mtext>George Washington</m:mtext>
+</m:math>” is worse.)</para>
+    <para id="id18418834">With that behind you, get them started on the assignment “Graphing Inequalities and Absolute Values.” They should get mostly or entirely finished in class, and they can finish it up and also do the homework that evening.</para>
+    <para id="id18055226"><title>Homework:</title>“Homework: Graphing Inequalities and Absolute Values”</para>
+    <para id="id16664975">If they come in the next day asking about #4, by the way, just tell them to turn it into 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> and then it is basically like the other ones.</para>
+    <para id="id17857443">Second day, no worksheet. After going over the homework, stressing the ways we permute graphs, warn them that here comes a problem that they cannot solve by permuting. Challenge them—first person with the correct shape is the winner, no calculators allowed—and then put on the board 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math>. Give them a couple of minutes to plot points. Then let someone who got it right put it on the board—both the points, and the resultant shape.</para>
+    <para id="id12364973">Now, you point out that this shape is really a combination of two different lines: 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:math> on the right, and 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> on the left. This odd two-part shape is predictable, <emphasis>without</emphasis> plotting points, if you understand absolute values in a different way. This is our lead-in to the <emphasis>piecewise definition of the absolute value</emphasis>:</para>
+    <para id="id11038624"><m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mo>{</m:mo>
+<m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>x</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi>x</m:mi>
+<m:mo>≥</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mrow>
+</m:math></para>
+    <para id="id18248026">This takes a whole lot of explaining: it is just one of those things that students find difficult. Here are a few ways to explain it (use all of them).</para>
+    <list id="id17481331" list-type="labeled-item" mark-suffix=".">
+      <item><label>1</label>Just try numbers. If <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>, then <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>, so 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math>. Same for 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math>, 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>52</m:mn>
+</m:math>, and even <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. But if <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:math>, then 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>, so 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>≠</m:mo>
+<m:mi>x</m:mi>
+</m:math> (they are not the same)! Instead, 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math>. Why, because 
+<m:math>
+<m:mo>–</m:mo>
+<m:mi>x</m:mi>
+</m:math> in this case is 
+<m:math>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+</m:math> which is 3 which is indeed 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math>.</item>
+    </list>
+    <para id="id17902664"><emphasis>But how can <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math> when 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> is never negative</emphasis>? Well, that brings us to…</para>
+    <list id="id16587239" list-type="labeled-item" mark-suffix=".">
+      <item><label>2</label>Putting a – sign in front of a number does not make it negative: it <emphasis>switches the sign</emphasis>. It makes positive numbers negative, and negative numbers positive. So you can read that piecewise definition as “if <m:math>
+<m:mi>x</m:mi>
+</m:math> is negative, then the absolute value switches the sign.”</item>
+      <item><label>3</label>Finally, come back to the graph of good old 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math>. Point out that it is, indeed, the graph of 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math> on the right, and the graph of 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math> on the left.</item>
+  </list>
+    <para id="id18065802">Now, how does all this relate to our original problem? When 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>, we replace 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> with 
+<m:math>
+<m:mo>–</m:mo>
+<m:mi>x</m:mi>
+</m:math> so our function becomes 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. When 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>≥</m:mo>
+<m:mn>0</m:mn>
+</m:math>, we replace <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> with 
+<m:math>
+<m:mi>x</m:mi>
+</m:math> so our function becomes 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:math>. That’s why the graph came out the way it did.</para>
+    <para id="id18607078">Why is this important? It’s an important way to understand what absolute value means. But it’s also our first look at piecewise functions (one of the only looks we will get) so take a brief timeout to talk about why piecewise functions are so important. Throw an object into the air and let it drop, and talk about the function 
+<m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+</m:math>. We previously discussed this function only <emphasis>during</emphasis> the flight. But to get more general, you have to break it into three different functions: <m:math>
+<m:mi>h</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math> before you throw it (assuming it was in your hand 3' above the ground), <m:math>
+<m:mi>h</m:mi>
+<m:mo>=</m:mo>
+<m:mn>16</m:mn>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>t</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> or something like that during the flight, and 
+<m:math>
+<m:mi>h</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> after it hits the ground. Do a few more examples to get the idea across that piecewise functions come up all the time because conditions change all the time.</para>
+    <para id="id15035593">OK, back to our friend the absolute value. The students should now graph <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math> on their own (individually, not in groups), not by plotting points, but by breaking it down into three regions: <m:math>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>, 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, and 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>. (It is different in all three.) Get the right graph on the board.</para>
+    <para id="id11865836">Now, hopefully, you have at least 10-15 minutes left of class, because now comes the hardest thing of all. You’re going to graph 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>+</m:mo>
+<m:mo>|</m:mo>
+<m:mi>y</m:mi>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math>. Since 
+<m:math>
+<m:mi>x</m:mi>
+</m:math> is under the absolute value, we have to break it into two pieces—the left and the right—just as we have been doing. Since <m:math>
+<m:mi>y</m:mi>
+</m:math> is under the absolute value, we also have to break it vertically. So what we wind up doing is looking at <emphasis>each quadrant separately</emphasis>. For instance, in the second quadrant, <m:math>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> (so we replace <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> with <m:math>
+<m:mo>–</m:mo>
+<m:mi>x</m:mi>
+</m:math>) and 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> (so we replace <m:math>
+<m:mo>|</m:mo>
+<m:mi>y</m:mi>
+<m:mo>|</m:mo>
+</m:math> with 
+<m:math>
+<m:mi>y</m:mi>
+</m:math>). So we have 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math> which we then put into 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math> format and graph, but <emphasis>only in the second quadrant</emphasis>. You do all four quadrants separately.</para>
+    <para id="id10989592">Explain this whole process—how to divide it up into the four quadrants, and how to rewrite the equation in the second quadrant. Then, set them going in groups to work the problem. Walk around and help. By the end of the class, most of them should have a diamond shape.</para>
+    <para id="id16847286"><emphasis>After</emphasis> they are all done, you may want to mention to them that this exact problem is worked out in the “Conceptual Explanations” at the very end of this chapter. So they can see it again, with explanations.</para>
+    <para id="id4050296"><title>Homework:</title>Graph 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mi>y</m:mi>
+<m:mo>|</m:mo>
+<m:mo>&lt;</m:mo>
+<m:mn>4</m:mn>
+</m:math>. This requires looking at each quadrant as a separate <emphasis>inequality </emphasis>and graphing them all in the appropriate places!
+    </para><section id="eip-279"><title>Time for another test!</title><para id="eip-308">
+Once again, there is the sample test—you will probably want to assign it as a homework, and tell them to do that and also study everything since the last test.  The next day, go over the homework and any questions.  Then give the test.
+</para></section>
+    
+  </content>
+</document>

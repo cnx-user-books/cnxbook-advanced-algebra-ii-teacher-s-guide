@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Logarithms -- Using the Laws of Logarithms</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f0565ba3-fb86-4489-bfbf-af4c373e9057</md:uuid>
+</metadata>
+  <content>
+    <para id="id9484084">Once you have gone through the laws of logarithms, you can spend five minutes working a couple of problems on the board, like:</para>
+    <para id="id4844626"><m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+</m:math></para>
+    <para id="id10515626">and then</para>
+    <para id="id11451748"><m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mn>8</m:mn>
+<m:mo>)</m:mo>
+</m:math></para>
+    <para id="id13532893">The first establishes that if you have 
+<m:math>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mtext>(this)</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mtext>log</m:mtext>
+<m:mtext>(that)</m:mtext>
+</m:msub>
+</m:math>, then this must equal that. The second shows how you have to use the laws of logs to get into that form. (The OK students will answer 3. The better students will answer ±3. Only the very best will get ±3 and then realize that the −3 is, after all, invalid! But all of that is a detail, of course.)</para>
+    <para id="id14231994">Anyway, then there is the worksheet full of problems like that, which also gives good review of a number of old topics.</para>
+    <para id="id14324868">The thing is, this really isn’t a whole day. Sneak it in when you have 15-20 minutes left in class. It doesn’t matter whether it comes before, after, or in the middle of the next topic.</para>
+  </content>
+</document>

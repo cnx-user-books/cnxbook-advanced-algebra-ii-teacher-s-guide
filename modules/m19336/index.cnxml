@@ -1,0 +1,291 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inverse Functions</title>
+  <metadata>
+  <md:content-id>m19336</md:content-id><md:title>Inverse Functions</md:title>
+  <md:abstract>A teacher's guide to inverse functions.</md:abstract>
+  <md:uuid>8f4373a9-db8a-420a-b5c1-0708ab2dceec</md:uuid>
+</metadata>
+  <content>
+    <para id="id9815558">This is definitely two days, possibly three.</para>
+    <para id="id6950725">Just as with composite functions, it is useful to look at this three different ways: in terms of the function game, in terms of real world application, and in terms of the formalism.</para>
+    <list id="id9279871" list-type="labeled-item" mark-suffix=".">
+      <item><label>1</label>Ask a student to triple every number you give him and then add 5. Do a few numbers. Then ask another student to <emphasis>reverse what the first student is doing</emphasis>. This is very easy. You give the first student a 2, and he gives you an 11. Then you give the second student an 11, and he gives you a 2. Do this a few times until everyone is comfortable with what is going on. Then ask what function the <emphasis>second </emphasis>student is doing. With a little time, everyone should be able to figure this out—he is reversing what the first student did, so he is subtracting five, then dividing by 3. These two students are “inverses” of each other—they will always reverse what the other one does.</item>
+      <item><label>2</label>Give a few easy functions where people can figure out the inverse. The inverse of <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+</m:math> is 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:math> (and vice-versa: it is always symmetrical). The inverse of <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> is <m:math>
+<m:mroot>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>3</m:mn>
+</m:mrow>
+</m:mroot>
+</m:math></item></list>
+     <para id="element-174">The key thing to stress is how you <emphasis>test an inverse function</emphasis>. You try a number. For instance…</para><table id="element-245" summary="">
+<tgroup cols="1"><tbody>
+  <row>
+    <entry><m:math>
+<m:mn>10</m:mn>
+<m:mo>→</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>→</m:mo>
+<m:mn>12</m:mn>
+<m:mo>→</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>→</m:mo>
+<m:mn>10</m:mn>
+</m:math></entry>
+  </row>
+  <row>
+    <entry><m:math>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+<m:mo>→</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>→</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>→</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>→</m:mo>
+<m:mo>-</m:mo>
+<m:mn>5</m:mn>
+</m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    <para id="id11745264">The point is that you take any number and put it into the first function; put the answer in the second function, and you should get back to your original number. Testing inverses in this way is more important than finding them, because it shows that you know what an inverse function <emphasis>means</emphasis>.</para>
+    <list id="id11380219" list-type="labeled-item" mark-suffix=".">
+      <item><label>3</label>Ask for the inverse of 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. Trick question: it doesn’t have any! Why not? Because <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> turns 3 into 9, and it also turns –3 into 9. It’s allowed to do that, it’s still a function. But an inverse would therefore have to turn 9 into both 3 and –3, and a function is <emphasis>not</emphasis> allowed to do that—rule of consistency. So <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is a function with no inverse. See if the class can come up with others. (Some include <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+</m:math> and <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>.)</item>
+      <item><label>4</label>Now ask them for the inverse of <m:math>
+<m:mn>10</m:mn>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math>. They will guess 
+<m:math>
+<m:mn>10</m:mn>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+</m:math> or 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>10</m:mn>
+</m:math>; make sure they test! They have to discover for themselves that these don’t work. The answer is <m:math>
+<m:mn>10</m:mn>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math>; it is its own inverse. (It turns 7 into 3, and 3 into 7.) Ask for other functions that are their own inverses, see if they can think of any. (Other examples include <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math>, 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+</m:math>, 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>20</m:mn>
+<m:mo>/</m:mo>
+<m:mi>x</m:mi>
+</m:math>.)</item>
+      <item><label>5</label>In practice, inverse functions are used to go backwards, as you might expect. If we have a function that tells us “If you work this many hours, you will get this much money,” the inverse function tells us “If you want to make this much money, you have to work this many hours.” It reverses the <m:math>
+<m:mi>x</m:mi>
+</m:math> and the <m:math>
+<m:mi>y</m:mi>
+</m:math>, the dependent and independent variables. Have the class come up with a couple of examples.</item>
+      <item><label>6</label>Formally, an inverse function is written <m:math>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mn>-1</m:mn>
+</m:msup>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>. This does not mean it is an exponent, it is just the way you write “inverse function.” The strict definition is that <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mn>-1</m:mn>
+</m:msup>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math>. This definition utilizes a composite function! It says that if <m:math>
+<m:mi>x</m:mi>
+</m:math> goes into the inverse function, and then the original function, what comes out is…<m:math><m:mi>x</m:mi>
+</m:math>. This is a hard concept that requires some talking through.</item>
+    </list>
+    <para id="id10383170">OK, at this point, you have them start working on the in-class exercise “Inverse Functions.” Note that you have not yet given them a way of <emphasis>finding</emphasis> inverse functions, except by noodling around! Let them noodle. Even for something like <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>7</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>, they should be able to get there, with a bit of hand-holding, by reversing the steps: first multiply by 7, then subtract 3, then divide by 2. If they ask about #11, make sure they try a few things (such as <m:math>
+<m:mroot>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+</m:mroot>
+</m:math>) and <emphasis>test them</emphasis>—they will discover they don’t work. Explain that, in fact, we have no inverse function of 
+<m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+</m:math> right now, so we’re going to make one up later in the year and call it a “logarithm.” They can then leave this one blank.</para>
+    <para id="id10255451"><emphasis>After </emphasis>they have finished noodling their way through the most of the exercises, interrupt the class and say “Now, I’m going to give you a formal method of finding inverse functions—you will need this for the homework.” The formal way is: first, reverse the <m:math>
+<m:mi>x</m:mi>
+</m:math> and the <m:math>
+<m:mi>y</m:mi>
+</m:math>, then solve for <m:math>
+<m:mi>y</m:mi>
+</m:math>. For instance, from 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>7</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ we first write <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>7</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>. Then solve for <m:math>
+<m:mi>y</m:mi>
+</m:math> to get <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>3</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>.</para>
+    <para id="id3851487"><title>Homework:</title>“Homework: Inverse Functions”</para>
+    <para id="id11702104">But wait! We’re not done with this topic!</para>
+    <para id="id10816116">What happens the next day is, they come in with questions. Whatever else they did or didn’t get, they got stuck on #10. (If they got stuck on #9, point out that it is the same as #2; make sure they understand why.) #10 is hard because they cannot figure out how to solve for y. This brings us, not to a new conceptual point, but to a very important algebraic trick, which we are going to learn by doing a TAPPS exercise.</para>
+    <para id="id11679708">TAPPS (Thinking Aloud Pair Problem Solving) is a powerful learning tool, and here’s how it goes. The students are broken into pairs.</para>
+    <para id="id10249812">One person in each pair is the <emphasis>teacher</emphasis>. His job is to walk through the following solution, step by step, explaining it. For each step, explain two things. Why am I <emphasis>allowed</emphasis> to do that, and why did I <emphasis>want</emphasis> to do that? Your explanation should make perfect sense to a normal Algebra I student. You should never skip steps—go line, by line, by line, explaining each one.</para>
+    <para id="id5890016">The other person is the <emphasis>student.</emphasis> He also has two jobs. First, whenever the teacher says something that is not perfectly clear, stop him! Even if you understand it, say “Wait, that didn’t make perfect sense.” Keep pushing until the explanation is completely bullet-proof. Second, keep the teacher talking. If he pauses to think, say “Keep talking. What are you thinking?” The teacher should “think out loud” until he comes up with something.</para>
+    <para id="id10627606">If the students are stuck on a line, they should raise their hands and ask you.</para>
+    <para id="id4556219">Take the time to carefully explain the process—we will do other TAPPS exercises. And one more thing—warn them that after everyone has completed the exercise, you will be calling on individuals to explain tricky steps. <emphasis>You will not call for volunteers.</emphasis> After they are done, everyone in the class should be able to answer any question about anything in this derivation. So you will just pick people and ask them questions like “Why did I do that?”</para>
+    <para id="id6322965">After they are done, call on individuals and ask questions like “Why did we subtract <m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+</m:math> from both sides?” and “How did we get <m:math>
+<m:mi>y</m:mi>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>?” Point out the general strategy is only two steps: get all the <m:math>
+<m:mi>y</m:mi>
+</m:math> things on one side, then pull out the <m:math>
+<m:mi>y</m:mi>
+</m:math>. Check their answer to the question at the end.</para><section id="eip-969"><title>Time for another test!</title><para id="eip-797">Once again, there is the sample test—you will probably want to assign it as a homework, and tell them to do that and also study everything since the last test.  The next day, go over the homework and any questions.  Then give the test.</para><para id="element-654"><emphasis>Congratulations, you’re through with your first unit!  If things went well, you have laid the groundwork for the entire year.  Onward and upward from here!</emphasis></para>
+</section>
+  </content>
+</document>

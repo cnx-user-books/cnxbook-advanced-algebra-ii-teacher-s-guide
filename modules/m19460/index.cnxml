@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Probability -- Combinations</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>67fc0f47-62d1-4d09-b426-ce9079f265ff</md:uuid>
+</metadata>
+  <content>
+        <para id="id7759845">Once again, this one is lecture, without an in-class worksheet, walking through a series of questions.</para>
+      <para id="id8076675">Suppose you have a Daisy, an Iris, a Lily, a Rose, and a Violet. You are going to make a floral arrangement with three of them. How many possible arrangements can you make?</para>
+      <para id="id9397652">Based on yesterday, it’s tempting to answer <m:math>
+<m:mn>5</m:mn>
+<m:mo>×</m:mo>
+<m:mn>4</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+</m:math>, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>!</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5!}  over  {2!} } } {}</m:annotation></m:semantics></m:math>. But here’s why this is different from yesterday’s problems: order doesn’t matter. “A rose, a daisy, and an iris” is the same arrangement as “A daisy, an iris, and a rose”: you don’t want to count it twice.</para>
+      <para id="id9313603">So, let’s start the way we did yesterday: list them all. Give the class a minute to do this. Remind them, as always, that it’s best to be systematic to make sure you list every possibility exactly once. Here’s my list.</para>
+      <table id="id7465514" summary="a table showing the results of different combinations and arrangements of flowers.">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>First Flower</entry>
+              <entry>Second Flower</entry>
+              <entry>Third Flower</entry>
+              <entry>Arrangement</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>Daisy</entry>
+              <entrytbl namest="c2" nameend="c4" cols="3">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <colspec colnum="3" colname="c3"/>
+                <tbody>
+                  <row>
+                    <entry>Iris</entry>
+                    <entrytbl namest="c2" nameend="c3" cols="2">
+                      <colspec colnum="1" colname="c1"/>
+                      <colspec colnum="2" colname="c2"/>
+                      <tbody>
+                        <row>
+                          <entry>Lily</entry>
+                          <entry>Daisy, Iris, Lily</entry>
+                        </row>
+                        <row>
+                          <entry>Rose</entry>
+                          <entry>Daisy, Iris, Rose</entry>
+                        </row>
+                        <row>
+                          <entry>Violet</entry>
+                          <entry>Daisy, Iris, Violet</entry>
+                        </row>
+                      </tbody>
+                    </entrytbl>
+                  </row>
+                  <row>
+                    <entry>Lily</entry>
+                    <entrytbl namest="c2" nameend="c3" cols="2">
+                      <colspec colnum="1" colname="c1"/>
+                      <colspec colnum="2" colname="c2"/>
+                      <tbody>
+                        <row>
+                          <entry>Rose</entry>
+                          <entry>Daisy, Lily, Rose</entry>
+                        </row>
+                        <row>
+                          <entry>Violet</entry>
+                          <entry>Daisy, Lily, Violet</entry>
+                        </row>
+                      </tbody>
+                    </entrytbl>
+                  </row>
+                  <row>
+                    <entry>Rose</entry>
+                    <entry>Violet</entry>
+                    <entry>Daisy, Rose, Violet</entry>
+                  </row>
+                </tbody>
+              </entrytbl>
+            </row>
+            <row>
+              <entry>Iris</entry>
+              <entrytbl namest="c2" nameend="c4" cols="3">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <colspec colnum="3" colname="c3"/>
+                <tbody>
+                  <row>
+                    <entry>Lily</entry>
+                    <entrytbl namest="c2" nameend="c3" cols="2">
+                      <colspec colnum="1" colname="c1"/>
+                      <colspec colnum="2" colname="c2"/>
+                      <tbody>
+                        <row>
+                          <entry>Rose</entry>
+                          <entry>Iris, Lily, Rose</entry>
+                        </row>
+                        <row>
+                          <entry>Violet</entry>
+                          <entry>Iris, Lily, Violet</entry>
+                        </row>
+                      </tbody>
+                    </entrytbl>
+                  </row>
+                  <row>
+                    <entry>Rose</entry>
+                    <entry>Violet</entry>
+                    <entry>Iris, Rose, Violet</entry>
+                  </row>
+                </tbody>
+              </entrytbl>
+            </row>
+            <row>
+              <entry>Lily</entry>
+              <entry>Rose</entry>
+              <entry>Violet</entry>
+              <entry>Lily, Rose, Violet</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id7165324">10 items in all. I generated the list by using the same kind of systematic approach I used for the permutations, but always moving forward in the list: so after “Lily” I’m allowed to list “Rose” and “Violet,” but not “Daisy” or “Iris.”</para>
+      <para id="id8159424">This turns out to be such a common and important operation that it gets its own name: “choose.” We would say “5 choose 3 is 10,” sometimes written 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>5</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( matrix {
+5 {} ##
+3
+}  right )} {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:math>. It means, if you have five items, and want to choose 3 of them, there are ten ways to do so.</para>
+<exercise id="ex1">
+<problem id="idm6840864">  
+    <para id="id8356880"> The four Beatles are John, Paul, Georg, and Ringo. Suppose you are going to put photographs of three of them on your door. List all the possible combinations. How many are there?</para>
+</problem>
+</exercise>
+      <para id="id9981336">Give the class a minute to list—they should make a diagram like the one I made above!—and count. When they are done, you can point out that the answer (four combinations) is very obvious if you look at it backward: each combination leaves exactly one Beatle out. There is a very important insight here, which can also be applied to the flower example: each arrangement listed leaves exactly two flowers out. So 5 choose 3 (“which flowers should I include?”) is the same number as 5 choose 2 (“which flowers should I leave out?”).</para>
+      <para id="id9394415">Now we’re going to try something with bigger numbers. A drama teacher looks out at a class of 30 students, and wants to choose 2 of them to run a scene. How many possible pairs of students are there? As before, when the numbers get this large, we can’t reasonably list all the combinations: we need an algebraic way of figuring out how many there are, without actually counting them all.</para>
+      <para id="id8434876">To start off, let’s turn this combinations (“order doesn’t matter”) problem into a permutations (“order does matter”) problem. The teacher wants to choose one student to play the Child and one to play the Dog. In this version of the problem, “John plays the Child and Susan plays the Dog” is different from “Susan plays the Child and John plays the Dog,” and should be counted separately. So it is a straightforward permutations problem. There are 30 possible actors for the Child, and for each of those, 29 for the Dog. <m:math>
+<m:mn>30</m:mn>
+<m:mo>×</m:mo>
+<m:mn>29</m:mn>
+<m:mo>=</m:mo>
+<m:mn>870</m:mn>
+</m:math> possible scenes.</para>
+      <para id="id8549010">Now let’s return to the original problem, how many pairs of students are there? In this problem, “John-Susan” and “Susan-John” are the same pair. The key insight here is that, when we ran the permutations problem, we counted each pair twice. So the answer is <m:math>
+<m:mn>870</m:mn>
+<m:mo>/</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>435</m:mn>
+</m:math> pairs.</para>
+      <para id="id9356116">Take this slow and easy. This is a very general approach to combinations problem. First, you solve the (easier) permutations problem. Then you ask, “How many times did I count every group?” and divide by that.</para>
+      <para id="id9431748">Ask the class to try this approach on the original (flower) problem. They should answer three questions.</para>
+      <list list-type="enumerated" id="id8955115">
+        <item>How many permutations are there? Remember that in this question, “rose–daisy–iris” and “daisy–iris–rose” are two different arrangements, as if each flower is being placed in a numbered slot.</item>
+        <item>Now, when we counted up the permutations, how many times did they redundantly count each combination?</item>
+        <item>Divide the first answer by the second, and you have the total number of combinations.</item>
+      </list>
+      <para id="id9382540">Lay out the process, then have them work the problem. Many of them will get stuck on step (2), incorrectly thinking that we counted each permutation three times. In fact, we counted each one six times:</para>
+      <para id="id9649573">daisy–iris–rose, daisy–rose–iris, iris–daisy–rose, iris–rose–daisy, rose–daisy–iris, rose–iris–daisy</para>
+      <para id="id9620328">The permutations are <m:math>
+<m:mn>5</m:mn>
+<m:mo>×</m:mo>
+<m:mn>4</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+</m:math>, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>!</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5!}  over  {2!} } } {}</m:annotation></m:semantics></m:math>, or 60. But each combination is listed six times, so the total number of combinations is 10, as we counted before.</para>
+      <para id="id9440268">So...why six times? This is the last question, and it’s a hard one. When we were choosing two items, we counted each combination twice (John–Susan, Susan–John). When we were choosing three items, we counted each combination six times. What’s the pattern? Give them a minute to think about this. Then make sure they understand that it is, in fact...another permutations problem! The list of six I gave above is simply the number of ways you can arrange three items, or (3!). You would divide by (4!) for 4 items, and so on.</para>
+      <para id="id7233344"><title>Homework</title>“Homework: Permutations and Combinations”</para>
+      <para id="id4457420">A sample test, and real test, and you’re done!</para>
+ 
+  </content>
+</document>

@@ -1,0 +1,1647 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>How to Use Advanced Algebra II</title>
+  <metadata>
+  <md:content-id>m19435</md:content-id><md:title>How to Use Advanced Algebra II</md:title>
+  <md:abstract>This module contains a table of every module within the three books of Kenny Felder's course on "Algebra II", with links to the modules.</md:abstract>
+  <md:uuid>144c97b9-d648-4ba2-b0a2-e15d014157aa</md:uuid>
+</metadata>
+
+<content>
+
+<para id="eip-510">Over a period of time, I have developed a set of in-class assignments, homeworks, and lesson plans, that work for me and for other people who have tried them.  The complete set comprises three separate books that work together:
+<list id="eip-id1167308207279">
+		<item>The <link document="col10686">Homework and Activities Book</link> contains in-class and homework assignments that are given to the students day-by-day.</item>
+		<item>The <link document="col10624">Concepts Book</link> provides conceptual explanations, and is intended as a reference or review guide for students; it is not used when teaching the class.</item>
+		<item>The <link document="col10687">Teacher's Guide</link> provides lesson plans; it is your guide to how I envisioned these materials being used when I created them (and how I use them myself).</item>
+	</list>
+</para><para id="eip-215">Instructors should note that this book probably contains more information than you will be able to cover in a single school year.  I myself do not teach from every chapter in my own classes, but have chosen to include these additional materials to assist you in meeting your own needs. As you will likely need to cut some sections from the book, I strongly recommend that you spend time early on to determine which modules are most important for your state requirements and personal teaching style.</para><para id="eip-275">One more warning is important: these materials were designed for an <emphasis>Advanced</emphasis> Algebra II course.  For such a course, I hope this will provide you with ready-to-use textbook and lesson plans.  If you are teaching a Standard or Remedial-level course, these materials will still be useful, but you will probably have to cut or reduce some of the most conceptual material, and supplement it with more drill-and-practice than I provide.</para>
+ 
+
+ 
+
+
+
+  <para id="eip-121">The following table of contents provides a list of topics covered in this course with links to each module.  You can use these links to move between the books or to jump ahead to any topic.</para><table id="eip-276" summary="The first column lists all the chapters and sections by name, with links to the relative sections in the Conceptual Explanations book (second column), Activities and Homework book (third column), and Teacher's Guide (fourth column). Some section names do not occur in all three books.">
+<tgroup cols="4" align="center"><colspec colnum="1" colname="c1" align="left"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry/>
+    <entry>Conceptual Explanations<newline/><link class="suppress-footnote" document="col10624">[col10624]</link></entry>
+    <entry>Activities &amp; Homework<newline/><link class="suppress-footnote" document="col10686">[col10686]</link></entry>
+    <entry>Teacher's Guide<newline/><link class="suppress-footnote" document="col10687 ">[col10687]</link></entry>
+  </row>
+</thead>
+
+<tbody>
+  <row>
+    <entry><emphasis>Functions</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19335/latest/?collection=col10687">[m19335]</link></entry>
+    </row>
+    <row>
+      <entry>Function Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18192/latest/?collection=col10624">[m18192]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>What is a Variable?</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18194/latest/?collection=col10624">[m18194]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>What is a Function?</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18189/latest/?collection=col10624">[m18189]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Rule of Consistency</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18190/latest/?collection=col10624">[m19190]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Four Ways to Represent a Function</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18195/latest/?collection=col10624">[m18195]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Domain and Range</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18191/latest/?collection=col10624">[m18191]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Function Game</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19121/latest/?collection=col10686">[m19121]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19342/latest/?collection=col10687">[m19342]</link></entry>
+    </row>
+    <row>
+      <entry>The Function Game: Introduction</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19125/latest/?collection=col10686">[m19125]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Function Game: Leader's Sheet</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19126/latest/?collection=col10686">[m19126]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Function Game: Answer Sheet</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19124/latest/?collection=col10686">[m19124]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Functions in the Real World</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18193/latest/?collection=col10624">[m18193]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19331/latest/?collection=col10687">[m19331]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Functions in the Real World</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19115/latest/?collection=col10686">[m19115]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Function Notation</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18188/latest/?collection=col10624">[m18188]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Algebraic Generalizations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18186/latest/?collection=col10624">[m18186]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19114/latest/?collection=col10686">[m19114]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19332/latest/?collection=col10687">[m19332]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Algebraic Generalizations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19108/latest/?collection=col10686">[m19108]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18196/latest/?collection=col10624">[m18196]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19334/latest/?collection=col10687">[m19334]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Graphing</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19116/latest/?collection=col10686">[m19116]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Horizontal and Vertical Permutations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19110/latest/?collection=col10686">[m19110]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19339/latest/?collection=col10687">[m19339]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Horizontal and Vertical Permutations I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19119/latest/?collection=col10686">[m19119]</link></entry>
+      <entry/>
+    </row>
+<row>
+      <entry>Homework: Horizontal and Vertical Permutations II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m31952/latest/?collection=col10686">[m31952]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Functions I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19122/latest/?collection=col10686">[m19122]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19340/latest/?collection=col10687">[m19340]</link></entry>
+    </row>
+    <row>
+      <entry>Lines</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18197/latest/?collection=col10624">[m18197]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19113/latest/?collection=col10686">[m19113]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19337/latest/?collection=col10687">[m19337]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Graphing Lines</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19118/latest/?collection=col10686">[m19118]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Composite Functions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18187/latest/?collection=col10624">[m18187]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19109/latest/?collection=col10686">[m19109]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19333/latest/?collection=col10687">[m19333]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Composite Functions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19107/latest/?collection=col10686">[m19107]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Inverse Functions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18198/latest/?collection=col10624">[m18198]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19112/latest/?collection=col10686">[m19112]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19336/latest/?collection=col10687">[m19336]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Inverse Functions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19120/latest/?collection=col10686">[m19120]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>TAPPS Exercise: How do I Solve That For y?</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19123/latest/?collection=col10686">[m19123]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Functions II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19117/latest/?collection=col10686">[m19117]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+  <row>
+    <entry><emphasis>Inequalities and Absolute Values</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19432/latest/?collection=col10687">[m19432]</link></entry>
+    </row>
+    <row>
+      <entry>Inequalities</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18205/latest/?collection=col10624">[m18205]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19158/latest/?collection=col10686">[m19158]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19430/latest/?collection=col10687">[m19430]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Inequalities</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19154/latest/?collection=col10686">[m19154]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Inequality Word Problems</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19163/latest/?collection=col10686">[m19163]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19428/latest/?collection=col10687">[m19428]</link></entry>
+    </row>
+    <row>
+      <entry>Absolute Value Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18201/latest/?collection=col10624">[m18201]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19148/latest/?collection=col10686">[m19148]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19426/latest/?collection=col10687">[m19426]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Absolute Value Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19151/latest/?collection=col10686">[m19151]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Absolute Value Inequalities</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18207/latest/?collection=col10624">[m18207]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19149/latest/?collection=col10686">[m19151]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19431/latest/?collection=col10687">[m19431]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Absolute Value Inequalities</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19155/latest/?collection=col10686">[m19155]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing Absolute Values</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18199/latest/?collection=col10624">[m18199]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing Inequalities</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18208/latest/?collection=col10624">[m18208]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing Inequalities and Absolute Values</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19150/latest/?collection=col10686">[m19150]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19433/latest/?collection=col10687">[m19433]</link></entry>
+    </row>
+    <row>
+      <entry>"Piecewise Functions" and Absolute Value</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18200/latest/?collection=col10624">[m18200]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Graphing Inequalities and Absolute Values</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19153/latest/?collection=col10686">[m19153]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Inequalities and Absolute Values</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19166/latest/?collection=col10686">[m19166]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+  <row>
+    <entry><emphasis>Simultaneous Equations</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+
+    <row>
+      <entry>Introduction to Simultaneous Equations</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19497/latest/?collection=col10687">[m19497]</link></entry>
+    </row>
+    <row>
+      <entry>Distance, Rate, and Time</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18211/latest/?collection=col10624">[m18211]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19288/latest/?collection=col10686">[m19288]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Simultaneous Equations by Graphing</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18209/latest/?collection=col10624">[m18209]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19291/latest/?collection=col10686">[m19291]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Simultaneous Equations by Graphing</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19291/latest/?collection=col10686">[m19291]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Substitution</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18211/latest/?collection=col10624">[m18211]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Elimination</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18215/latest/?collection=col10624">[m18215]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Special Cases</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18213/latest/?collection=col10624">[m18213]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Word Problems</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18210/latest/?collection=col10624">[m18210]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Using Letters as Numbers</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18214/latest/?collection=col10624">[m18214]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Simultaneous Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19293/latest/?collection=col10686">[m19293]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19498/latest/?collection=col10687">[m19498]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Simultaneous Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19289/latest/?collection=col10686">[m19289]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The "Generic" Simultaneous Equation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19294/latest/?collection=col10686">[m19294]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19499/latest/?collection=col10687">[m19499]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test: 2 Equations and 2 Unknowns</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19292/latest/?collection=col10686">[m19292]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Quadratics</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19469/latest/?collection=col10687">[m19469]</link></entry>
+    </row>
+    <row>
+      <entry>Multiplying Binomials</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18224/latest/?collection=col10624">[m18224]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19247/latest/?collection=col10686">[m19247]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19472/latest/?collection=col10687">[m19472]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Multiplying Binomials</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19253/latest/?collection=col10686">[m19253]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Factoring</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18227/latest/?collection=col10624">[m18227]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19243/latest/?collection=col10686">[m19243]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19466/latest/?collection=col10687">[m19466]</link></entry>
+    </row>
+    <row>
+      <entry>Solving Quadratic Equations by Factoring</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18222/latest/?collection=col10624">[m18222]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Factoring Expressions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19248/latest/?collection=col10686">[m19248]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction to Quadratic Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19246/latest/?collection=col10686">[m19246]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19470/latest/?collection=col10687">[m19470]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Introduction to Quadratic Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19251/latest/?collection=col10686">[m19251]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Solving Quadratic Equations by Completing the Square</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18217/latest/?collection=col10624">[m18217]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Completing the Square</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19242/latest/?collection=col10686">[m19242]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19465/latest/?collection=col10687">[m19465]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Completing the Square</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19249/latest/?collection=col10686">[m19249]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Quadratic Formula</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18231/latest/?collection=col10624">[m18231]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The "Generic" Quadratic Equation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19262/latest/?collection=col10686">[m19262]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19480/latest/?collection=col10687">[m19480]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Solving Quadratic Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19256/latest/?collection=col10686">[m19256]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Quadratic Equations I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19259/latest/?collection=col10686">[m19259]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Different Types of Solutions to Quadratic Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18216/latest/?collection=col10624">[m18216]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing Quadratic Functions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18228/latest/?collection=col10624">[m18228]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19245/latest/?collection=col10686">[m19245]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19468/latest/?collection=col10687">[m19468]</link></entry>
+    </row>
+    <row>
+      <entry>Graphing Quadratic Functions II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19244/latest/?collection=col10686">[m19244]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19467/latest/?collection=col10687">[m19467]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Graphing Quadratic Functions II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19250/latest/?collection=col10686">[m19250]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Solving Problems by Graphing Quadratic Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18220/latest/?collection=col10624">[m18220]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19260/latest/?collection=col10686">[m19260]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19479/latest/?collection=col10687">[m19479]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Solving Problems by Graphing Quadratic Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19255/latest/?collection=col10686">[m19255]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Quadratic Inequalities</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18230/latest/?collection=col10624">[m18230]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19257/latest/?collection=col10686">[m19257]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Quadratic Inequalities</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19254/latest/?collection=col10686">[m19254]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19473/latest/?collection=col10687">[m19473]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test: Quadratics II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19258/latest/?collection=col10686">[m19258]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Exponents</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19325/latest/?collection=col10687">[m19325]</link></entry>
+    </row>
+    <row>
+      <entry>Exponent Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18232/latest/?collection=col10624">[m18232]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Laws of Exponents</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18235/latest/?collection=col10624">[m18235]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Zero, Negative Numbers, and Fractions as Exponents</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18234/latest/?collection=col10624">[m18234]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Exponential Curves</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18233/latest/?collection=col10624">[m18233]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Rules of Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19104/latest/?collection=col10686">[m19104]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19327/latest/?collection=col10687">[m19327]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Rules of Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19101/latest/?collection=col10686">[m19101]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Extending the Idea of Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19096/latest/?collection=col10686">[m19096]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19328/latest/?collection=col10687">[m19328]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Extending the Idea of Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19098/latest/?collection=col10686">[m19098]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Fractional Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19097/latest/?collection=col10686">[m19097]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19322/latest/?collection=col10687">[m19322]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Fractional Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19100/latest/?collection=col10686">[m19100]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>"Real Life" Exponential Curves</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19103/latest/?collection=col10686">[m19103]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19329/latest/?collection=col10687">[m19329]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: "Real Life" Exponential Curves</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19102/latest/?collection=col10686">[m19102]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19105/latest/?collection=col10686">[m19105]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Logarithms</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Logarithm Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18242/latest/?collection=col10624">[m18242]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Logarithms Explained by Analogy to Roots</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18236/latest/?collection=col10624">[m18236]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Rewriting Logarithm Equations as Exponent Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18241/latest/?collection=col10624">[m18241]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Logarithm Defined as an Inverse Function</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18240/latest/?collection=col10624">[m18240]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19175/latest/?collection=col10686">[m19175]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19436/latest/?collection=col10687">[m19436]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Logs</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19176/latest/?collection=col10686">[m19176]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Properties of Logarithms</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18239/latest/?collection=col10624">[m18239]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19269/latest/?collection=col10686">[m19269]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19438/latest/?collection=col10687">[m19438]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Properties of Logarithms</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19177/latest/?collection=col10686">[m19177]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Using the Laws of Logarithms</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19184/latest/?collection=col10686">[m19184]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19440/latest/?collection=col10687">[m19440]</link></entry>
+    </row>
+    <row>
+      <entry>Common Logarithms</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18237/latest/?collection=col10624">[m18237]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Graphing Logarithmic Functions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18238/latest/?collection=col10624">[m18238]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>So What Are Logarithms Good For, Anyway?</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19181/latest/?collection=col10686">[m19181]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: So What Are Logarithms Good For, Anyway?</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19268/latest/?collection=col10686">[m19268]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19439/latest/?collection=col10687">[m19439]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19180/latest/?collection=col10686">[m19180]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Rational Expressions</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19486/latest/?collection=col10687">[m19486]</link></entry>
+    </row>
+    <row>
+      <entry>Rational Expressions Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18304/latest/?collection=col10624">[m18304]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Simplifying Rational Expressions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18296/latest/?collection=col10624">[m18296]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Multiplying Rational Expressions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18301/latest/?collection=col10624">[m18301]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Adding and Subtracting Rational Expressions</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18303/latest/?collection=col10624">[m18303]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Rational Expressions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19278/latest/?collection=col10686">[m19278]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19488/latest/?collection=col10687">[m19488]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Rational Expressions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19275/latest/?collection=col10686">[m19275]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Rational Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18302/latest/?collection=col10624">[m18302]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19279/latest/?collection=col10686">[m19279]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19489/latest/?collection=col10687">[m19489]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Rational Expressions and Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19277/latest/?collection=col10686">[m19277]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Dividing Polynomials</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18299/latest/?collection=col10624">[m18299]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19276/latest/?collection=col10686">[m19276]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19487/latest/?collection=col10687">[m19487]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test: Rational Expressions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19274/latest/?collection=col10686">[m19274]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Radicals</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Radical Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18244/latest/?collection=col10624">[m18244]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Radicals (*aka Roots)</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19420/latest/?collection=col10686">[m19420]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Properties of Radicals</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18271/latest/?collection=col10624">[m18271]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Radicals and Exponents</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19419/latest/?collection=col10686">[m19419]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Some Very Important Generalizations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19422/latest/?collection=col10686">[m19422]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Simplifying Radicals</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18274/latest/?collection=col10624">[m18274]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19421/latest/?collection=col10686">[m19421]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19484/latest/?collection=col10687">[m19484]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Radicals</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19270/latest/?collection=col10686">[m19270]</link></entry>
+      <entry/>
+    </row>
+   <row>
+      <entry>A Bunch of Other Stuff About Radicals</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19263/latest/?collection=col10686">[m19263]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19483/latest/?collection=col10687">[m19483]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: A Bunch of Other Stuff About Radicals</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19264/latest/?collection=col10686">[m19264]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Radical Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18273/latest/?collection=col10624">[m18273]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19272/latest/?collection=col10686">[m19272]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19485/latest/?collection=col10687">[m19485]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Radical Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19271/latest/?collection=col10686">[m19271]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Radicals</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19273/latest/?collection=col10686">[m19273]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+  <row>
+    <entry><emphasis>Imaginary Numbers</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19424/latest/?collection=col10687">[m19424]</link></entry>
+    </row>
+    <row>
+      <entry>Imaginary Numbers Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18285/latest/?collection=col10624">[m18285]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Playing with i</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18286/latest/?collection=col10624">[m18286]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction to Imaginary Numbers</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m21990/latest/?collection=col10687">[m21990]</link></entry>
+    </row>
+    <row>
+      <entry>Imaginary Numbers</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19129/latest/?collection=col10686">[m19129]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Imaginary Numbers</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19130/latest/?collection=col10686">[m19130]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Complex Numbers</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18282/latest/?collection=col10624">[m18282]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19128/latest/?collection=col10686">[m19128]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19423/latest/?collection=col10687">[m19423]</link></entry>
+    </row>
+    <row>
+      <entry>Equality and Inequality in Complex Numbers</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18283/latest/?collection=col10624">[m18283]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Complex Numbers</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19132/latest/?collection=col10686">[m19132]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Quadratic Equations and Complex Numbers</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18288/latest/?collection=col10624">[m18288]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Me, Myself, and the Square Root of i</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19134/latest/?collection=col10686">[m19134]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19425/latest/?collection=col10687">[m19425]</link></entry>
+    </row>
+    <row>
+      <entry>The Many Merry Cube Roots of -1</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19131/latest/?collection=col10686">[m19131]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Quadratic Equations and Complex Numbers</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19127/latest/?collection=col10686">[m19127]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>A Few "Extras For Experts" Thoughts on Imaginary Numbers</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18284/latest/?collection=col10624">[m18284]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Complex Numbers</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19133/latest/?collection=col10686">[m19133]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+  <row>
+    <entry><emphasis>Matrices</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Matrices</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18311/latest/?collection=col10624">[m18311]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction to Matrices</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19206/latest/?collection=col10686">[m19206]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19445/latest/?collection=col10687">[m19445]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Introduction to Matrices</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19205/latest/?collection=col10686">[m19205]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Multiplying Matrices</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18291/latest/?collection=col10624">[m18291]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Multiplying Matrices I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19207/latest/?collection=col10686">[m19207]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19448/latest/?collection=col10687">[m19448]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Multiplying Matrices I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19196/latest/?collection=col10686">[m19196]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Multiplying Matrices II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19208/latest/?collection=col10686">[m19208]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19449/latest/?collection=col10687">[m19449]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Multiplying Matrices II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19201/latest/?collection=col10686">[m19201]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Identity Matrix</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18293/latest/?collection=col10624">[m18293]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Inverse Matrix</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18294/latest/?collection=col10624">[m18294]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Identity and Inverse Matrices</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19213/latest/?collection=col10686">[m19213]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19443/latest/?collection=col10687">[m19443]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: The Identity and Inverse Matrices</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19194/latest/?collection=col10686">[m19194]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>The Inverse of the Generic 2x2 Matrix</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19214/latest/?collection=col10686">[m19214]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19446/latest/?collection=col10687">[m19446]</link></entry>
+    </row>
+    <row>
+      <entry>Using Matrices for Transformations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19221/latest/?collection=col10686">[m19221]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19451/latest/?collection=col10687">[m19451]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Using Matrices for Transformations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19190/latest/?collection=col10686">[m19190]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Matrices I</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19210/latest/?collection=col10686">[m19210]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Matrices on a TI-83 or TI-84 Calculator</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18290/latest/?collection=col10624">[m18290]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Matrices on the Calculator</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19447/latest/?collection=col10687">[m19447]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Calculators</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19188/latest/?collection=col10686">[m19188]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Determinants</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18289/latest/?collection=col10624">[m18289]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19442/latest/?collection=col10687">[m19442]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Determiners</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19193/latest/?collection=col10686">[m19193]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Solving Linear Equations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18292/latest/?collection=col10624">[m18292]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19212/latest/?collection=col10686">[m19212]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19450/latest/?collection=col10687">[m19450]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Solving Linear Equations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19204/latest/?collection=col10686">[m19204]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Matrices II</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19209/latest/?collection=col10686">[m19209]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Modeling Data with Functions</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19454/latest/?collection=col10687">[m19454]</link></entry>
+    </row>
+    <row>
+      <entry>Data Modeling Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18277/latest/?collection=col10624">[m18277]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Direct and Inverse Variation</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18281/latest/?collection=col10624">[m18281]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19452/latest/?collection=col10687">[m19452]</link></entry>
+    </row>
+    <row>
+      <entry>Direct Variation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19228/latest/?collection=col10686">[m19228]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Inverse Variation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19227/latest/?collection=col10686">[m19227]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Direct and Inverse Variation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19225/latest/?collection=col10686">[m19225]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Finding a Linear Function For Any Two Points</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18278/latest/?collection=col10624">[m18278]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Finding a Parabolic Function For Any Three Points</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18279/latest/?collection=col10624">[m18279]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>From Data Points to Functions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19224/latest/?collection=col10686">[m19224]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: From Data Points to Functions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19232/latest/?collection=col10686">[m19232]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Calculator Regression</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18280/latest/?collection=col10624">[m18280]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19453/latest/?collection=col10687">[m19453]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Calculator Regression</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19231/latest/?collection=col10686">[m19231]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Modeling Data With Functions</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19222/latest/?collection=col10686">[m19222]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Conics</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Introduction</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19307/latest/?collection=col10687">[m19307]</link></entry>
+    </row>
+    <row>
+      <entry>Conic Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18265/latest/?collection=col10624">[m18265]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>A Mathematical Look at Distance</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18246/latest/?collection=col10624">[m18246]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Distance</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19081/latest/?collection=col10686">[m19081]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19299/latest/?collection=col10687">[m19299]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Distance</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19086/latest/?collection=col10686">[m19086]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Circles</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18245/latest/?collection=col10624">[m18245]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19298/latest/?collection=col10687">[m19298]</link></entry>
+    </row>
+    <row>
+      <entry>All the Points Equidistant from a Given Point</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19078/latest/?collection=col10686">[m19078]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Circles</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19084/latest/?collection=col10686">[m19084]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Parabolas</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18268/latest/?collection=col10624">[m18268]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>All the Points Equidistant from a Point and a Line</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19079/latest/?collection=col10686">[m19079]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Parabolas: Day 1</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19315/latest/?collection=col10687">[m19315]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Vertical and Horizontal Parabolas</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19086/latest/?collection=col10686">[m19086]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Parabolas: Day 2</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19313/latest/?collection=col10687">[m19313]</link></entry>
+    </row>
+    <row>
+      <entry>Parabolas: From Definition to Equation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19092/latest/?collection=col10686">[m19092]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19311/latest/?collection=col10687">[m19311]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test: Distance, Circles, and Parabolas</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19094/latest/?collection=col10686">[m19094]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Ellipses</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18247/latest/?collection=col10624">[m18247]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19303/latest/?collection=col10687">[m19303]</link></entry>
+    </row>
+    <row>
+      <entry>Distance from this point plus distance to that point is Constant</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19083/latest/?collection=col10686">[m19083]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Ellipses</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19088/latest/?collection=col10686">[m19088]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Ellipses: From Definition to Equation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19095/latest/?collection=col10686">[m19095]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19305/latest/?collection=col10687">[m19305]</link></entry>
+    </row>
+    <row>
+      <entry>Hyperbolas</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18249/latest/?collection=col10624">[m18249]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19306/latest/?collection=col10687">[m19306]</link></entry>
+    </row>
+    <row>
+      <entry>Distance from this point minus distance from that point is constant</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19082/latest/?collection=col10686">[m19082]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Homework: Hyperbolas</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19089/latest/?collection=col10686">[m19089]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>A Brief Recap: How Do You Tell What Shape It Is?</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m18270/latest/?collection=col10624">[m18270]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Conics 2 (Ellipses and Hyperbolas)</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19093/latest/?collection=col10686">[m19093]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Sequences and Series</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>Prerequisites</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19495/latest/?collection=col10687">[m19495]</link></entry>
+    </row>
+    <row>
+      <entry>Sequences</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19076/latest/?collection=col10624">[m19076]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Arithmetic and Geometric Sequences</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19285/latest/?collection=col10686">[m19285]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19490/latest/?collection=col10687">[m19490]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Arithmetic and Geometric Sequences</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19284/latest/?collection=col10686">[m19284]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Series</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19074/latest/?collection=col10624">[m19074]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Series and Series Notation</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19491/latest/?collection=col10687">[m19491]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Series and Series Notation</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19280/latest/?collection=col10686">[m19280]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Arithmetic and Geometric Series</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19494/latest/?collection=col10687">[m19494]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Arithmetic and Geometric Series</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19282/latest/?collection=col10686">[m19282]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Proof by Induction</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19075/latest/?collection=col10624">[m19075]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19492/latest/?collection=col10687">[m19492]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Proof by Induction</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19281/latest/?collection=col10686">[m19281]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Extra Credit</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19493/latest/?collection=col10687">[m19493]</link></entry>
+    </row>
+    <row>
+      <entry>Sample Test: Sequences and Series</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19283/latest/?collection=col10686">[m19283]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <row>
+    <entry><emphasis>Probability</emphasis></entry>
+    <entry/>
+    <entry/>
+    <entry/>
+  </row>
+    <row>
+      <entry>How Many Groups?</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19236/latest/?collection=col10686">[m19236]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Tree Diagrams</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19463/latest/?collection=col10687">[m19463]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Tree Diagrams</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19234/latest/?collection=col10686">[m19234]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Probability Concepts</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19073/latest/?collection=col10624">[m19073]</link></entry>
+      <entry/>
+      <entry/>
+    </row>
+    <row>
+      <entry>Introduction to Probability</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19237/latest/?collection=col10686">[m19237]</link></entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19461/latest/?collection=col10687">[m19461]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: The Multiplication Rule</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19233/latest/?collection=col10686">[m19233]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Trickier Probability Problems</entry>
+      <entry/>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19464/latest/?collection=col10687">[m19464]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Trickier Probability Problems</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19235/latest/?collection=col10686">[m19235]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Permutations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19072/latest/?collection=col10624">[m19072]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19462/latest/?collection=col10687">[m19462]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Permutations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19241/latest/?collection=col10686">[m19241]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Combinations</entry>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19071/latest/?collection=col10624">[m19071]</link></entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19460/latest/?collection=col10687">[m19460]</link></entry>
+    </row>
+    <row>
+      <entry>Homework: Permutations and Combinations</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19240/latest/?collection=col10686">[m19240]</link></entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>Sample Test: Probability</entry>
+      <entry/>
+      <entry><link class="suppress-footnote" url="http://cnx.org/content/m19238/latest/?collection=col10686">[m19238]</link></entry>
+      <entry/>
+    </row>
+
+
+
+
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+ 
+  </content>
+  
+</document>

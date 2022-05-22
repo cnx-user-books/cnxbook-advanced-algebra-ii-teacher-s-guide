@@ -1,0 +1,10 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conic Sections Guide -- Introduction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6da84c8f-15a7-46e1-b7c8-6efb50c9ed2f</md:uuid>
+</metadata>
+  <content>
+    <para id="id8340701">The last topic! And it’s a big one. Here is the overall plan.</para>
+    <para id="id10490902">We start with a day on distance—finding the distance between two points, finding the distance from a point to a line—this will form a basis for the whole unit.</para>
+    <para id="id11276425">Then we do our shapes: circles, parabolas, ellipses, and hyperbolas. For each shape, there are really two things the students need to learn. One is the <emphasis>geometric definition</emphasis> of the shape. The other is what I call the <emphasis>machinery</emphasis> associated with the shape—the standard equation and what it represents. I cover these two things separately, and then connect them at the end.</para>
+  </content>
+</document>

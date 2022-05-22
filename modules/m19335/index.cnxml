@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction</title>
+  <metadata>
+  <md:content-id>m19335</md:content-id><md:title>Introduction</md:title>
+  <md:abstract>The introduction to the teacher's guide on functions.</md:abstract>
+  <md:uuid>b5571326-4fc1-4606-a092-a07415d40ba4</md:uuid>
+</metadata>
+  <content>
+    <para id="element-183">This is the most important unit in the year, because it introduces many of the major “themes” that will run through the entire class.  These themes include:</para><list id="element-656" list-type="bulleted"><item>What is a function?</item>
+<item>How are functions used to model things in the real world?</item>
+<item>What does it mean for two functions to be “equal”?</item>
+<item>How does a functional description <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+</m:math> relate to a graph?</item>
+
+</list><para id="delete_me">More detailed topics include the vertical line test (the “rule of consistency”), the “dependent” and “independent” variables, domain and range, composite functions, and inverse functions.</para><para id="element-855">Also included in this unit is a quick review of graphing lines.  It is assumed that students are mostly familiar with this topic from Algebra I.</para>   
+  </content>
+  
+</document>

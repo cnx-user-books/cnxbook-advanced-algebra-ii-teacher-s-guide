@@ -1,0 +1,237 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Fractional Exponents</title>
+  <metadata>
+  <md:content-id>m19322</md:content-id><md:title>Fractional Exponents</md:title>
+  <md:abstract>A teacher's guide to fractional exponents.</md:abstract>
+  <md:uuid>2f388d09-b72f-49d8-b14c-0dc43326b6a8</md:uuid>
+</metadata>
+
+<content>
+    <para id="id14518636">Start by reminding them of where we are, in the big picture. We started with nothing but the idea that exponents mean “multiply by itself a bunch of times”—in other words, <m:math>
+<m:msup>
+<m:mn>7</m:mn>
+<m:mn>4</m:mn>
+</m:msup>
+</m:math> means 
+<m:math>
+<m:mn>7</m:mn>
+<m:mo>•</m:mo>
+<m:mn>7</m:mn>
+<m:mo>•</m:mo>
+<m:mn>7</m:mn>
+<m:mo>•</m:mo>
+<m:mn>7</m:mn>
+</m:math>. We went from there to the rules of exponents—
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mi>a</m:mi>
+</m:msup>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mi>b</m:mi>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:mrow>
+</m:msup>
+</m:math> and so on—by common sense. Then we said, OK, our definition only works if the exponent is a positive integer. So we found new definitions for zero and negative exponents, but extending down from the positive ones.</para>
+    <para id="id14410529">Now, we don’t have a definition for fractional exponents. Just as with negative numbers, there are lots of definitions we could make up, but we want to choose one carefully. And we can’t get there using the same trick we used before (you can’t just count and “keep going” and end up at the fractions). But we still have our rules of exponents. So we’re going to see what sort of definition of fractional exponents allows us to keep our rules of exponents.</para>
+    <para id="id14628851">From there, you just let them start working. I can summarize everything on the assignment in two lines.</para>
+    <list id="id11914871" list-type="enumerated"><item>The rules of exponents say that 
+<m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+</m:math>. So whatever 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math> is, we know that when we square it, we get 
+<m:math>
+<m:mi>x</m:mi>
+</m:math>. Which means, by definition, that it must be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math>. Similarly, 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {x} } {}</m:annotation></m:semantics></m:math> and so on.</item>
+      <item>The rules of exponents say that <m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math>. Since we now know that 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+</m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {x} } {}</m:annotation></m:semantics></m:math>, that means that <m:math>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+</m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mroot><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( nroot { size 8{3} }  {x}  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. So there you have it.</item>
+    </list>
+    <para id="id14519005">Thirty seconds, written that way. A whole class period to try to get the students to arrive their on their own, and even there, many of them will require a lot of help to see the point. Toward the end, you may just call the class’s attention to the board and write out the answers. But by the time they leave, you want them to have the following rule: for fractional exponents, the denominator is a root and the numerator is an exponent. And they should have some sense, at least, that this rule followed from the rules of exponents.</para>
+    <para id="id11984626">There is one more thing I really want them to begin to get. If a problem ends up with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mtext>25</m:mtext></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {"25"} } {}</m:annotation></m:semantics></m:math>, you shouldn’t leave it like that. You should call it 5. But if a problem ends up with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>, you should leave it like that: don’t type it into the calculator and round off. This is also worth explicitly mentioning toward the end.</para>
+
+    <para id="id14159256"><title>Homework:</title>“Homework: Fractional Exponents”. Mostly this is practicing what they learned in class. The inverse functions are a good exercise: it forces them to review an old topic, but also forces them to practice the current topic. For instance, to find the inverse function of y=x⅔, you write:</para>
+    <para id="id11222029"><m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>y</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+</m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  {y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{3} } } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn>3</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math>.</para>
+    <para id="id13069023">After you go through that exercise a few times, you start to see the pattern that the inverse function actually inverts the exponent. The extra fun comes when you realize that <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>0</m:mn>
+</m:msup>
+</m:math> has no inverse function, just as this rule would predict.</para>
+    <para id="id11777563">At the end of the homework, they do some graphs—just by plotting points—you will want to make sure they got the shapes right, because this paves the way for the next topic. When going over the homework the next day, sketch the shapes quickly and point out that, on the graph of <m:math>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+</m:math>, every time you move on to the right, <m:math>
+<m:mi>y</m:mi>
+</m:math> doubles. On the graph of 
+<m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mi>x</m:mi>
+</m:msup>
+</m:math>, every time you move one to the right, <m:math>
+<m:mi>y</m:mi>
+</m:math> drops in half.</para>
+  </content>
+</document>

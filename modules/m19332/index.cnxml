@@ -1,0 +1,221 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Algebraic Generalizations</title>
+  <metadata>
+  <md:content-id>m19332</md:content-id><md:title>Algebraic Generalizations</md:title>
+  <md:abstract>A teacher's guide to using algebraic generalizations to arrive at a function.</md:abstract>
+  <md:uuid>30efd318-6635-42dc-9f71-1fb0e4c1ac8d</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">This is the real fun, for me.</para><para id="element-836">Start by telling the students “Pick a number.  Add three.  Subtract the number you started with.  You are left with…three!”  OK, no great shock and surprise.  But let’s use algebra to express what we have just discovered.  <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>.  The key is recognizing what that sentence mean.  <m:math>
+<m:mi>x</m:mi>
+</m:math> can be any number.  So when we write <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math> we are indeed asserting that if you take <emphasis>any number</emphasis>, add three and then subtract the number, you get three in the end.</para><para id="element-353">Here’s a harder one.  Pick a number, add three, multiply by four, subtract twelve, divide by the number you started with.  Everyone started with different numbers, but everyone has 4 in the end.  Ask the students to find a generalization to represent <emphasis>that</emphasis>, and see if they can work their way to  <m:math>
+<m:mfrac>
+<m:mrow>
+<m:mn>4</m:mn>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mn>12</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math>.  See also if they can guess what number this trick will <emphasis>not</emphasis> work with.</para><para id="element-867">Now, have them work on the in-class assignment “Algebraic Generalizations,” in groups of three..  Most of the class period should be spent on this.  This is hard!!!  After the first couple of problems (which very directly echo what you already did in class), most groups will need a lot of help.</para><para id="element-604">Here are some of the answers I’m looking for—I include this to make sure that the purpose of the assignment is clear to teachers.</para><list id="element-952" list-type="bulleted"><item>In #3, the object is to get to 
+<m:math>
+			<m:msup>
+				<m:mrow>
+					<m:mn>2</m:mn>
+				</m:mrow>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>+</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mn>2</m:mn>
+			<m:mo>•</m:mo>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mi>x</m:mi>
+			</m:msup>
+		</m:math> (or, equivalently, 
+<m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mi>x</m:mi>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mn>2</m:mn>
+			<m:mo>•</m:mo>
+			<m:msup>
+				<m:mrow>
+					<m:mn>2</m:mn>
+				</m:mrow>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>-</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:msup>
+			<m:mo>)</m:mo>
+		</m:math>.  Talk through this very slowly with individual groups.
+
+If you wanted to get from
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>10</m:cn></m:apply></m:math>
+
+to
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>11</m:cn></m:apply></m:math>
+
+, what would you do?  And to get from
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>53</m:cn></m:apply></m:math>
+
+to
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>54</m:cn></m:apply></m:math>
+
+?  And what about
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>99</m:cn></m:apply></m:math>
+
+to
+
+<m:math><m:apply><m:power/><m:cn>2</m:cn><m:cn>100</m:cn></m:apply></m:math>
+
+?  Can you say <emphasis>in English</emphasis> what we're saying, in general?  Now, can you say that in math?  etc...  The real goal is to get them to see how, once you have written <m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>+</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mn>2</m:mn>
+			<m:mo>•</m:mo>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mi>x</m:mi>
+			</m:msup>
+		</m:math>, you have said in one statement that 
+<m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>8</m:mn>
+			</m:msup>
+		</m:math> is twice 
+<m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>7</m:mn>
+			</m:msup>
+		</m:math>, and also that <m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>5</m:mn>
+			</m:msup>
+		</m:math> is twice <m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>4</m:mn>
+			</m:msup>
+		</m:math>, and also that <m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>11</m:mn>
+			</m:msup>
+		</m:math> is twice <m:math>
+			<m:msup>
+				<m:mn>2</m:mn>
+				<m:mn>10</m:mn>
+			</m:msup>
+		</m:math>, and so on.  It is a “generalization” because it is one statement that represents many separate facts.</item>
+	<item>In #4, the object is to get to 
+<m:math>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mi>a</m:mi>
+			</m:msup>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mi>b</m:mi>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mrow>
+					<m:mi>x</m:mi>
+				</m:mrow>
+				<m:mrow>
+					<m:mi>a</m:mi>
+					<m:mo>+</m:mo>
+					<m:mi>b</m:mi>
+				</m:mrow>
+			</m:msup>
+		</m:math>.  Again, it will take a lot of hand-holding.  It isn’t important for them to do it entirely on their own.  It is critically important that, by the time they are done, they see how those numbers lead to that generalization; and how that generalization leads to those numbers.</item>
+	<item>If all that works, they should be able to do #6 and come up with something like <m:math>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>–</m:mo>
+			<m:mn>1</m:mn>
+			<m:mo>)</m:mo>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<m:mn>1</m:mn>
+			<m:mo>)</m:mo>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>-</m:mo>
+			<m:mn>1</m:mn>
+		</m:math> pretty much on their own.  (Or, of course, <m:math>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>-</m:mo>
+			<m:mn>1</m:mn>
+			<m:mo>)</m:mo>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<m:mn>1</m:mn>
+			<m:mo>)</m:mo>
+			<m:mo>+</m:mo>
+			<m:mn>1</m:mn>
+		</m:math>, which is a bit more unusual-looking but just as good.)</item></list><para id="element-196"><title>Homework:</title>“Homework: Algebraic Generalizations”
+</para>   
+  </content>
+  
+</document>

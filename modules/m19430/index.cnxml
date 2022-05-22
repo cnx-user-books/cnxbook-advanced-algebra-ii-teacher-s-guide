@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inequalities</title>
+  <metadata>
+  <md:content-id>m19430</md:content-id><md:title>Inequalities</md:title>
+  <md:abstract>A teacher's guide to inequalities.</md:abstract>
+  <md:uuid>76458b64-6938-41b3-8c3c-189d7086c686</md:uuid>
+</metadata>
+
+<content>
+    <para id="id3504351">This is pretty easy, isn’t it? You can just start by having them work through “Inequalities” with no preamble at all.</para>
+    <para id="id9732143">After they’ve worked on it for a while, you might want to interrupt the class to talk about it for a while. #1 is obviously an attempt to get at the old “you have to reverse the inequality when you multiply or divide by a negative number” thing. But stress as loudly as you can, the idea that they <emphasis>shouldn’t just take anyone’s word for it</emphasis>. The question we’re trying to get at is, <emphasis>why</emphasis> do you have to switch the inequality, then and only then? I usually illustrate this point by drawing a number line and showing how, on the left of the zero (in “negative land”) the numbers are going <emphasis>backward</emphasis> (an observation that every second grader notices, but that they have forgotten by high school). So you can visually show how <m:math>
+<m:mn>2</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mn>3</m:mn>
+</m:math> becomes 
+<m:math>
+<m:mn>–2</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mn>-3</m:mn>
+</m:math> when you move it to the other side.</para>
+    <para id="id3445808">Also, tell them how important it is to distinguish carefully between ANDs and ORs—this will become a major issue later. I have two pet peeves on this topic.</para>
+    <para id="id9128816">One pet peeve is people who memorize a facile rule (such as “less-than problems become AND and greater than problems become OR”) without having the slightest idea what they are doing. I go out of my way to create problems that frustrate such rules (which isn’t hard to do). They have to see and understand what these conjunctions <emphasis>mean</emphasis>.</para>
+    <para id="id10057871">The other pet peeve is <m:math>
+<m:mi>x</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mo>±</m:mo>
+<m:mn>4</m:mn>
+</m:math>. This is, for all intents and purposes, meaningless. I want them to realize that on #9, and then I warn them that I will always take off points if they answer any question this way. (This comes up in the context of <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>|</m:mo>
+<m:mo>&gt;</m:mo>
+<m:mn>4</m:mn>
+</m:math> and is a good example of how wrong you go if you answer mechanically instead of thinking.) <m:math>
+<m:mi>x</m:mi>
+</m:math> can <emphasis>equal</emphasis> <m:math>
+<m:mo>±</m:mo>
+<m:mn>4</m:mn>
+</m:math>, if you know what that means (shorthand for <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math> or <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-4</m:mn>
+</m:math>), but it cannot be <emphasis>greater than</emphasis>, or <emphasis>less than</emphasis>, ±anything.</para>
+    <para id="id10364916"><title>Homework:</title>“Homework: Inequalities”</para>
+  </content>
+</document>

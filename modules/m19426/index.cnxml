@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Absolute Value Equations</title>
+  <metadata>
+  <md:content-id>m19426</md:content-id><md:title>Absolute Value Equations</md:title>
+  <md:abstract>A teacher's guide to absolute value equations.</md:abstract>
+  <md:uuid>513a0e7f-1bab-41e8-a999-e54fb6004d02</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9948602">Now it gets tough. But once again, little or no preamble is needed: just have them start working on “Absolute Value Equations.”</para>
+    <para id="id9948612">Here’s the thing. Problems 1–9 really contain all the math: all the concepts they need to get. And, for the most part, they will get them right—although you need to check this before they go on any further.</para>
+    <para id="id9948627">But when it comes to the more complicated-<emphasis>looking</emphasis> problems in the second half of the assignment, they panic. They stop thinking, revert to rules, and start getting wrong answers. If they are diligently checking, they will realize that their answer to #12 doesn’t work. But they may need you to point out that this is because it is analogous to #6 and has no answer.</para>
+    <para id="id10801009">So, around this time, I spend a lot of time insisting “Think, think, think!” The way to think it through is this. Once you have solved for the absolute value, go back to the kind of thinking you did in the first page. For instance, when you have <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>-1</m:mn>
+</m:math>, cover up the <m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+</m:math> and ask yourself the question like this: “The absolute value of <emphasis>something</emphasis> is –1. What is the something?” The answer, of course, is “nothing.” Think, and you will get it right. Plug and chug, and you will get it wrong.</para>
+    <para id="id10850754">OK, if <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>7</m:mn>
+</m:math> has two answers, and <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> has one, and <m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>-4</m:mn>
+</m:math> has none, then what about 
+<m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>10</m:mn>
+</m:math>? The answer is, <emphasis>you don’t know until you try</emphasis>. You begin by splitting it the same way you did before: <m:math>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>10</m:mn>
+</m:math> or 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>10</m:mn>
+<m:mo>)</m:mo>
+</m:math>. Find both answers. But then check them: <emphasis>even if you did the math right, they may not work!</emphasis> Don’t tell them this up front, but make sure to discuss this with them toward the end of class, in the context of #13; they will need to know this for the homework.</para>
+    <para id="id9234630"><title>Homework:</title>“Homework: Absolute Value Equations”</para>
+  </content>
+</document>

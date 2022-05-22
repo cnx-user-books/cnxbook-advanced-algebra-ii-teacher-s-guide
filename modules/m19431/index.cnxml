@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Absolute Value Inequalities</title>
+  <metadata>
+  <md:content-id>m19431</md:content-id><md:title>Absolute Value Inequalities</md:title>
+  <md:abstract>A teacher's guide to absolute value inequalities.</md:abstract>
+  <md:uuid>9ab62fac-dc1e-4789-9bc7-4a2643186853</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8921830">They are going to work on the assignment “Absolute Value Inequalities” in class. You may want to begin by reminding them that they have already been solving absolute value inequalities. On the previous assignment they turned “the <emphasis>absolute value of my number is less than 7</emphasis>” into an inequality and solved it, by trying a bunch of numbers. These are no different. We are going to use the same sort of thinking process as before: confronted with <m:math>
+<m:mo>|</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>|</m:mo>
+<m:mo>&gt;</m:mo>
+<m:mn>10</m:mn>
+</m:math> we will say “OK, the absolute value of <emphasis>something</emphasis> is greater than 10. What could the <emphasis>something</emphasis> be? &lt;think, think&gt; OK, the <emphasis>something </emphasis>must be greater than 10 (like 11,12,13) or else less than –10 (like –11,-12,-13).” So we write <m:math>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mn>10</m:mn>
+</m:math> or 
+<m:math>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mn>-10</m:mn>
+</m:math> and go from there.</para>
+    <para id="id8335157">
+      <quote display="inline">Gee, why are you making it so hard? My Algebra I teacher taught me that if it’s greater than, just make it an “or” and if it’s less than, just make it an “and.”</quote>
+    </para>
+    <para id="id3108156">OK, let’s try a slight variation: <m:math>
+<m:mo>|</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>|</m:mo>
+<m:mo>&gt;</m:mo>
+<m:mo>-</m:mo>
+<m:mn>10</m:mn>
+</m:math>. Now what? “OK, the absolute value of <emphasis>something</emphasis> is greater than –10. What could the <emphasis>something</emphasis> be? &lt;think, think&gt; OK, the <emphasis>something</emphasis> can be…anything!” The absolute value of anything is greater than –10, so any <m:math>
+<m:mi>x</m:mi>
+</m:math>-value will work!</para>
+    <para id="id7266829"><quote display="inline">That’s not what my Algebra I teacher taught me.</quote>
+    </para>
+    <para id="id6126479">Fine, then, let’s try that same problem your way. Then, let’s test our answers, by plugging into the original inequality and see which answer works.</para>
+    <para id="id7114561">You get the idea? The whole point of this unit (to me) is to—very early in the year—establish a pattern that the only way to solve math problems is by thinking about them. This unit is great for that.</para>
+    <para id="id6764073"><title>Homework:</title>“Homework: Absolute Value Inequalities”</para>
+  </content>
+</document>

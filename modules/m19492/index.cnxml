@@ -1,0 +1,251 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sequences and Series Guide -- Proof by Induction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2311225d-8731-44f8-962b-a7f7920d36cf</md:uuid>
+</metadata>
+  <content>
+    <section id="id3548496">
+      <title>Proof by Induction</title>
+      <para id="id7304154">Going over last night’s homework, make sure they got the right formulas. For an arithmetic series, <m:math>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+</m:math>. For a geometric, <m:math>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {t rSub { size 8{1} } r rSup { size 8{n} }  - t rSub { size 8{1} } }  over  {r - 1} } } {}</m:annotation></m:semantics></m:math>, in some form or another.</para>
+      <example id="idm4801424">
+        <para id="id7998828">Students sometimes ask if that formula will still work for an arithmetic series with an odd number of terms. Obviously, you can’t still pair them up in the way we have been doing. The answer is, it does still work. One proof—which I usually don’t mention unless the right questions are asked—is that, for an arithmetic series, the average of all the terms is right in the middle of the first and last terms. (It can take a minute to convince yourself that this is not always true for any series, but it is for any <emphasis>arithmetic</emphasis> series.) So the average is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {t rSub { size 8{1} } +t rSub { size 8{n} } }  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>, and there are <m:math>
+<m:mi>n</m:mi>
+</m:math> terms. This leads us to the total sum being <m:math>
+<m:mi>n</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {t rSub { size 8{1} } +t rSub { size 8{n} } }  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>, which is the old formula written in a new way. This lacks some of the elegance of the original proof, but it has the advantage that it doesn’t matter if <m:math>
+<m:mi>n</m:mi>
+</m:math> is even or odd.</para>
+      </example>
+      <para id="id12430468">Anyway, on to today’s topic.</para>
+      
+      <note id="idm6565280">Important note. The following lecture can be done in 5-10 minutes—I’ve done it many times—and if you do it that way, it doesn’t work. This can be one of the most confusing topics in the whole unit. It must be taken <emphasis> very slowly and carefully</emphasis>!
+       </note><para id="id12279445">Today, we’re going to learn a new way of proving things. This method, called “proof by induction,” is a very powerful and general technique that turns up in many different areas of mathematics: we are going to be applying it to series, but the real point is to learn the technique itself.</para>
+      <para id="id10479536">So...to begin with, we are going to prove something we already know to be true:</para>
+      <para id="id10854896"><m:math>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>...</m:mo>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo> 
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math></para>
+      <para id="id5662426">Of course we know how to prove that using the arithmetic series trick, but we’re going to prove it a <emphasis>different</emphasis> way.</para>
+      <para id="id7271338">Let’s start by seeing if that formula works when <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>: in other words, for a 1-term series. In that case, what is the left side of the equation? (Even this seemingly innocuous question can baffle good students sometimes. Give them a minute. Point to the equation. Remind them that the equal sign divides any equation into a left side, and a right side. So, what is the left side of this equation, when there is only one term?) Yes, it is just...1.</para>
+      <para id="id8065548">How about the right side? Well, that’s... <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>. So at least, for this particular case, it works.</para>
+      <para id="id10127509">To build up to the next step, ask this hypothetical question. Suppose we had not yet proven that this equation <emphasis>always</emphasis> works. But suppose that I had proven that it works <emphasis>when</emphasis> <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>200</m:mn>
+</m:math>. Just say, I had sat down with my calculator and added up all the numbers from 1 to 200, which took a very long time, but in the end, I did indeed get what the formula predicts (which is, of course, <m:math>
+<m:mn>100</m:mn>
+<m:mo>×</m:mo>
+<m:mn>201</m:mn>
+<m:mo>=</m:mo>
+<m:mn>20</m:mn>
+<m:mo>,</m:mo>
+<m:mn>100</m:mn>
+<m:mo>)</m:mo>
+</m:math>. And now I ask you to confirm that the formula works when <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>201</m:mn>
+</m:math>.</para>
+      <para id="id3450388">Well, you can do the right side easily enough: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>201</m:mtext><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"201"}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:mn>202</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>20</m:mn>
+<m:mo>,</m:mo>
+<m:mn>301</m:mn>
+</m:math>. But what about the left side? Do you have to add up all those numbers on <emphasis>your</emphasis> calculator? No, you don’t, if you’re clever. (See if they can figure this next part out—this is the key.) I already told you what the first 200 numbers add up to. So you can simply add 201 to my total. <m:math>
+<m:mn>20</m:mn>
+<m:mo>,</m:mo>
+<m:mn>100</m:mn>
+<m:mo>+</m:mo>
+<m:mn>201</m:mn>
+<m:mo>=</m:mo>
+<m:mn>20</m:mn>
+<m:mo>,</m:mo>
+<m:mn>301</m:mn>
+</m:math>.</para>
+      <para id="id11152408">The point here is not just “it works.” The point is that you can confirm that it works, <emphasis>without adding up all 200 numbers again</emphasis>, because I already did that part—all you have to add is the last number.</para>
+      <para id="id11252155">Now...suppose I had already proven that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>325</m:mn>
+</m:math>. How would we show that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>326</m:mn>
+</m:math>? Good—we would add 326 to the old answer (for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>325</m:mn>
+</m:math>), and see if we got what the formula predicted we <emphasis>should</emphasis> get for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>326</m:mn>
+</m:math>. Let’s try it...</para>
+      <para id="id3335318">Now...suppose I had already proven that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1000</m:mn>
+</m:math>. How would we show that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1001</m:mn>
+</m:math>? Good—we would add 1001 to the old answer (for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1000</m:mn>
+</m:math>), and see if we got what the formula predicted we <emphasis>should</emphasis> get for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1001</m:mn>
+</m:math>. Let’s try it... <foreign>Repeat this exercise until they are sick of it, but boy, do they get it. Then hit them with the big one: </foreign><emphasis>what is the general form of this question</emphasis><foreign>? See if they can figure out that it is:</foreign></para>
+      <para id="id11140230">Suppose I had already proven that it works for some <m:math>
+<m:mi>n</m:mi>
+</m:math>. How would we show that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>?</para>
+      <para id="id11683011">
+        <foreign>Give them time here...see if they can find the answer...</foreign>
+      </para>
+      <para id="id11297626">We would add <m:math>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math> to the old answer (for <m:math>
+<m:mi>n</m:mi>
+<m:mo>)</m:mo>
+</m:math>, and see if we got what the formula predicted we <emphasis>should</emphasis> get for <m:math>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>.</para>
+      <para id="id7922643">What does that look like? Well, for the old <m:math>
+<m:mi>n</m:mi>
+</m:math>, the formula predicted we would get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>. So if we add <m:math>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math> to that, we get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>. And what <emphasis>should</emphasis> we get? Well, for <m:math>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>, the formula predicts we should get
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n+1}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:math>.</para>
+      <para id="id12179796">Do the algebra to show that they are equal. Then, step back and say...so, what have we done? Well, first we proved that the formula works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>. Then we proved—not for one specific case, but quite generally—that <emphasis>if it works for any number, it must also work for the next number</emphasis>. If it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>, then it must work for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>. If it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>, then it must work for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>....and so on. It must always work.</para>
+      <para id="id11977999">At this point, I think it’s helpful to work through one more example. I recommend going through <m:math>
+<m:mi>Σ</m:mi>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics></m:math>, just as it is done in the Conceptual Explanations. This time, you’re using a little less explanation and focusing more on the process, so it makes a better model for their homework.</para>
+      
+      <para id="id11140468"><title>Homework:</title>“Homework—Proof by Induction”</para>
+      <para id="id11082263">At this point, you’re ready for the test. Unlike most of my “Sample Tests,” this one is probably too <emphasis>short</emphasis>, but it serves to illustrate the sorts of problems you will want to ask, and to remind the students of what we’ve covered.</para>
+    </section>
+  </content>
+</document>

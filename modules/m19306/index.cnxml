@@ -1,0 +1,370 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hyperbolas</title>
+  <metadata>
+  <md:content-id>m19306</md:content-id><md:title>Hyperbolas</md:title>
+  <md:abstract>A teacher's guide to lectures on hyperbolas.</md:abstract>
+  <md:uuid>bcfc3127-1186-454f-bebc-279dc2be0cf9</md:uuid>
+</metadata>
+  <content>
+    
+      <para id="id48169573">The good news about hyperbolas is, they are a lot like ellipses—a lot of what has already been learned, will come in handy here. The bad news about hyperbolas is, they are a lot like ellipses—so all the little differences can be very confusing.</para>
+      <para id="id48583160">We will start as always with the geometric definition. Let them do the assignment “Distance to this point <emphasis>minus</emphasis> distance to that point is constant” in groups, and help them out until they get the shape themselves. There are two pretty easy points to find on the <m:math>
+<m:mi>x</m:mi>
+</m:math>-axis, but from there they just sort of have to noodle around like we did with parabolas, asking…what happens as I move inside? What happens as I move outside? As always, keep wandering and hinting until most groups have drawn something like a hyperbola. Then you lecture.</para>
+      <para id="id48494061">The lecture starts by pointing out what we have. We have two points, once again called the <emphasis>foci.</emphasis> They are the defining points of the hyperbola, but they are not part of the hyperbola. And we also once again have a distance which is part of the definition.</para>
+      <para id="id48574578">Because the foci were horizontally across from each other, we have a horizontal hyperbola. If they were vertically lined up, we would have a vertical hyperbola. You can also do diagonal hyperbolas—anyone remember where we have seen one of those? That’s right, inverse variation! That was a hyperbola, just like these. But we’re not going to talk about those in this unit, just the horizontal and vertical ones.</para>
+      <para id="id48286020">Incidentally, a hyperbola is <emphasis>not</emphasis> two back-to-back parabolas. It looks like it, but these shapes are actually different from parabolic shapes, as we will see.</para>
+      <para id="id49136403">OK, so, what good are hyperbolas? The analogy continues…orbits! Suppose a comet is heading toward the sun. (Draw.) If it has a low energy—that is, a low velocity—it gets trapped by the sun, and wins up orbiting around the sun in an elliptical orbit. But if it has high energy (high velocity) it zooms around the sun and then zooms away forever. Its path in this case is half a hyperbola.</para>
+      <para id="id48592206">Another cool use is in submarine detection. A submarine sends out a pulse. Two receiving stations get the pulse. They don’t know what direction it came from or when it was sent, but they do know that one station received it exactly two seconds before the other one. This enables them to say that the distance from the sub to this station, <emphasis>minus</emphasis> the distance to this other station, is such-and-such. And this, in turn, locates the sub on a hyperbola.</para>
+      <para id="id48151863">OK, on to the machinery. Here is the equation for a horizontal hyperbola, centered at the origin.</para>
+      <equation id="id48542554">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>b</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  -  {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } =1} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id49136648">Looks familiar, doesn’t it? But the plus has changed to a minus, and that makes all the difference in the world.</para>
+      <para id="id48520599">Here is a drawing of a horizontal hyperbola.</para>
+      <figure id="id48284228"><media id="id40049386" alt="A picture of a hyperbola and its focus illustrating its similarities and differences it has with ellipses."><image src="../../media/graphics1-4dbc.png" mime-type="image/png" print-width="4in"/></media></figure>
+      <para id="id48411888">Let’s be very careful in seeing how this <emphasis>is,</emphasis> and <emphasis>is not,</emphasis> like an ellipse.</para>
+      <para id="id48592224">a is defined in a very similar way. It goes from the center, to the edges. In this case, the edges are called the “vertices” (in analogy to parabolas). The distance from one vertex to the other (<m:math>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+</m:math> of course) is called the <emphasis>transverse axis.</emphasis></para>
+      <para id="id48571756"><m:math>
+<m:mi>c</m:mi>
+</m:math> is defined in a very similar way: it goes from the center to either focus.</para>
+      <para id="id48163417"><m:math>
+<m:mi>b</m:mi>
+</m:math> is perpendicular to the other two, just as before. But it goes from the center to…well, to a sort of strange point in the middle of nowhere. We’re going to use this point. The distance from the top point to the bottom point (<m:math>
+<m:mn>2</m:mn>
+<m:mi>b</m:mi>
+</m:math>) is called the <emphasis>conjugate axis.</emphasis></para>
+      <para id="id48273201">But here is one major difference. In an ellipse, the foci are <emphasis>inside;</emphasis> in a hyperbola, they are <emphasis>outside.</emphasis> So you can see, just looking at an ellipse, that <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>c</m:mi>
+</m:math>; and you can see, just looking at a hyperbola, that <m:math>
+<m:mi>c</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>a</m:mi>
+</m:math>. Hence, our equation relating the three shapes is going to be different. Instead of <m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, we have 
+<m:math>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. This reflects the fact that c is the biggest one in this case.</para>
+      <para id="id46057487">Once again, the class should be able to see that if the center is (<m:math>
+<m:mi>h</m:mi>
+</m:math>,
+<m:math>
+<m:mi>k</m:mi>
+</m:math>) instead of the origin, we replace <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> with 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> with 
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.</para>
+      <para id="id46057079">How about a vertical hyperbola? That looks like this:</para>
+      <equation id="id46200179">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>b</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {y rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  -  {  {x rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } =1} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id45964798">The way we tell vertical from horizontal is <emphasis>completely different.</emphasis> In an ellipse, we told by assuming that <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>b</m:mi>
+</m:math>. In a hyperbola, we have no such guarantee; either <m:math>
+<m:mi>a</m:mi>
+</m:math> or 
+<m:math>
+<m:mi>b</m:mi>
+</m:math> could be the greater, or they could even be the same. Instead, we look at which one comes <emphasis>first.</emphasis> If we are doing an 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> thing, it’s horizontal; if we are doing a <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> thing, it’s vertical. <emphasis>This is a very common source of errors…be careful!</emphasis></para>
+      <para id="id45965656">There should be no need to go through the whole completing-the-square rigmarole on the board—just tell them it is exactly like with ellipses, including making sure you have a 1 on the right, and there is nothing multiplied by <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> or 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. But the really different part is the graphing. So let’s just pick it up there. Suppose you want to graph:</para>
+      <para id="id46200640"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>36</m:mtext></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { left (x - 2 right ) rSup { size 8{2} } }  over  {"36"} }  -  {  { \( y+3 \)  rSup { size 8{2} } }  over  {4} } } {}</m:annotation></m:semantics><m:mo>=</m:mo>
+<m:mn>1</m:mn></m:math></para>
+      <para id="id46056527">First of all, what is the center? That’s easy: (2,-3).</para>
+      <para id="id45966010">Now, here is a harder question: does it open vertically, or horizontally? We can answer this question without even looking at the numbers on the bottom! The <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is positive and the 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>
+ is negative, so this is horizontal.</para>
+      <para id="id46240553">As we did with ellipses, we will then find <m:math>
+<m:mi>a</m:mi>
+</m:math>,
+<m:math>
+<m:mi>b</m:mi>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+</m:math>. 
+<m:math>
+<m:mi>a</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math> and 
+<m:math>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>. We will find c with the hyperbola equation 
+<m:math>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> (different from the ellipse equation!) and get <m:math>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mtext>40</m:mtext></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {"40"} } {}</m:annotation></m:semantics></m:math> which is <m:math>
+<m:mn>2</m:mn>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mtext>10</m:mtext></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {"10"} } {}</m:annotation></m:semantics></m:math> or somewhere just above 6 (again, because 40 is just above 36).</para>
+      <para id="id45963810">Now, it’s drawing time. We start at the center. We go out horizontally by 6 to find the vertices, and by a little more than 6 to find the foci. We go out vertically by 2 to find the endpoints of the conjugate axis, those weird little points in space. Then what?</para>
+      <para id="id45963826">Here’s what you do. Draw a rectangle, going through the vertices, and the endpoints of the conjugate axis. Then, draw diagonal lines through the corners of that rectangle. Those diagonal lines are going to serve as <emphasis>asymptotes,</emphasis> or guides: they are not part of the hyperbola, but they help us draw it. Why? Because as it moves out, the hyperbola gets closer and closer to the asymptotes, but never quite reaches them. So once you have drawn your asymptotes, you have a guide for drawing in your hyperbola.</para>
+      <figure id="id46028566"><media id="id40172743" alt="An illustration of a hyperbola and it's asymptotes. "><image src="../../media/graphics2-c48e.png" mime-type="image/png" print-width="4in"/></media></figure>
+      <para id="id46028590">Note that I draw the box and the asymptotes in dotted lines, indicating that they are not really part of the hyperbola.</para>
+      <para id="id46028596">It’s worth talking for a while about what an asymptote is, since it is such an important concept in Calculus—the line that the curve gets closer and closer and closer to, without ever quite reaching. It’s also worth pointing out that this shows that a hyperbola is not two back-to-back parabolas, since parabolas do not display asymptotic behavior.</para>
+      <para id="id46028615">Finally, I always mention the comet again. Remember that if a comet comes in with high energy, it swoops around the sun and then flies away again. Now, if there were no sun—if there were nothing in the universe but our comet—the comet would travel in a straight line. And clearly, when the comet is very, very far away from the sun (either <emphasis>before</emphasis> or <emphasis>after</emphasis> its journey through our solar system), the effect of the sun is very small, so the comet travels almost in a straight line. That straight line is the asymptote. The farther away from the sun the comet gets, the closer it gets to that straight line.</para>
+      <para id="id45966525"><title>Homework:</title>“Homework: Hyperbolas”</para>
+      
+      <para id="id45966540">The only really unusual thing here is that I ask for the equation of one of the asymptotes. This is just a quick review of the skill of finding the equation for a line, given that you already know two points on the line.</para>
+      <para id="id45966551">You will note that I have absolutely nothing here about going from the geometry of the hyperbola, to the equation. The reason is that it is exactly like the ellipse. You may want to do it, or you may not. If you do it, you shouldn’t need to hand them anything—just say “By analogy to what we did with the ellipse, do this.”</para>
+      <para id="id45966569">Now that you have done all the shapes, the one vital skill that cuts across all of it is looking at an equation (<m:math>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mi>e</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>) and telling what shape it is. This is done entirely by looking at the coefficients of the squared terms (<m:math>
+<m:mi>a</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>b</m:mi>
+</m:math>), and you should refer them to the chart at the end of the “Conceptual Explanations.”</para><section id="eip-538"><title>Time for our very last test!</title><para id="eip-791">
+With luck, you have two or three weeks left for review after this, before the final test. Congratulations, you made it through!
+</para></section>
+    
+  </content>
+</document>

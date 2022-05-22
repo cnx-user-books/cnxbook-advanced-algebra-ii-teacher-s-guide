@@ -1,0 +1,406 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Permutations</title>
+  <metadata>
+  <md:content-id>m19462</md:content-id><md:title>Permutations</md:title>
+  <md:abstract>A teacher's guide to permutations.</md:abstract>
+  <md:uuid>76a6ae00-82ec-492a-ab00-665d7f5f8923</md:uuid>
+</metadata>
+
+<content>
+    <para id="id15240265">No in-class worksheet today—a day of lecture.</para>
+    <para id="id13966005">How many different three-digit numbers can we make using only the digits 1, 2, and 3? Answer: 27. Here they are, listed very systematically. (If possible, project this table onto a screen where everyone can see it and look at it for a moment, to see the pattern and how it is generated.)</para>
+    <table id="eip-828" summary="A table showing the possible combinations of 3 digit number using 1, 2, or 3."><tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>First Digit</entry>
+            <entry>Second Digit</entry>
+            <entry>Third Digit</entry>
+            <entry>Resulting Number</entry>
+          </row>
+</thead>
+
+<tbody>
+  <row>
+    <entry morerows="8">1</entry>
+    <entry morerows="2">1</entry>
+    <entry>1</entry>
+    <entry>111</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>112</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>113</entry>
+  </row>
+  <row>
+    <entry morerows="2">2</entry>
+    <entry>1</entry>
+    <entry>121</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>122</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>123</entry>
+  </row>
+  <row>
+    <entry morerows="2">3</entry>
+    <entry>1</entry>
+    <entry>131</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>132</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>133</entry>
+  </row>
+
+
+
+  <row>
+    <entry morerows="8">2</entry>
+    <entry morerows="2">1</entry>
+    <entry>1</entry>
+    <entry>211</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>212</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>213</entry>
+  </row>
+  <row>
+    <entry morerows="2">2</entry>
+    <entry>1</entry>
+    <entry>221</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>222</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>223</entry>
+  </row>
+  <row>
+    <entry morerows="2">3</entry>
+    <entry>1</entry>
+    <entry>231</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>232</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>233</entry>
+  </row>
+
+
+
+  <row>
+    <entry morerows="8">3</entry>
+    <entry morerows="2">1</entry>
+    <entry>1</entry>
+    <entry>311</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>312</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>313</entry>
+  </row>
+  <row>
+    <entry morerows="2">2</entry>
+    <entry>1</entry>
+    <entry>321</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>322</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>323</entry>
+  </row>
+  <row>
+    <entry morerows="2">3</entry>
+    <entry>1</entry>
+    <entry>331</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>332</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>333</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+
+
+
+
+
+    <para id="id16347679">Effective, and not particularly difficult...but tedious. How could we have answered without the table? Well, of course, it’s the rule of multiplication again. There 3 possibilities for the first digit. For each of these, there are 3 possibilities for the second digit; and for each of these, 3 possibilities for the third digit. <m:math>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>27</m:mn>
+</m:math>.</para>
+    <para id="id12315090">Now, let’s ask a different problem: how many possible 3-digit numbers can be made using the digits 1, 2, and 3, if every digit is used only once? Once again, we can list them systematically—and it’s a lot easier this time. Once you have chosen the first two digits, the third digit is forced. There are only six possibilities.</para>
+    <table id="id13768585" summary="A table showing the possible permutations of 3 digit number using 1, 2, or 3."><tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>First Digit</entry>
+            <entry>Second Digit</entry>
+            <entry>Third Digit</entry>
+            <entry>Number</entry>
+          </row>
+</thead>
+<tbody>
+<row>
+ <entry morerows="1">1</entry>
+ <entry>2</entry>
+ <entry>3</entry>
+ <entry>123</entry>
+</row>
+<row>
+ <entry>3</entry>
+ <entry>2</entry>
+ <entry>132</entry>
+</row>
+<row>
+ <entry morerows="1">2</entry>
+ <entry>1</entry>
+ <entry>3</entry>
+ <entry>213</entry>
+</row>
+<row>
+ <entry>3</entry>
+ <entry>1</entry>
+ <entry>231</entry>
+</row>
+<row>
+ <entry morerows="1">3</entry>
+ <entry>1</entry>
+ <entry>2</entry>
+ <entry>312</entry>
+</row>
+<row>
+ <entry>2</entry>
+ <entry>1</entry>
+ <entry>321</entry>
+</row>
+
+<!--
+          <row>
+            <entry>1</entry>
+            <entrytbl namest="c2" nameend="c4" cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>2</entry>
+                  <entry>3</entry>
+                  <entry>123</entry>
+                </row>
+                <row>
+                  <entry>3</entry>
+                  <entry>2</entry>
+                  <entry>132</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entrytbl namest="c2" nameend="c4" cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>1</entry>
+                  <entry>3</entry>
+                  <entry>213</entry>
+                </row>
+                <row>
+                  <entry>3</entry>
+                  <entry>1</entry>
+                  <entry>231</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entrytbl namest="c2" nameend="c4" cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>1</entry>
+                  <entry>2</entry>
+                  <entry>312</entry>
+                </row>
+                <row>
+                  <entry>2</entry>
+                  <entry>1</entry>
+                  <entry>321</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+          </row>
+-->
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id11062706">I really do believe it is important to show them these tables before doing any calculations!!! There is no substitute for seeing everything laid out in an organized manner to get a feeling for the space.</para>
+    <para id="id14537814">Once again, however, once they have seen the table, we can ask the question: why 6? And once again, we can answer that question using the rule of multiplication. There are three possible numbers that can go in the first digit. Once you have chosen that digit, there are only two possible numbers that can go in the second digit. And once you have chosen that, there is only one number that can possibly go in the third. 
+<m:math>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math>.</para>
+<exercise id="ex1">
+<problem id="id6322934">
+    <para id="id15901178"> Repeat the above problems, only with nine digits instead of three. First, how many different nine-digit numbers can be made using the digits 1–9? Second, how many different nine-digit numbers can be made if you use the digits 1–9, but use each digit only once? Obviously we don’t want to make these tables (even the second one is prohibitive!) but with the rule of multiplication, and our calculators, we can figure out how big the tables would be. Give them a couple of minutes on this.</para>
+    <para id="id15003207">The first is <m:math>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+</m:math>. (Nine possibilities for the first digit; for each of those, nine for the second; and so on.) Even that is tedious to write. Let’s write it like this instead: 99. We can punch it into the calculator just like that.</para>
+    <para id="id14666940">The second is <m:math>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>8</m:mn>
+<m:mo>×</m:mo>
+<m:mn>7</m:mn>
+<m:mo>×</m:mo>
+<m:mn>6</m:mn>
+<m:mo>×</m:mo>
+<m:mn>5</m:mn>
+<m:mo>×</m:mo>
+<m:mn>4</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>1</m:mn>
+</m:math>. (Nine possibilities for the first digit; for each of those, only eight for the second, because one of them is used up; and so on.) Is there any easy way to write that? In fact, there is. It is called 9 factorial, and it is written 9! You may want to show them how to get factorials on their calculators. On some (such as the TI-83) the factorial option is actually listed under probability, reflecting the fact that factorials are used so often in probability problems, for this very reason.</para>
+    <para id="id12284816">Incidentally, <m:math>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mn>9</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>387,420,489</m:mn>
+</m:math> possibilities for the first scenario. <m:math>
+<m:mn>9</m:mn>
+<m:mo>!</m:mo>
+<m:mo>=</m:mo>
+<m:mn>362,880</m:mn>
+</m:math> for the second: still a pretty big number, but only about a thousandth as big as the first one. This should come as no surprise: almost all of the nine-digit numbers use the same digit twice somewhere or other!</para>
+</problem>
+</exercise>
+<exercise id="ex2">
+<problem id="id1172667514282">    
+<para id="id14982709">Question: How many different ways can five books be arranged on a shelf? Give them a minute, and see if they can figure out that it is the same problem we just did. 5 books can go in the first position; for each of these, 4 in the second position; and so on. <m:math>
+<m:mn>5</m:mn>
+<m:mo>!</m:mo>
+<m:mo>=</m:mo>
+<m:mn>120</m:mn>
+</m:math> possibilities.</para>
+</problem>
+</exercise> 
+<exercise id="ex3">
+<problem id="id7384819">   
+<para id="id8333026">Question: How many three-digit numbers can be made using the digits 1–9?</para>
+    <para id="id16533095">If we are allowed to repeat digits, this is hopefully pretty easy by this point: <m:math>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>9</m:mn>
+</m:math>. Written more concisely, <m:math>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>.</para>
+    <para id="id8537106">But what if we’re not? Is there any way we can write 
+<m:math>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>8</m:mn>
+<m:mo>×</m:mo>
+<m:mn>7</m:mn>
+</m:math> more concisely? There is, and it’s a bit sneaky: it is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>!</m:mi></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {9!}  over  {6!} } } {}</m:annotation></m:semantics></m:math>. Explain why this works. Point out that, while they may not particularly need it for 
+<m:math>
+<m:mn>9</m:mn>
+<m:mo>×</m:mo>
+<m:mn>8</m:mn>
+<m:mo>×</m:mo>
+<m:mn>7</m:mn>
+</m:math>, it’s really nice as a shortcut for 
+<m:math>
+<m:mn>20</m:mn>
+<m:mo>×</m:mo>
+<m:mn>19</m:mn>
+<m:mo>×</m:mo>
+<m:mn>18</m:mn>
+<m:mo>...</m:mo>
+<m:mn>8</m:mn>
+</m:math>.</para>
+</problem>
+</exercise>
+    <para id="id15985159">If you have extra time, ask everyone in class to come up with two scenarios: one of the “the same thing can be used twice” (exponential) variety, and one of the “the same thing cannot be used twice” (factorial) variety.</para>
+    <para id="id15387841"><title>Homework</title>“Homework: Permutations”</para>
+  </content>
+</document>

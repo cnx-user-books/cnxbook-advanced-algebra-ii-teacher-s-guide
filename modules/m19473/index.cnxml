@@ -1,0 +1,68 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Quadratic Inequalities</title>
+  <metadata>
+  <md:content-id>m19473</md:content-id><md:title>Quadratic Inequalities</md:title>
+  <md:abstract/>
+  <md:uuid>184e7773-ef70-48cd-b0e8-cf3be2b36b30</md:uuid>
+</metadata>
+  <content>
+    <para id="id10236444">For some reason, this is one of the hardest topics in the course. It shouldn’t be hard. There is nothing hard about it. But students get incredibly tied in knots on this, by trying to take short cuts. The hardest part is convincing them that they have to think about it graphically.</para>
+    <para id="id8724317">So, begin by simply putting these two problems on the board.</para>
+    <para id="id8371752"><m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math></para>
+    <para id="id9640925"><m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math></para>
+    <para id="id8293931">Allow them to work in pairs or groups. Offer a piece of candy or a bit of extra credit or some such to anyone who can find the answer to both problems. Give them time to really work it. Almost no one will get it right, and that’s the point. It’s very hard to think about a problem like this algebraically. It’s very easy if you think about it the right way: by graphing.</para>
+    <para id="id8825531">So, we’re going to graph both of those functions. But strangely enough, we’re going to do it without completing the square or finding the vertex. In each case, we’re only going to ask two questions: what are the <emphasis>zeros</emphasis> of the function, and which <emphasis>direction </emphasis>does it open in? These two questions are all we need to answer the inequality.</para>
+    <para id="id10104629">In the first case, by factoring, we find two zeros: 4, and –1. In the second case, we find with the quadratic formula that there are no zeros. Both graphs open up. (Why? Because <emphasis>the coefficient of the <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term is positive</emphasis>.) So the graphs look something like this.</para>
+    <figure id="id6910862"><media id="id14700820" alt="A graph of two parabolas."><image src="../../media/graphics1-d4dd.png" mime-type="image/png" print-width="4in"/></media></figure>
+    <para id="id9181761">What are the vertices, exactly? We don’t know. If we wanted to know that, we would have to complete the square, just as we did before.</para>
+    <para id="id8925495">But if all we want to know is <emphasis>where each graph is positive</emphasis>, we now have it. The graph of the first function should make it clear that all numbers to the <emphasis>right of</emphasis> 4 work, as do the numbers to the <emphasis>left of</emphasis> –1, but the numbers in between don’t work. (Quick review: how can we write that answer with inequalities? With set notation?) The graph of the second function makes it clear that <emphasis>all numbers work</emphasis>.</para>
+    <para id="id8286771">Check this by trying numbers in the original inequalities.</para>
+    <para id="id8828106">Now, challenge them to find a quadratic inequality that is in the form <m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> where 
+<m:math>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math>
+is a quadratic function and the solution is <emphasis>nothing works</emphasis>. The key is, of course, it has to be an upside-down quadratic.</para>
+    <para id="id10290236"><title>Homework:</title>“Homework: Quadratic Inequalities”</para><section id="eip-87"><title>Time for another test II!</title><para id="eip-348">
+Congratulations, kids!  We are done with our entire unit on quadratic equations—probably the biggest unit in the course.  (Certainly the only think I remember from my own Algebra II course.)
+</para></section>
+  </content>
+</document>

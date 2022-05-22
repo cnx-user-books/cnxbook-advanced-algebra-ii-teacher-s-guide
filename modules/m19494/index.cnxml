@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sequences and Series Guide -- Arithmetic and Geometric Series</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6cb91e1c-611c-43e2-a548-3c40b3b55da1</md:uuid>
+</metadata>
+  <content>
+ 
+      <para id="id4329792">Going over the homework, make sure to mention #3(e), an <emphasis>alternating series</emphasis>. You get that kind of alternation by throwing in a <m:math>
+<m:mo>(</m:mo>
+<m:mn>-1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mi>n</m:mi>
+</m:msup>
+</m:math> or, in this case, <m:math>
+<m:mo>(</m:mo>
+<m:mn>-1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+</m:math>.</para>
+      <para id="id8323782">Last night’s homework ended with the series “all the even numbers between 50 and 100.” Some students may have written 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munderover><m:mo stretchy="false">∑</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>26</m:mtext></m:mrow></m:mstyle></m:munderover><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>48</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>2n</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum cSub { size 8{n=1} }  cSup { size 8{"26"} }  { \( "48"+2n \) } } {}</m:annotation></m:semantics></m:math>. Others may have written the answer differently. But one thing they probably all agree on is that adding it up would be a pain. If only there were...a shortcut!</para>
+      <para id="id7864435">Let’s consider the series <m:math>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>+</m:mo>
+<m:mn>11</m:mn>
+<m:mo>+</m:mo>
+<m:mn>13</m:mn>
+<m:mo>+</m:mo>
+<m:mn>15</m:mn>
+<m:mo>+</m:mo>
+<m:mn>17</m:mn>
+</m:math>. (Write that on the board.)</para>
+      
+      <exercise id="element-115"><problem id="idm11316192">
+  <para id="element-684">
+ What do we get if we add the first term to the last? Answer: 20. Modify your drawing on the board to look like this:      
+  </para>
+
+<figure id="fig1">
+<media id="idm4914960" alt="Examining the series by adding the first and last numbers together."><image src="../../media/graphics1-e6fc.png" mime-type="image/png" print-width="4in"/></media>
+</figure>
+</problem></exercise>
+      <para id="id7579785">OK, what about the second term to the second-to-last? Hmm....20 again. Add to the drawing, and then keep adding until it looks like this:</para>
+      <figure id="id7168876"><media id="idm8264320" alt="Examining the series by adding the first and last numbers together some more."><image src="../../media/graphics2-9abd.png" mime-type="image/png" print-width="4in"/></media></figure>
+      
+      <exercise id="element-169"><problem id="idm6142416">
+  <para id="element-374">
+So, looking at that drawing, what does 
+<m:math>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>+</m:mo>
+<m:mn>11</m:mn>
+<m:mo>+</m:mo>
+<m:mn>13</m:mn>
+<m:mo>+</m:mo>
+<m:mn>15</m:mn>
+<m:mo>+</m:mo>
+<m:mn>17</m:mn>
+</m:math> add up to? Hopefully everyone can see that it adds up to four 20s, or 80.
+      
+      </para>
+</problem>
+
+
+</exercise><exercise id="element-207"><problem id="idm3395216">
+  <para id="element-711">
+ And this is the big one—will that trick work for all series? If so, why? If not, which series will it work for? Answer: It will work for all <emphasis>arithmetic series</emphasis>. The reason that the second pair added up the same as the first pair was that we went up by two on the left, and down by two on the right. As long as you go up by the same as you go down, the sum will stay the same—and this is just what happens for arithmetic series.
+  </para>
+</problem>
+</exercise><para id="id5960810">OK, what about geometric series? Write the following on the board:</para>
+      <para id="id8935549"><m:math>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1458</m:mn>
+</m:math></para>
+      <para id="id8578880">Clearly the “arithmetic series trick” will not work here: <m:math>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1458</m:mn>
+</m:math> is not <m:math>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+</m:math>. We need a whole new trick. Here it comes. First, to the left of your equation, write <m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+</m:math> so the board looks like:</para>
+      <para id="id7063080"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1458</m:mn>
+</m:math></para>
+      <para id="id11003415">where <m:math>
+<m:mi>S</m:mi>
+</m:math> is the mystery sum we’re looking for. Now, <emphasis>above</emphasis> that, write:</para>
+      <para id="id8574460"><m:math>
+<m:mn>3</m:mn>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+</m:math></para>
+      <para id="id10460138">ask the class what comes next. Can we just multiply each term by 3? (Yes, distributive property.) When you write this line, line up the numbers like this:</para>
+      <para id="id7127236"><m:math>
+<m:mn>3</m:mn>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1458</m:mn>
+<m:mo>+</m:mo>
+<m:mn>437</m:mn>
+</m:math></para>
+      <para id="id5126032"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+<m:mo>+</m:mo>
+<m:mn>1458</m:mn>
+</m:math>  </para>
+      <para id="id7753949">But don’t go too fast on that step—make sure they see why, if <m:math>
+<m:mi>S</m:mi>
+</m:math> is what we said, then <m:math>
+<m:mn>3</m:mn>
+<m:mi>S</m:mi>
+</m:math> must be that!</para>
+      <para id="id8196988">Now, underline the second equation (as I did above), and then <emphasis>subtract the two equations</emphasis>. What do we get on the left of the equal sign? What do we get on the right? See how things cancel? See if you can get the class to tell you that...</para>
+      <para id="id11921654"><m:math>
+<m:mn>2</m:mn>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4374</m:mn>
+<m:mo>−</m:mo>
+<m:mn>2</m:mn>
+</m:math></para>
+      <para id="id11069335">So then <m:math>
+<m:mi>S</m:mi>
+</m:math> is just 2186. They may want to verify this one on their calculators. Once again, however, the key is to understand why this trick <emphasis>always works</emphasis> for any Geometric series.</para>
+      <section id="uid-76876234">
+<title>Homework:</title>
+      <para id="id6157081">“Homework: Arithmetic and Geometric Series”</para>
+    </section>
+  </content>
+</document>

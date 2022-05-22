@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Function Game</title>
+  <metadata>
+  <md:content-id>m19342</md:content-id><md:title>The Function Game</md:title>
+  <md:abstract>An explanation of the function game.</md:abstract>
+  <md:uuid>59a074dc-1849-4c82-973d-fde5e7b036d8</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">This game is an introduction to the idea of a function.</para><para id="element-198">Begin by breaking the students into groups of three.  In each group, one student is designated as the <emphasis>leader</emphasis> and another as the <emphasis>recorder</emphasis>.  (Do this quickly and arbitrarily: “The shortest person is the leader and the tallest is the recorder” or some such.  Assure them that the roles will rotate.)  Go over the instructions (which are in the student packet): walk through a sample session, using the function “add five,” to make sure they understand who does what and what gets written down.  In particular, make sure they understand how “add five” can be represented as “<m:math>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>”: that is, that <m:math>
+<m:mi>x</m:mi>
+</m:math> is being used to designate the number that comes <emphasis>in</emphasis>.  You also want to mention <emphasis>domain</emphasis> in particular, and the idea that if you are doing <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>x</m:mi>
+</m:mfrac>
+</m:math>
+ and someone gives you a 0, it is “not in your domain.”</para><para id="element-534">Then they can start.  Your job is to circle around, keeping them on task, and helping students who are stuck by giving hints: “Do you notice anything in common about all the numbers you’ve gotten back?” or “Why are all negative numbers outside the domain?” or even “Try a 2 and see what happens.”  Also, at 10 or 15 minute intervals, instruct them to switch roles.</para><para id="element-328">Toward the end of the class period, interrupt briefly to talk about the word <emphasis>function</emphasis>.  What is the leader representing?  He is not a number.  He is not a variable.  He is a <emphasis>process</emphasis> that turns one number into another.  That’s all a function is—a mechanical process that takes one number in, and spits a different number back out.  Use the analogy of a little machine (you can draw it) with an input and an output.  Functions are going to be the main focus of the entire year in Algebra II.</para><para id="element-91">If some groups don’t finish all the problems, that’s OK: as long as they did enough to get the idea.  If a group finishes early, tell them to start making up their own functions—challenge them to stump you!</para><para id="element-550"><title>Homework:</title>"Homework: The Function Game"</para>   
+  </content>
+  
+</document>

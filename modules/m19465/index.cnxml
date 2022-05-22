@@ -1,0 +1,48 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Completing the Square</title>
+  <metadata>
+  <md:content-id>m19465</md:content-id><md:title>Completing the Square</md:title>
+  <md:abstract/>
+  <md:uuid>9cf0c1a8-5d50-4b62-954e-28f15463a518</md:uuid>
+</metadata>
+  <content>
+    <para id="id9623156">When you’re going over the homework, talk for a while about the throwing-a-ball-into-the-air scenario. It will come up again, and I really want people to understand it. The particular point I try to make is how the math reflects the reality. You have a function <m:math>
+<m:mi>h</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+</m:math> where if you plug in any <m:math>
+<m:mi>t</m:mi>
+</m:math> at all, you will get an 
+<m:math>
+<m:mi>h</m:mi>
+</m:math>. You’re using it backward, specifying 
+<m:math>
+<m:mi>h</m:mi>
+</m:math> and asking for <m:math>
+<m:mi>t</m:mi>
+</m:math> (as in, “when will the ball hit the ground?”). What kind of answers would you expect? Well, suppose you throw the ball 16 ft in the air. If you ask “When will it be at 20ft?” you would expect to get no answer at all. If you ask “When will it be at 5 ft?” you would expect two answers—one on the way up, and one on the way down. If you ask “When will it be at 16 ft?” you would expect exactly one answer. In all three cases, the math gives you exactly what you expect.</para>
+    <para id="id12481293">On the other hand, suppose you ask “When will it be at –3 ft?” (That is, under the ground.) You might expect no answer at all, since the ball never is under the ground. But the math doesn’t know that—it thinks the ball is following the same function forever. So you get two answers. One is <emphasis>after</emphasis> the ball hits the ground. The other is before it left—a negative time! This is where you have to use common sense to find the “real” answer, as distinct from the answer the math gave you.</para>
+    <para id="id12626251">I spend a good half-period, at least, talking through this. I think it is an incredibly important point about the way we use math to model the world. See <link url="http://www.ncsu.edu/felder-public/kenny/papers/physicist.html">this webpage</link> for an exercise you can use just on this.</para>
+    
+    
+    <para id="id10767585"><emphasis>Any</emphasis>way, onward…the assignment “Completing the Square” pretty much speaks for itself. Probably the only preamble you need is to point out that many quadratic equations, which <emphasis>do have solutions</emphasis>, cannot be factored. So we are going to learn another technique which has the advantage that it can<emphasis> always</emphasis> be used. (Factoring is still easier and faster when it works.)</para>
+    <para id="id11251295">Now you can just get them started on it, and then wander around and help. Just make sure that before the class is done, everyone gets the technique. You may also want to point out to them that they already did this on yesterday’s assignment.</para>
+    <para id="id11884071">On #4 make sure they get two answers, not just one!</para>
+    <para id="id11697472"><title>Homework:</title>“Homework: Completing the Square”. The hard ones here, that you will get questions on the next day, are #9 and #10. Note that, on #9, I am <emphasis>not</emphasis> looking for the discriminant and the quadratic formula and stuff; just the obvious fact, based on completing the square, that if 
+<m:math>
+<m:mi>c</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> we have no real answers, if <m:math>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> we have one, and if 
+<m:math>
+<m:mi>c</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> we have two. #10 is worth looking at closely if there are questions, because it leads to the next day.</para>
+  </content>
+</document>
